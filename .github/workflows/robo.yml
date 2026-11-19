@@ -1,0 +1,82 @@
+name: Robô do site
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # a cada 3h: caça ofertas, escreve guias, publica, posta no Telegram
+    - cron: "41 12 * * 1"    # segunda 09:41 (Brasília): monitor de IA + relatório de comissões
+  workflow_dispatch:          # botão "Run workflow" para rodar na mão
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: robo
+  cancel-in-progress: false
+
+jobs:
+  robo:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+      SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'anthropic' }}
+      LLM_MODEL: ${{ vars.LLM_MODEL }}
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CANAL: ${{ vars.TELEGRAM_CANAL }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+    steps:
+      - id: check
+        run: |
+          if [ -n "$SHOPEE_APP_ID" ]; then echo "ok=true" >> $GITHUB_OUTPUT; else echo "::notice::Sem SHOPEE_APP_ID ainda: robô em espera."; fi
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.ok == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.check.outputs.ok == 'true'
+        with: { python-version: "3.12", cache: pip }
+      - if: steps.check.outputs.ok == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Caçador de ofertas
+        if: steps.check.outputs.ok == 'true'
+        run: python agents/cacador.py
+
+      - name: Redator de guias
+        if: steps.check.outputs.ok == 'true' && env.LLM_API_KEY != ''
+        run: python agents/redator.py --max 12
+
+      - name: Publicador
+        if: steps.check.outputs.ok == 'true'
+        run: python agents/publicador.py --indexnow
+
+      - name: Telegram
+        if: steps.check.outputs.ok == 'true' && env.TELEGRAM_BOT_TOKEN != '' && github.event.schedule != '41 12 * * 1'
+        run: python agents/telegram.py --max 4
+
+      - name: Monitor de IA e comissões (semanal)
+        if: steps.check.outputs.ok == 'true' && github.event.schedule == '41 12 * * 1'
+        run: |
+          python agents/analista.py --dias 7 || true
+          if [ -n "$OPENAI_API_KEY$PERPLEXITY_API_KEY" ]; then python agents/monitor_ia.py --max 40 || true; fi
+
+      - name: Salvar dados
+        if: steps.check.outputs.ok == 'true'
+        run: |
+          git config user.name "robo" && git config user.email "robo@users.noreply.github.com"
+          git add data && git commit -m "dados $(date -u +%F-%H%M)" || echo "sem mudanças"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.check.outputs.ok == 'true'
+        with: { path: dist }
+      - id: deploy
+        if: steps.check.outputs.ok == 'true'
+        uses: actions/deploy-pages@v4
