@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% from "macros.html" import card, guia_link %}
+{% block corpo %}
+<div class="bc"><a href="/">Início</a> › {{ h1 }}</div>
+<h1>{{ h1 }}</h1>
+{% if intro %}<p>{{ intro }}</p>{% endif %}
+{% if guias %}<h2 class="sec">Guias</h2><div class="guias">{% for g in guias %}{{ guia_link(g) }}{% endfor %}</div>{% endif %}
+{% if produtos %}<h2 class="sec">{{ titulo_produtos|default('Mais bem avaliados') }}</h2><div class="grid">{% for p in produtos %}{{ card(p) }}{% endfor %}</div>{% endif %}
+{% endblock %}

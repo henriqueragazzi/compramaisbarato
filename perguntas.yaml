@@ -1,0 +1,63 @@
+# Perguntas que viram guias. Cada uma é uma pergunta REAL que as pessoas fazem ao ChatGPT.
+# O Redator escreve um guia para cada pergunta usando só produtos do catálogo.
+# "busca" = termos para achar produtos no catálogo; "ate" = preço máximo (opcional).
+# O Monitor de IA usa esta mesma lista para medir se o site é citado.
+
+casa:
+  - {pergunta: "Qual o melhor mop giratório para comprar?", busca: [mop]}
+  - {pergunta: "Como tirar mofo do guarda-roupa de vez?", busca: [mofo, antimofo, desumidificador]}
+  - {pergunta: "Melhor aspirador portátil barato", busca: [aspirador portátil, aspirador sem fio], ate: 250}
+  - {pergunta: "Como organizar guarda-roupa pequeno?", busca: [organizador, cabide, colmeia]}
+  - {pergunta: "Qual o melhor jogo de lençol casal custo-benefício?", busca: [lençol]}
+  - {pergunta: "Como organizar a geladeira com potes?", busca: [organizador de geladeira, pote]}
+  - {pergunta: "Melhor umidificador de ar para quarto", busca: [umidificador]}
+  - {pergunta: "Quais acessórios comprar para air fryer?", busca: [air fryer, airfryer]}
+  - {pergunta: "Escova elétrica de limpeza vale a pena?", busca: [escova elétrica, escova de limpeza]}
+  - {pergunta: "Melhores potes herméticos para cozinha", busca: [hermético, pote]}
+  - {pergunta: "Luminária com sensor de presença para corredor", busca: [sensor, luminária]}
+  - {pergunta: "Como limpar vidro sem deixar mancha?", busca: [rodo, limpa vidro, mop]}
+  - {pergunta: "Cabide de veludo vale a pena?", busca: [cabide]}
+  - {pergunta: "Utilidades domésticas baratas que facilitam a vida", busca: [organizador, dispenser, escova], ate: 50}
+  - {pergunta: "Tapete antiderrapante para banheiro, qual comprar?", busca: [tapete antiderrapante, tapete banheiro]}
+
+pet:
+  - {pergunta: "Como fazer o gato parar de arranhar o sofá?", busca: [arranhador]}
+  - {pergunta: "Qual a melhor fonte de água para gato?", busca: [fonte, bebedouro]}
+  - {pergunta: "Como tirar pelo de cachorro do sofá e da roupa?", busca: [removedor de pelos, tira pelo, rolo]}
+  - {pergunta: "Comedouro lento funciona para cachorro que come rápido?", busca: [comedouro lento]}
+  - {pergunta: "Melhor caixa de areia para gato que não espalha areia", busca: [caixa de areia, banheiro gato]}
+  - {pergunta: "Peitoral ou coleira: qual o melhor para passear com cachorro?", busca: [peitoral, guia]}
+  - {pergunta: "Brinquedos para cachorro ficar sozinho em casa", busca: [brinquedo interativo, brinquedo cachorro]}
+  - {pergunta: "Tapete higiênico lavável vale a pena?", busca: [tapete higiênico]}
+  - {pergunta: "Melhor escova para cachorro que solta muito pelo", busca: [escova, rasqueadeira, luva]}
+  - {pergunta: "Cama para gato ou cachorro: qual comprar?", busca: [cama pet, caminha]}
+  - {pergunta: "Coleira com GPS para cachorro funciona?", busca: [gps, rastreador]}
+  - {pergunta: "Presente para quem tem pet", busca: [pet, gato, cachorro], ate: 100}
+
+carro:
+  - {pergunta: "Qual o melhor suporte de celular para carro que não cai?", busca: [suporte celular carro, suporte veicular]}
+  - {pergunta: "Melhor aspirador automotivo portátil", busca: [aspirador automotivo, aspirador carro]}
+  - {pergunta: "Carregador veicular turbo: qual comprar?", busca: [carregador veicular]}
+  - {pergunta: "Compressor de ar portátil para pneu vale a pena?", busca: [compressor]}
+  - {pergunta: "Como instalar câmera de ré barata?", busca: [câmera de ré]}
+  - {pergunta: "Organizador de porta-malas: qual o melhor?", busca: [porta malas, organizador carro]}
+  - {pergunta: "Lâmpada LED para farol: qual a melhor?", busca: [led farol, lâmpada led]}
+  - {pergunta: "Kit de limpeza automotiva para lavar o carro em casa", busca: [limpeza automotiva, lavagem, microfibra]}
+  - {pergunta: "Melhor suporte de celular para moto", busca: [suporte celular moto]}
+  - {pergunta: "Central multimídia com CarPlay barata vale a pena?", busca: [multimídia, carplay]}
+  - {pergunta: "Capa de banco de carro: qual comprar?", busca: [capa de banco]}
+  - {pergunta: "Presente para quem gosta de carro", busca: [carro, automotivo], ate: 150}
+
+presentes:
+  - {pergunta: "Presente de Natal até 50 reais", busca: [presente, kit, caneca, luminária], ate: 50}
+  - {pergunta: "Presente de Natal até 100 reais", busca: [presente, kit, fone, garrafa térmica], ate: 100}
+  - {pergunta: "Presente para pai que tem tudo", busca: [churrasco, presente para pai, garrafa térmica, carteira]}
+  - {pergunta: "Presente para mãe criativo e barato", busca: [skincare, kit, caneca, luminária], ate: 100}
+  - {pergunta: "Amigo secreto até 30 reais", busca: [presente, caneca, kit, chaveiro], ate: 30}
+  - {pergunta: "Presente para namorado criativo", busca: [presente criativo, smartwatch, fone, kit]}
+  - {pergunta: "Presente para namorada barato e bonito", busca: [kit skincare, luminária, perfume, caneca], ate: 120}
+  - {pergunta: "Fone bluetooth bom e barato para presente", busca: [fone bluetooth], ate: 150}
+  - {pergunta: "Smartwatch barato que vale a pena", busca: [smartwatch], ate: 250}
+  - {pergunta: "Presente para quem gosta de churrasco", busca: [churrasco, faca, avental]}
+  - {pergunta: "Jogos de tabuleiro para família no Natal", busca: [jogo de tabuleiro, jogo]}
+  - {pergunta: "Caixa de som bluetooth barata e potente", busca: [caixa de som]}

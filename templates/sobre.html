@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block corpo %}
+<article>
+<h1>Como escolhemos os produtos</h1>
+<p>O {{ site.nome }} é um site independente de guias de compra. Nossos robôs consultam a Shopee várias vezes ao dia e só mostram produtos que passam por estes critérios:</p>
+<ul>
+<li>Nota dos compradores igual ou acima de <b>{{ filtros.nota_minima }}</b> de 5;</li>
+<li>Pelo menos <b>{{ filtros.vendas_minimas }}</b> unidades vendidas;</li>
+<li>Preço e disponibilidade conferidos automaticamente; produtos que somem da loja saem do site em até {{ 7 }} dias;</li>
+<li>Histórico de preço guardado por até 90 dias, para mostrar quando o preço está realmente baixo.</li>
+</ul>
+<p>Os guias são escritos com ajuda de inteligência artificial a partir desses dados e revisados por regras automáticas. <b>Não testamos os produtos pessoalmente</b> e não aceitamos pagamento para colocar um produto na frente de outro.</p>
+<h2>Como ganhamos dinheiro</h2>
+<p>Participamos do programa de afiliados da Shopee. Quando você compra por um link daqui, recebemos uma pequena comissão, sem custo extra para você. Isso não muda a ordem das indicações.</p>
+</article>
+{% endblock %}

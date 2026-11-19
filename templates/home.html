@@ -1,0 +1,20 @@
+{% extends "base.html" %}{% from "macros.html" import card, guia_link %}
+{% block corpo %}
+<section class="hero">
+  <h1>{{ site.slogan }}</h1>
+  <p>Guias diretos e ofertas da Shopee com preço atualizado várias vezes ao dia.</p>
+  <form class="busca" action="/busca/" method="get"><input name="q" placeholder="Ex.: meu gato arranha o sofá, presente até R$50…" aria-label="O que você precisa?"><button>Buscar</button></form>
+  <div class="chips">{% for g in guias[:6] %}<a href="/guia/{{ g.slug }}/">{{ g.pergunta }}</a>{% endfor %}</div>
+</section>
+<h2 class="sec">🔥 Ofertas do dia</h2>
+<div class="grid">{% for p in ofertas[:12] %}{{ card(p) }}{% endfor %}</div>
+{% if quedas %}<h2 class="sec">📉 Baixaram de preço</h2>
+<div class="grid">{% for p in quedas[:8] %}{{ card(p) }}{% endfor %}</div>{% endif %}
+<h2 class="sec">📘 Guias de compra</h2>
+<div class="guias">{% for g in guias[:12] %}{{ guia_link(g) }}{% endfor %}</div>
+<h2 class="sec">Categorias</h2>
+<div class="nichos">{% for k, n in nichos.items() %}<a class="nicho" href="/n/{{ k }}/"><em>{{ n.emoji }}</em>{{ n.nome }}</a>{% endfor %}</div>
+<h2 class="sec">Perguntas frequentes</h2>
+<p><b>Como os produtos são escolhidos?</b> Cruzamos nota dos compradores, número de vendas, preço e histórico de preço. Produto com nota abaixo de {{ filtros.nota_minima }} ou poucas vendas não entra. <a href="/sobre/">Veja os critérios</a>.</p>
+<p><b>O preço é o mesmo da Shopee?</b> Sim. Você compra direto na Shopee; o preço daqui é atualizado várias vezes ao dia, mas o válido é sempre o da loja.</p>
+{% endblock %}

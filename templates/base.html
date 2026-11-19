@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ titulo }}</title>
+<meta name="description" content="{{ descricao }}">
+<link rel="canonical" href="{{ site.url }}{{ caminho }}">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="{{ og_tipo|default('website') }}">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="{{ site.nome }}">
+<meta property="og:title" content="{{ titulo }}">
+<meta property="og:description" content="{{ descricao }}">
+<meta property="og:url" content="{{ site.url }}{{ caminho }}">
+{% if imagem %}<meta property="og:image" content="{{ imagem }}">{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ff5a1f">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔎</text></svg>">
+{% for ld in jsonld %}<script type="application/ld+json">{{ ld|tojson }}</script>
+{% endfor %}
+<style>
+:root{--cor:#ff5a1f;--cor2:#e8430a;--tx:#1d1d1f;--mut:#6b6b72;--bd:#ececf0;--bg:#fafafa;--ok:#0a8a4a}
+*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--tx);background:var(--bg)}
+a{color:inherit}img{max-width:100%;display:block}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.top{background:#fff;border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:5}
+header.top .wrap{display:flex;align-items:center;gap:16px;height:58px}
+.logo{font-weight:800;font-size:20px;white-space:nowrap;flex-shrink:0;text-decoration:none;color:var(--cor)}
+nav.menu{display:flex;gap:14px;overflow-x:auto;font-size:14px}nav.menu a{text-decoration:none;color:var(--mut);white-space:nowrap}nav.menu a:hover{color:var(--tx)}
+.hero{padding:42px 0 28px;text-align:center}.hero h1{font-size:clamp(26px,4vw,38px);line-height:1.15;margin:0 0 10px}.hero p{color:var(--mut);margin:0 0 20px}
+form.busca{display:flex;max-width:620px;margin:0 auto;background:#fff;border:2px solid var(--cor);border-radius:14px;overflow:hidden}
+form.busca input{flex:1;border:0;padding:14px 16px;font-size:16px;outline:0}form.busca button{border:0;background:var(--cor);color:#fff;font-weight:700;padding:0 20px;cursor:pointer}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:14px}.chips a{font-size:13px;background:#fff;border:1px solid var(--bd);border-radius:99px;padding:6px 12px;text-decoration:none}
+h2.sec{font-size:22px;margin:34px 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+.card{background:#fff;border:1px solid var(--bd);border-radius:14px;overflow:hidden;text-decoration:none;display:flex;flex-direction:column;transition:box-shadow .15s}.card:hover{box-shadow:0 6px 20px rgba(0,0,0,.07)}
+.card img{aspect-ratio:1;object-fit:cover;background:#f2f2f2}.card .in{padding:10px 12px 12px;display:flex;flex-direction:column;gap:4px;flex:1}
+.card .nm{font-size:14px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.preco{font-weight:800;font-size:18px}.antigo{color:var(--mut);text-decoration:line-through;font-size:13px;margin-left:6px;font-weight:400}
+.meta{font-size:12px;color:var(--mut)}.selo{display:inline-block;font-size:11px;font-weight:700;border-radius:6px;padding:2px 7px;background:#e7f7ee;color:var(--ok)}.off{background:#fff0ea;color:var(--cor2)}
+.guias{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}.guia{background:#fff;border:1px solid var(--bd);border-radius:12px;padding:14px 16px;text-decoration:none}.guia b{display:block;margin-bottom:4px}.guia span{font-size:13px;color:var(--mut)}
+.nichos{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}.nicho{background:#fff;border:1px solid var(--bd);border-radius:14px;padding:18px;text-decoration:none;font-weight:700}.nicho em{font-style:normal;font-size:28px;display:block}
+article{background:#fff;border:1px solid var(--bd);border-radius:16px;padding:24px;margin:24px 0}article h1{font-size:clamp(24px,3.5vw,32px);line-height:1.2;margin:0 0 8px}
+.resposta{background:#fff7f3;border-left:4px solid var(--cor);padding:14px 16px;border-radius:8px;margin:16px 0;font-size:17px}
+table.comp{width:100%;border-collapse:collapse;font-size:14px;margin:16px 0}table.comp th,table.comp td{border-bottom:1px solid var(--bd);padding:10px 8px;text-align:left;vertical-align:top}table.comp th{background:#fafafa}
+.pick{display:grid;grid-template-columns:140px 1fr;gap:18px;padding:18px 0;border-top:1px solid var(--bd)}.pick img{border-radius:10px;aspect-ratio:1;object-fit:cover}
+.rot{font-size:12px;font-weight:800;text-transform:uppercase;color:var(--cor2);letter-spacing:.03em}
+.btn{display:inline-block;background:var(--cor);color:#fff;text-decoration:none;font-weight:700;border-radius:10px;padding:11px 18px;margin-top:8px}.btn:hover{background:var(--cor2)}
+.prod{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:28px}.prod img{border-radius:14px}
+.bc{font-size:13px;color:var(--mut);margin-top:18px}.bc a{color:var(--mut)}
+.aviso{font-size:12px;color:var(--mut)}
+footer{margin-top:50px;background:#fff;border-top:1px solid var(--bd);padding:28px 0;font-size:13px;color:var(--mut)}footer a{color:var(--mut)}
+@media(max-width:640px){.prod{grid-template-columns:1fr}.pick{grid-template-columns:90px 1fr;gap:12px}article{padding:18px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="/">🔎 {{ site.nome }}</a>
+  <nav class="menu">
+    {% for k, n in nichos.items() %}<a href="/n/{{ k }}/">{{ n.emoji }} {{ n.nome.split(',')[0] }}</a>{% endfor %}
+    <a href="/guias/">Guias</a><a href="/ofertas/">Ofertas</a>
+  </nav>
+</div></header>
+<main class="wrap">
+{% block corpo %}{% endblock %}
+</main>
+<footer><div class="wrap">
+  <p><b>{{ site.nome }}</b> — {{ site.descricao }}</p>
+  <p>{% for k, n in nichos.items() %}<a href="/n/{{ k }}/">{{ n.nome }}</a> · {% endfor %}<a href="/guias/">Todos os guias</a> · <a href="/sobre/">Como escolhemos</a>{% if site.telegram %} · <a href="{{ site.telegram }}">Telegram</a>{% endif %}{% if site.whatsapp %} · <a href="{{ site.whatsapp }}">WhatsApp</a>{% endif %}</p>
+  <p class="aviso">Participamos do programa de afiliados da Shopee: quando você compra por um link daqui, podemos receber uma comissão, sem custo extra para você. Preços e disponibilidade podem mudar; o valor válido é o da loja no momento da compra.</p>
+  <p class="aviso">© {{ ano }} {{ site.nome }}</p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block corpo %}
+<section class="hero" style="padding-bottom:10px">
+<h1>O que você precisa?</h1>
+<form class="busca" action="/busca/" method="get"><input id="q" name="q" placeholder="Ex.: suporte de celular que não cai" autofocus><button>Buscar</button></form>
+</section>
+<div id="gs" class="guias"></div>
+<h2 class="sec" id="tp" hidden>Produtos</h2>
+<div id="ps" class="grid"></div>
+<script>
+const brl=v=>v.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+const N=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const PARE=new Set('de da do das dos para pra com sem que um uma o a os as e meu minha qual quais melhor como ate reais r$ no na em por'.split(' '));
+(async()=>{
+ const q=new URLSearchParams(location.search).get('q')||'';document.getElementById('q').value=q;if(!q)return;
+ const idx=await (await fetch('/busca.json')).json();
+ const teto=(q.match(/(?:ate|até|r\$)\s*(\d+)/i)||[])[1];
+ const t=N(q).split(/[^a-z0-9]+/).filter(w=>(w.length>2||/^\d+$/.test(w))&&!PARE.has(w));
+ const pont=s=>{const x=N(s);return t.reduce((a,w)=>a+(x.includes(w)?1:(x.includes(w.slice(0,-1))?.6:0)),0)};
+ const gs=idx.g.map(g=>[pont(g.t+' '+g.q),g]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).slice(0,6);
+ document.getElementById('gs').innerHTML=gs.map(([,g])=>`<a class="guia" href="/guia/${g.s}/"><b>${g.t}</b><span>${g.r}</span></a>`).join('');
+ let ps=idx.p.map(p=>[pont(p.n+' '+p.k)+p.sc/200,p]).filter(x=>x[0]>=1&&(!teto||x[1].pr<=+teto)).sort((a,b)=>b[0]-a[0]).slice(0,24);
+ document.getElementById('tp').hidden=!ps.length;
+ document.getElementById('ps').innerHTML=ps.map(([,p])=>`<a class="card" href="/p/${p.s}/"><img src="${p.i}" loading="lazy" alt=""><div class="in"><div class="nm">${p.n}</div><div><span class="preco">${brl(p.pr)}</span></div><div class="meta">⭐ ${p.nt} · ${p.v.toLocaleString('pt-BR')} vendidos</div></div></a>`).join('')||(gs.length?'':'<p>Nada encontrado. Tente outras palavras.</p>');
+})();
+</script>
+{% endblock %}
