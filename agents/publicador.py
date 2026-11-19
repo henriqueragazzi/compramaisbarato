@@ -181,7 +181,7 @@ def rodar(indexnow=False):
     if host and "seudominio" not in host:
         (DIST / "CNAME").write_text(host, encoding="utf-8")
 
-    chave = os.environ.get("INDEXNOW_KEY")
+    chave = site.get("indexnow") or os.environ.get("INDEXNOW_KEY")
     if chave:
         (DIST / f"{chave}.txt").write_text(chave, encoding="utf-8")
 

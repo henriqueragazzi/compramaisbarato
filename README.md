@@ -36,7 +36,7 @@ Custo esperado: domínio (~R$40/ano) + IA dos guias (centavos a poucos reais por
 3. Edite `config.yaml`: `nome`, `url` (seu domínio), links do Telegram/WhatsApp.
 
 ### 3. Segredos (Settings → Secrets and variables → Actions)
-**Secrets:** `SHOPEE_APP_ID`, `SHOPEE_SECRET`, `LLM_API_KEY`, `INDEXNOW_KEY` (invente 32 letras/números), opcionais: `TELEGRAM_BOT_TOKEN`, `OPENAI_API_KEY`, `PERPLEXITY_API_KEY`
+**Secrets:** `SHOPEE_APP_ID`, `SHOPEE_SECRET`, `LLM_API_KEY`, opcionais: `TELEGRAM_BOT_TOKEN`, `OPENAI_API_KEY`, `PERPLEXITY_API_KEY`
 **Variables:** `LLM_PROVIDER`, `LLM_MODEL` (opcional), `LLM_BASE_URL` (só DeepSeek), `TELEGRAM_CANAL` (ex.: `@meucanal`)
 
 ### 4. Publicar
