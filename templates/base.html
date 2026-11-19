@@ -50,6 +50,8 @@ table.comp{width:100%;border-collapse:collapse;font-size:14px;margin:16px 0}tabl
 .prod{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:28px}.prod img{border-radius:14px}
 .bc{font-size:13px;color:var(--mut);margin-top:18px}.bc a{color:var(--mut)}
 .aviso{font-size:12px;color:var(--mut)}
+.alerta{display:inline-block;background:#fff;color:#229ed9;border:2px solid #229ed9;text-decoration:none;font-weight:700;border-radius:10px;padding:9px 16px;margin:8px 0 0 6px}.alerta:hover{background:#229ed9;color:#fff}
+.convite{background:#eaf6fd;border:1px solid #cde9f8;border-radius:14px;padding:16px 18px;margin:28px 0;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}.convite b{font-size:16px}.convite a{background:#229ed9;color:#fff;text-decoration:none;font-weight:700;border-radius:10px;padding:10px 16px}.convite a.wa{background:#25d366}
 footer{margin-top:50px;background:#fff;border-top:1px solid var(--bd);padding:28px 0;font-size:13px;color:var(--mut)}footer a{color:var(--mut)}
 @media(max-width:640px){.prod{grid-template-columns:1fr}.pick{grid-template-columns:90px 1fr;gap:12px}article{padding:18px}}
 </style>
@@ -64,6 +66,7 @@ footer{margin-top:50px;background:#fff;border-top:1px solid var(--bd);padding:28
 </div></header>
 <main class="wrap">
 {% block corpo %}{% endblock %}
+{% if site.telegram or site.whatsapp %}<div class="convite"><div><b>📢 Receba as melhores ofertas do dia</b><br><span class="meta">Só produtos bem avaliados, com preço que realmente baixou. Grátis.</span></div><div style="display:flex;gap:8px;flex-wrap:wrap">{% if site.telegram %}<a href="{{ site.telegram }}" rel="noopener" target="_blank">Entrar no Telegram</a>{% endif %}{% if site.whatsapp %}<a class="wa" href="{{ site.whatsapp }}" rel="noopener" target="_blank">Entrar no WhatsApp</a>{% endif %}</div></div>{% endif %}
 </main>
 <footer><div class="wrap">
   <p><b>{{ site.nome }}</b> — {{ site.descricao }}</p>

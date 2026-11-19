@@ -9,6 +9,7 @@
   </div>
 </a>
 {%- endmacro %}
+{% macro alerta(site, p) -%}{% if site.telegram_bot %}<a class="alerta" href="https://t.me/{{ site.telegram_bot }}?start=a{{ p.id }}" rel="nofollow noopener" target="_blank">🔔 Me avise quando baixar</a>{% endif %}{%- endmacro %}
 {% macro guia_link(g) -%}
 <a class="guia" href="/guia/{{ g.slug }}/"><b>{{ g.titulo }}</b><span>{{ g.resposta_curta|truncate(110) }}</span></a>
 {%- endmacro %}

@@ -1,4 +1,4 @@
-{% extends "base.html" %}{% from "macros.html" import card, guia_link %}
+{% extends "base.html" %}{% from "macros.html" import card, guia_link, alerta %}
 {% block corpo %}
 <div class="bc"><a href="/">Início</a> › <a href="/n/{{ p.nicho }}/">{{ nichos[p.nicho].nome }}</a></div>
 <article>
@@ -9,7 +9,7 @@
     <p class="meta">Vendido por {{ p.loja }} na Shopee · ⭐ {{ p.nota }} de 5 · {{ p.vendas|milhar }} vendidos</p>
     <p><span class="preco" style="font-size:28px">{{ p.preco|brl }}</span>{% if p.preco_antigo %}<span class="antigo">{{ p.preco_antigo|brl }}</span>{% endif %}</p>
     <p>{% if p.desconto >= 10 %}<span class="selo off">-{{ p.desconto }}%</span> {% endif %}{% if p.menor_30d %}<span class="selo">Menor preço em 30 dias</span>{% endif %}{% if p.queda %} <span class="selo">Caiu {{ p.queda }}%</span>{% endif %}</p>
-    <a class="btn" href="{{ p.link }}" rel="sponsored nofollow noopener" target="_blank">Ver na Shopee →</a>
+    <a class="btn" href="{{ p.link }}" rel="sponsored nofollow noopener" target="_blank">Ver na Shopee →</a>{{ alerta(site, p) }}
     <p class="aviso">Preço verificado em {{ atualizado }}. {% if hist %}Nos últimos {{ hist|length }} dias: mínimo {{ hist_min|brl }}, máximo {{ hist_max|brl }}.{% endif %}</p>
   </div>
 </div>

@@ -6,7 +6,8 @@ site:
   url: "https://www.compramaisbarato.com.br"   # sem barra no fim
   slogan: "Diga o que você precisa e a gente acha o melhor preço"
   descricao: "Guias de compra e ofertas da Shopee para casa, pet, carro e presentes, com preço atualizado várias vezes ao dia."
-  telegram: ""          # ex: https://t.me/seucanal (opcional)
+  telegram: ""          # link do CANAL de ofertas, ex: https://t.me/compramaisbarato
+  telegram_bot: ""      # usuário do BOT de alertas, sem @, ex: CompraMaisBaratoBot
   whatsapp: ""          # link do canal (opcional)
   indexnow: "6f6a5c839387da3290c5b73aa7e762bd"   # chave pública do IndexNow (fica visível no site, não é senha)
 
