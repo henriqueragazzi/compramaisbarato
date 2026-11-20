@@ -21,8 +21,11 @@ def brl(v):
 
 
 def rodar(maximo=5):
-    token, canal = os.environ["TELEGRAM_BOT_TOKEN"], os.environ["TELEGRAM_CANAL"]
-    site = config()["site"]["url"]
+    from tg import token as _token
+    token = _token()
+    cfg_site = config()["site"]
+    canal = os.environ.get("TELEGRAM_CANAL") or "@" + cfg_site.get("telegram", "").rstrip("/").split("/")[-1]
+    site = cfg_site["url"]
     produtos = ler_json(PRODUTOS, {})
     postados = ler_json(POSTADOS, {})
     agora = time.time()

@@ -70,6 +70,11 @@ def rodar():
     produtos = ler_json(PRODUTOS, {})
     eu = api("getMe")
     print("Bot:", eu.get("username") if isinstance(eu, dict) and "username" in eu else eu)
+    if site.get("telegram") and isinstance(eu, dict) and eu.get("id"):
+        canal = "@" + site["telegram"].rstrip("/").split("/")[-1]
+        m = api("getChatMember", chat_id=canal, user_id=eu["id"])
+        ok = isinstance(m, dict) and m.get("status") == "administrator" and m.get("can_post_messages", True)
+        print(f"Canal {canal}: " + ("bot é administrador ✓" if ok else f"bot NÃO é administrador ({m})"))
     cofre = ler_cofre()
     updates = api("getUpdates", offset=cofre.get("offset", 0), timeout=0, allowed_updates=["message", "callback_query"])
     if isinstance(updates, dict) and updates.get("erro"):
