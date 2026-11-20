@@ -10,7 +10,7 @@ Roda a cada ~10 min pelo GitHub Actions (.github/workflows/bot.yml).
 import html
 
 from comum import PRODUTOS, config, ler_json
-from tg import MAX_ALERTAS_POR_PESSOA, api, brl, ler_cofre, salvar_cofre
+from tg import MAX_ALERTAS_POR_PESSOA, api, brl, diagnostico, ler_cofre, salvar_cofre
 
 
 def esc(t):
@@ -68,11 +68,13 @@ def listar(cofre, chat_id, produtos):
 def rodar():
     site = config()["site"]
     produtos = ler_json(PRODUTOS, {})
+    eu = api("getMe")
+    print("Bot:", eu.get("username") if isinstance(eu, dict) and "username" in eu else eu)
     cofre = ler_cofre()
     updates = api("getUpdates", offset=cofre.get("offset", 0), timeout=0, allowed_updates=["message", "callback_query"])
     if isinstance(updates, dict) and updates.get("erro"):
         dica = (" → o TOKEN está errado: no GitHub, Settings > Secrets > TELEGRAM_BOT_TOKEN, cole só o token"
-                " (formato 123456789:AAH...)") if updates.get("codigo") in (401, 404) else ""
+                " (formato 123456789:AAH...). Diagnóstico: " + diagnostico()) if updates.get("codigo") in (401, 404) else ""
         raise SystemExit(f"Telegram: {updates['erro']}{dica}")
 
     for up in updates:

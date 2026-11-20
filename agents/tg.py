@@ -8,6 +8,7 @@ import base64
 import hashlib
 import json
 import os
+import re
 
 import requests
 from cryptography.fernet import Fernet, InvalidToken
@@ -19,7 +20,9 @@ MAX_ALERTAS_POR_PESSOA = 30
 
 
 def token():
-    t = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip().strip('"').strip("'")
+    bruto = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+    # remove espaços, aspas e caracteres invisíveis que vêm junto ao copiar do Telegram
+    t = re.sub(r"[^0-9A-Za-z:_-]", "", bruto)
     if t.lower().startswith("bot") and ":" in t[3:]:
         t = t[3:]
     if not t:
@@ -34,6 +37,16 @@ def api(metodo, **params):
         # 403 = a pessoa bloqueou o bot
         return {"erro": dados.get("description", ""), "codigo": dados.get("error_code")}
     return dados["result"]
+
+
+def diagnostico():
+    """Mostra o formato do token SEM revelá-lo (o número do bot é público)."""
+    bruto = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+    t = token()
+    id_bot, _, resto = t.partition(":")
+    return (f"tamanho original={len(bruto)}, depois de limpar={len(t)}, número do bot={id_bot or '?'}, "
+            f"parte secreta={len(resto)} caracteres (o normal é 35), "
+            f"caracteres removidos={[hex(ord(c)) for c in bruto if not re.match(r'[0-9A-Za-z:_-]', c)][:8]}")
 
 
 def _fernet():
