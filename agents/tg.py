@@ -22,7 +22,9 @@ MAX_ALERTAS_POR_PESSOA = 30
 def token():
     bruto = os.environ.get("TELEGRAM_BOT_TOKEN", "")
     # remove espaços, aspas e caracteres invisíveis que vêm junto ao copiar do Telegram
-    t = re.sub(r"[^0-9A-Za-z:_-]", "", bruto)
+    # aceita até a mensagem inteira do @BotFather: procura o padrão 123456789:ABC... dentro do texto
+    achado = re.search(r"\d{6,}:[A-Za-z0-9_-]{30,}", bruto)
+    t = achado.group(0) if achado else re.sub(r"[^0-9A-Za-z:_-]", "", bruto)
     if t.lower().startswith("bot") and ":" in t[3:]:
         t = t[3:]
     if not t:
