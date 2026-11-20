@@ -71,7 +71,9 @@ def rodar():
     cofre = ler_cofre()
     updates = api("getUpdates", offset=cofre.get("offset", 0), timeout=0, allowed_updates=["message", "callback_query"])
     if isinstance(updates, dict) and updates.get("erro"):
-        raise SystemExit(f"Telegram: {updates['erro']}")
+        dica = (" → o TOKEN está errado: no GitHub, Settings > Secrets > TELEGRAM_BOT_TOKEN, cole só o token"
+                " (formato 123456789:AAH...)") if updates.get("codigo") in (401, 404) else ""
+        raise SystemExit(f"Telegram: {updates['erro']}{dica}")
 
     for up in updates:
         cofre["offset"] = up["update_id"] + 1

@@ -19,7 +19,9 @@ MAX_ALERTAS_POR_PESSOA = 30
 
 
 def token():
-    t = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+    t = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip().strip('"').strip("'")
+    if t.lower().startswith("bot") and ":" in t[3:]:
+        t = t[3:]
     if not t:
         raise SystemExit("Defina TELEGRAM_BOT_TOKEN")
     return t
