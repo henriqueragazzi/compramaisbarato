@@ -687,6 +687,8 @@ def metadata(ep, B, short, path):
                 pass  # o encerramento fica dentro do último capítulo (mín. 10 s por capítulo)
             else:
                 ch.append((s.t0, names[s.kind]))
+        if len(ch) > 1 and ch[1][0] - ch[0][0] < 10:  # capítulo precisa de >= 10 s
+            ch = [(0.0, ch[0][1] + " / " + ch[1][1])] + ch[2:]
         ch[0] = (0.0, ch[0][1])
         chapters = "\n".join(f"{fmt(a)} {b}" for a, b in ch)
         cores = ", ".join(i["nome"] for i in ep["itens"])
