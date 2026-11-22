@@ -1,0 +1,5 @@
+saida/
+.cache_voz/
+assets/*.onnx
+assets/*.onnx.json
+__pycache__/

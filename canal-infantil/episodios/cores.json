@@ -1,0 +1,25 @@
+{
+  "slug": "aprendendo-as-cores",
+  "titulo_tela": "APRENDENDO\nAS CORES",
+  "intro": ["Oi, amiguinho! Eu sou o Pingo!", "Hoje vamos aprender as cores. Vamos lá?"],
+  "itens": [
+    {"nome": "vermelho", "cor": "#E8342E", "objeto": "maca",    "frase": "A maçã é vermelha!",      "pergunta": "Qual é a cor da maçã?",  "resposta": "Isso! A maçã é vermelha!"},
+    {"nome": "amarelo",  "cor": "#FFC90E", "objeto": "sol",     "frase": "O sol é amarelo!",        "pergunta": "Qual é a cor do sol?",   "resposta": "Muito bem! O sol é amarelo!"},
+    {"nome": "azul",     "cor": "#2F8CFF", "objeto": "gota",    "frase": "Eu, o Pingo, sou azul!",  "pergunta": "Qual é a cor do Pingo?", "resposta": "Acertou! Eu sou azul!"},
+    {"nome": "verde",    "cor": "#3DBE4B", "objeto": "folha",   "frase": "A folha é verde!",        "pergunta": "Qual é a cor da folha?", "resposta": "Isso mesmo! A folha é verde!"},
+    {"nome": "laranja",  "cor": "#FF8A1F", "objeto": "laranja", "frase": "A laranja é laranja!",    "pergunta": "Qual é a cor da laranja?", "resposta": "Muito bem! Laranja!"},
+    {"nome": "roxo",     "cor": "#8E44C9", "objeto": "uva",     "frase": "A uva é roxa!",           "pergunta": "Qual é a cor da uva?",   "resposta": "Isso! A uva é roxa!"},
+    {"nome": "rosa",     "cor": "#FF6FAE", "objeto": "flor",    "frase": "A flor é rosa!",          "pergunta": "Qual é a cor da flor?",  "resposta": "Parabéns! A flor é rosa!"}
+  ],
+  "quiz": ["maca", "folha", "uva", "sol"],
+  "quiz_short": ["sol", "gota", "flor"],
+  "recap_intro": "Agora, todas as cores juntas!",
+  "outro": ["Muito bem! Você aprendeu sete cores!", "Chame a família para brincar com você. Tchau, tchau!"],
+  "short_intro": ["Você sabe as cores? Vamos ver!"],
+  "short_outro": ["Muito bem! Tchau, tchau!"],
+  "youtube": {
+    "titulo": "Aprendendo as Cores com o Pingo 🌈 | Vídeo Educativo Infantil",
+    "titulo_short": "Você sabe as cores? 🎨 Quiz com o Pingo #shorts",
+    "tags": ["cores para crianças", "aprendendo as cores", "vídeo infantil educativo", "cores em português", "desenho educativo", "turminha do pingo", "educação infantil", "cores para bebês"]
+  }
+}
