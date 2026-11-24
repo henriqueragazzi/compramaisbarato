@@ -10,7 +10,7 @@ site:
   telegram_bot: "CompraMaisBaratoBot"      # usuário do BOT de alertas, sem @, ex: CompraMaisBaratoBot
   whatsapp: ""          # link do canal (opcional)
   email_contato: ""    # e-mail público de suporte (exigido pela OpenAI para o app)
-  app_url: ""          # endereço do app (servidor do ChatGPT), preenchido quando ele estiver no ar
+  app_url: "https://compramaisbarato-app.henrique-ragazzi.workers.dev"          # endereço do app (servidor do ChatGPT), preenchido quando ele estiver no ar
   indexnow: "6f6a5c839387da3290c5b73aa7e762bd"   # chave pública do IndexNow (fica visível no site, não é senha)
 
 # Filtros de qualidade do Caçador (produto ruim não entra no site)
