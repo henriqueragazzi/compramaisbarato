@@ -1,0 +1,58 @@
+{
+ "titulo": "Melhor fonte de água para gato: qual escolher em 2025",
+ "resposta_curta": "Para a maioria dos casos, a Fonte de Água em Aço Inoxidável com Filtro de 3,2 L (id 20498007503) é a escolha mais equilibrada, com nota 5.0 e 710 vendas por R$ 115,69. Se o orçamento for menor, a Bebedouro Gato Automático Silencioso e Econômico (id 23393853395) custa R$ 38,71 e é a mais vendida da lista, com 1.755 unidades. As opções da lista vão de R$ 30,60 a R$ 199,92.",
+ "intro": "A fonte de água incentiva o gato a beber mais, já que muitos preferem água em movimento. Abaixo estão opções da nossa lista, separadas por perfil de compra. Todas as informações vêm da nota, das vendas, do preço e da descrição de cada produto.",
+ "escolhas": [
+  {
+   "id": "20498007503",
+   "rotulo": "Melhor geral",
+   "porque": "Tem capacidade de 3,2 L, filtro e descrição de aço inoxidável com funcionamento automático e \"super silencioso\". Nota 5.0 com 710 vendidos por R$ 115,69.",
+   "ideal_para": "Quem quer uma fonte de aço inox com filtro e capacidade maior para usar no dia a dia."
+  },
+  {
+   "id": "23393853395",
+   "rotulo": "Mais vendida e custo baixo",
+   "porque": "É a mais vendida da lista, com 1.755 unidades e nota 4.9, por R$ 38,71. A descrição destaca funcionamento silencioso e econômico.",
+   "ideal_para": "Quem quer uma fonte automática sem gastar muito."
+  },
+  {
+   "id": "42956339788",
+   "rotulo": "Sem fio com sensor",
+   "porque": "Modelo Newpet NP888V com sensor sem fio, 2,6 L e bivolt. Nota 5.0 com 764 vendidos, por R$ 135,95.",
+   "ideal_para": "Quem prefere uma fonte com sensor e tem pouco espaço para cabos."
+  },
+  {
+   "id": "22598101960",
+   "rotulo": "Mais barato",
+   "porque": "Kit com bomba tipo aquário de 1200 ml e bivolt, por R$ 30,60. Nota 4.8 com 1.115 vendidos.",
+   "ideal_para": "Quem quer testar a fonte com pouco investimento ou precisa de um reserva."
+  }
+ ],
+ "como_escolher": [
+  "Compare a capacidade: 2,6 L a 3,2 L costumam durar mais tempo entre um abastecimento e outro, mas confira o tamanho do espaço onde ela ficará.",
+  "Verifique se é bivolt antes de comprar, principalmente se você mora em uma região com voltagem diferente da sua.",
+  "Escolha entre modelo com fio (geralmente mais simples) e sem fio (com bateria ou USB, mais prático para mudar de lugar), conforme a rotina da casa.",
+  "Considere o material: aço inoxidável tende a ser mais fácil de limpar do que plástico, mas confira a descrição de cada produto.",
+  "Se o modelo tem filtro, calcule o custo dos refis. Kits de filtros como o de 4, 8 ou 12 unidades (R$ 27,29 na lista) podem ser comprados separadamente."
+ ],
+ "faq": [
+  {
+   "q": "Com que frequência devo trocar a água da fonte?",
+   "a": "Não há um prazo fixo em todos os guias. O mais seguro é trocar a água todos os dias ou a cada um ou dois dias e limpar o reservatório com regularidade, para evitar acúmulo de sujeira e de biofilme."
+  },
+  {
+   "q": "Preciso trocar o filtro com frequência?",
+   "a": "Siga a recomendação do fabricante de cada modelo. Em geral, filtros de carvão ativado precisam ser substituídos periodicamente, e a troca pode ser combinada com a limpeza do reservatório."
+  },
+  {
+   "q": "Fonte é melhor que tigela comum?",
+   "a": "Muitos gatos preferem água corrente ou em movimento, o que pode incentivar o consumo. Ainda assim, cada gato tem suas preferências, e o ideal é oferecer água limpa em mais de um ponto da casa, como tigelas e fonte."
+  }
+ ],
+ "descricao_meta": "Veja as melhores fontes de água para gato da lista: opções com aço inox, sensor sem fio e preços a partir de R$ 30,60. Compare e escolha com calma.",
+ "slug": "qual-a-melhor-fonte-de-agua-para-gato",
+ "pergunta": "Qual a melhor fonte de água para gato?",
+ "nicho": "pet",
+ "escrito_em": 1795550938,
+ "criado_em": 1795550938
+}

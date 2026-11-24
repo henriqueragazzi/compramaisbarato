@@ -1,0 +1,58 @@
+{
+ "titulo": "Melhor aspirador portátil barato até R$ 250",
+ "resposta_curta": "Para a maioria das pessoas, o Aspirador de Pó Portátil Sem Fio Recarregável 21V, por R$ 79,90, é a melhor escolha, com nota 4.9 e 2.183 vendas. Se o orçamento for menor, o aspirador 3 em 1 USB sai por R$ 22,99, mas traz menos detalhes técnicos no nome. Para sucção mais forte, os modelos Gaabor com fio custam entre R$ 144,99 e R$ 169.",
+ "intro": "Os aspiradores portáteis desta lista custam de R$ 22,99 a R$ 169, todos dentro do orçamento de R$ 250. A escolha abaixo considera nota, número de vendas e o que cada nome informa sobre o produto.",
+ "escolhas": [
+  {
+   "id": "22795043060",
+   "rotulo": "Melhor custo-benefício sem fio",
+   "porque": "Combina nota 4.9, 2.183 vendidos e preço de R$ 79,90. O nome informa bateria de 21V e função soprador para carro, casa e cantos.",
+   "ideal_para": "Quem quer praticidade no dia a dia sem gastar muito e não quer ficar preso à tomada."
+  },
+  {
+   "id": "58269277355",
+   "rotulo": "Mais barato e mais vendido",
+   "porque": "É o de menor preço da lista, R$ 22,99, e tem o maior número de vendas (12.750), com nota 4.8. O nome cita uso 3 em 1 em casa e no carro e bateria de 2000mAh.",
+   "ideal_para": "Limpezas rápidas de carro, teclado ou cantos para quem tem orçamento apertado."
+  },
+  {
+   "id": "40830814218",
+   "rotulo": "Com fio, 2 em 1 vertical",
+   "porque": "Traz 650W no nome, com nota 4.9 e 1.617 vendidos, por R$ 144,99. O título indica uso vertical e de mão.",
+   "ideal_para": "Casas com mais sujeira ou tapetes, quando há tomada perto da área a limpar."
+  },
+  {
+   "id": "19098205730",
+   "rotulo": "Sucção forte de 16000Pa",
+   "porque": "Modelo Gaabor com fio e haste de pressão, nota 4.9 e 1.446 vendidos, por R$ 169. O nome informa sucção de 16000Pa e função dust off.",
+   "ideal_para": "Quem quer sucção forte para sofá e estofados e aceita pagar um pouco mais."
+  }
+ ],
+ "como_escolher": [
+  "Fonte de energia: o modelo sem fio dá liberdade para carro e cantos, mas a bateria limita o tempo de uso. O modelo com fio mantém a potência constante, desde que haja tomada por perto.",
+  "Tipo de sujeira: para migalhas e pó de estante ou carro, modelos pequenos costumam bastar. Para tapetes e pelos de pet, dê preferência a sucção mais alta.",
+  "Pa e W medem coisas diferentes: não compare um número em pascal com um em watts como se fossem equivalentes.",
+  "Acessórios e filtro: confira se vem bocal de fenda ou escova e se o filtro é lavável ou descartável.",
+  "Tensão: alguns anúncios citam 127V/220V. Confirme a voltagem antes de comprar para não danificar o aparelho."
+ ],
+ "faq": [
+  {
+   "q": "Vale a pena um aspirador portátil barato?",
+   "a": "Sim, para sujeira leve do dia a dia, como migalhas, pó de estante e interior de carro. Para casas grandes ou muito sujas, um aspirador maior tende a ser mais adequado."
+  },
+  {
+   "q": "Como cuidar do aspirador portátil?",
+   "a": "Esvazie o recipiente após cada uso, limpe ou troque o filtro conforme o manual e guarde o aparelho em local seco. Se for sem fio, carregue a bateria seguindo as instruções do fabricante."
+  },
+  {
+   "q": "Para que servem os sacos de malha descartáveis?",
+   "a": "São capas de filtro que ajudam a reter poeira fina e protegem o aparelho. Antes de comprar, confira se são compatíveis com o seu modelo, já que o anúncio pode ser genérico."
+  }
+ ],
+ "descricao_meta": "Melhor aspirador portátil barato até R$ 250: comparamos preço, nota e vendas de modelos sem fio e com fio, de R$ 22,99 a R$ 169. Veja qual compensa.",
+ "slug": "melhor-aspirador-portatil-barato",
+ "pergunta": "Melhor aspirador portátil barato",
+ "nicho": "casa",
+ "escrito_em": 1795550806,
+ "criado_em": 1795550806
+}
