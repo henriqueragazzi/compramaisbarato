@@ -25,7 +25,8 @@ Regras obrigatórias:
 - "resposta_curta" responde a pergunta em 2 ou 3 frases logo de cara, citando o produto principal e a faixa de preço.
 - Escolha de 3 a 6 produtos, cada um para um perfil diferente (melhor geral, mais barato, mais vendido, etc.).
 - Dicas e FAQ devem ser úteis de verdade (como escolher, cuidados, erros comuns), mesmo sem produto.
-Responda APENAS com JSON neste formato:
+- Seja ENXUTO: intro com até 3 frases; "porque" e "ideal_para" com até 2 frases cada; 3 a 5 itens em "como_escolher"; 3 perguntas no "faq"; "descricao_meta" com até 155 caracteres.
+Responda APENAS com o JSON, sem ``` e sem texto antes ou depois, neste formato:
 {"titulo": str, "resposta_curta": str, "intro": str,
  "escolhas": [{"id": str, "rotulo": str, "porque": str, "ideal_para": str}],
  "como_escolher": [str], "faq": [{"q": str, "a": str}], "descricao_meta": str}"""
@@ -86,7 +87,7 @@ def rodar(maximo=15, forcar=False):
             usuario = f"Pergunta do leitor: {item['pergunta']}\n" + (
                 f"Orçamento máximo: R$ {item['ate']}\n" if item.get("ate") else "") + f"\nProdutos disponíveis:\n{lista}"
             try:
-                g = gerar_json(SISTEMA, usuario)
+                g = gerar_json(SISTEMA, usuario, max_tokens=5000)
             except Exception as e:
                 print(f"  ! erro no guia '{item['pergunta']}': {e}")
                 continue
