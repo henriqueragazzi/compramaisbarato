@@ -27,21 +27,33 @@ jobs:
       - name: Banco D1 (cria se não existir)
         if: steps.check.outputs.ok == 'true'
         run: |
-          npx -y wrangler@3 d1 list --json > d1.json || echo "[]" > d1.json
+          npx -y wrangler@4 d1 list --json > d1.json || echo "[]" > d1.json
           ID=$(node -e "const l=require('./d1.json');const d=l.find(x=>x.name==='compramaisbarato');console.log(d?d.uuid:'')")
           if [ -z "$ID" ]; then
-            npx -y wrangler@3 d1 create compramaisbarato
-            npx -y wrangler@3 d1 list --json > d1.json
+            npx -y wrangler@4 d1 create compramaisbarato
+            npx -y wrangler@4 d1 list --json > d1.json
             ID=$(node -e "const l=require('./d1.json');console.log(l.find(x=>x.name==='compramaisbarato').uuid)")
           fi
           sed -i "s/PREENCHIDO_PELO_DEPLOY/$ID/" wrangler.toml
-          npx -y wrangler@3 d1 execute compramaisbarato --remote --file=schema.sql -y
+          npx -y wrangler@4 d1 execute compramaisbarato --remote --file=schema.sql -y
+      - name: Subdomínio workers.dev (registra se faltar)
+        if: steps.check.outputs.ok == 'true'
+        run: |
+          API=https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain
+          ATUAL=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" $API | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result?.subdomain||'')}catch{console.log('')}})")
+          if [ -z "$ATUAL" ]; then
+            for nome in compramaisbarato compramaisbarato-br cmb-achados; do
+              R=$(curl -s -X PUT -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" -d "{\"subdomain\":\"$nome\"}" $API)
+              echo "$R" | grep -q '"success":true' && { echo "Registrado: $nome"; break; } || echo "$R"
+            done
+          else echo "Já existe: $ATUAL"; fi
       - name: Publicar
         if: steps.check.outputs.ok == 'true'
         run: |
+          set -o pipefail
           if [ -n "${{ secrets.OPENAI_APPS_CHALLENGE }}" ]; then
             sed -i 's/^OPENAI_APPS_CHALLENGE = .*/OPENAI_APPS_CHALLENGE = "${{ secrets.OPENAI_APPS_CHALLENGE }}"/' wrangler.toml
           fi
-          npx -y wrangler@3 deploy | tee deploy.log
+          npx -y wrangler@4 deploy | tee deploy.log
           echo "### App publicado" >> $GITHUB_STEP_SUMMARY
           grep -o 'https://[^ ]*workers.dev' deploy.log | head -1 | sed 's#$#/mcp#' >> $GITHUB_STEP_SUMMARY
