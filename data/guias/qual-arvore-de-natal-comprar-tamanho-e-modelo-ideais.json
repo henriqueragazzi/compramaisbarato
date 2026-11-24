@@ -1,0 +1,64 @@
+{
+ "titulo": "Qual árvore de Natal comprar: tamanho e modelo ideais",
+ "resposta_curta": "A melhor opção desta seleção é a Árvore de Natal Decorada Verde (120, 150 ou 180 cm), que já vem com enfeites e pisca-pisca, por R$ 109,90. Para escolher a altura, meça o espaço: 120 cm combina com cantos e apartamentos, 150 cm com salas médias e 180 cm com ambientes amplos. Os demais itens são complementos, de R$ 12,99 a R$ 69,99.",
+ "intro": "Nesta seleção há uma árvore completa; os outros produtos servem para complementar a decoração, como luzes, base e enfeites. Veja abaixo as opções por perfil e como decidir o tamanho ideal para o seu espaço.",
+ "escolhas": [
+  {
+   "id": "58221820669",
+   "rotulo": "Melhor opção completa",
+   "porque": "Árvore decorada verde disponível em 120, 150 ou 180 cm, com enfeites, pisca-pisca e estrela incluídos. Tem nota 4.9 e mais de 2.300 vendas.",
+   "ideal_para": "Quem quer montar a decoração de uma vez, escolhendo a altura pelo espaço disponível."
+  },
+  {
+   "id": "58217672387",
+   "rotulo": "Pisca-pisca com controle",
+   "porque": "Fio de fada com 8 modos de luz e controle remoto, em opções de 20 m a 50 m. Tem nota 4.9 e 1.354 vendas.",
+   "ideal_para": "Quem quer iluminar uma árvore grande ou outros cantos da casa com um único conjunto."
+  },
+  {
+   "id": "43084868685",
+   "rotulo": "Pisca-pisca econômico",
+   "porque": "Pisca de 10 m com 100 LEDs de luz branca quente e 8 funções, por R$ 19,90. Tem nota 4.9 e 1.326 vendas.",
+   "ideal_para": "Quem quer uma iluminação simples para árvores pequenas ou médias."
+  },
+  {
+   "id": "49917838751",
+   "rotulo": "Mais vendida e mais barata",
+   "porque": "Enfeite de MDF com base de 24x17 cm, por R$ 12,99. Tem nota 4.9 e mais de 15 mil vendas, mas é uma peça de mesa, não uma árvore de chão.",
+   "ideal_para": "Quem tem pouco espaço ou quer uma árvore de mesa para compor com outros enfeites."
+  },
+  {
+   "id": "41135584822",
+   "rotulo": "Acabamento para a base",
+   "porque": "Saia com tapete base vermelha de 90 cm, por R$ 31,99. Tem nota 5.0, mas vale conferir se o diâmetro combina com a sua árvore.",
+   "ideal_para": "Quem tem árvore de chão e quer acabar a base com um toque natalino."
+  }
+ ],
+ "como_escolher": [
+  "Meça o espaço antes de comprar e deixe uma faixa livre ao redor da árvore para circular com conforto.",
+  "Para ambientes pequenos, 120 cm costuma bastar; para salas maiores, prefira 150 cm ou 180 cm.",
+  "Ao escolher luzes, leve em conta a altura da árvore: fios mais longos, como os de 20 m ou 50 m, cobrem árvores maiores.",
+  "Confira se a árvore já vem com enfeites antes de comprar peças avulsas, para não duplicar itens.",
+  "Luz branca quente deixa o ambiente mais aconchegante; a branca fria tem visual mais moderno."
+ ],
+ "faq": [
+  {
+   "q": "Vale mais uma árvore de chão ou uma de mesa?",
+   "a": "A de chão ocupa mais espaço e tem mais presença na decoração. A de mesa, como a peça de MDF desta lista, é um enfeite pequeno para espaços limitados e não substitui a árvore de chão."
+  },
+  {
+   "q": "Preciso de saia para a árvore?",
+   "a": "Não é obrigatória. Ela cobre a base e dá acabamento, mas confira o diâmetro antes de comprar."
+  },
+  {
+   "q": "Quais erros comuns evitar na compra?",
+   "a": "Escolher a altura sem medir o espaço, comprar luzes curtas demais para a árvore e esquecer de checar a voltagem. Os piscas bivolt funcionam em 110 V e 220 V, mas confirme a especificação do produto antes de ligar."
+  }
+ ],
+ "descricao_meta": "Qual árvore de Natal comprar? Veja a opção completa de 120 a 180 cm e os complementos ideais para escolher o tamanho certo.",
+ "slug": "qual-arvore-de-natal-comprar-tamanho-e-modelo-ideais",
+ "pergunta": "Qual árvore de Natal comprar: tamanho e modelo ideais",
+ "nicho": "natal",
+ "escrito_em": 1795562973,
+ "criado_em": 1795562973
+}

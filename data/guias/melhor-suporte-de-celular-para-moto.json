@@ -1,0 +1,58 @@
+{
+ "titulo": "Melhor suporte de celular para moto: 4 opções por perfil e preço",
+ "resposta_curta": "Para a maioria das pessoas, o suporte com 6 imãs de R$ 28,97 (id 22395949424) é um bom equilíbrio entre preço, nota 4.9 e 1186 vendidos. Se quiser gastar menos, há opções a partir de R$ 17,88; as opções mais caras da lista ficam perto de R$ 63,87. A escolha ideal depende de como você prende o suporte e se precisa de carregamento USB.",
+ "intro": "Suportes para moto variam bastante em tipo de fixação, material e preço. Abaixo estão opções com perfis diferentes, com base em nota, número de vendas e no que cada nome descreve. Vale conferir o modelo do seu guidão antes de comprar.",
+ "escolhas": [
+  {
+   "id": "22395949424",
+   "rotulo": "Melhor custo-benefício",
+   "porque": "Suporte com 6 imãs, nota 4.9 e 1186 vendidos por R$ 28,97. Combina boa avaliação com preço intermediário.",
+   "ideal_para": "Quem quer um suporte magnético confiável sem pagar o valor dos modelos mais caros."
+  },
+  {
+   "id": "58267454324",
+   "rotulo": "Mais barato",
+   "porque": "Suporte de metal universal para guidão, nota 4.9 e 860 vendidos por R$ 17,88, o menor preço da lista.",
+   "ideal_para": "Quem usa moto ou bicicleta de forma ocasional e quer gastar pouco."
+  },
+  {
+   "id": "22497982173",
+   "rotulo": "Mais vendido",
+   "porque": "Suporte articulado de 360° para celulares de até 6.5 polegadas, à prova d'água, com 2907 vendidos por R$ 34,99. Tem a maior quantidade de vendas da lista, embora a nota seja 4.6.",
+   "ideal_para": "Quem quer um modelo muito popular e precisa de um suporte que gire e acomode celulares maiores."
+  },
+  {
+   "id": "23594547248",
+   "rotulo": "Com carregamento USB",
+   "porque": "Suporte de alumínio com carregamento USB 2.1A e sistema anti queda, nota 4.8 e 450 vendidos por R$ 39,80.",
+   "ideal_para": "Quem usa o celular como GPS por muito tempo e quer manter a bateria carregada durante o trajeto."
+  }
+ ],
+ "como_escolher": [
+  "Confira o tipo de fixação: imã para superfícies metálicas, presilha para guidão ou fixação no retrovisor. Veja se o modelo funciona com o seu guidão ou retrovisor.",
+  "Verifique o tamanho do celular. Modelos indicam medidas máximas, como 6.5 polegadas, e um celular grande pode não caber.",
+  "Dê preferência a suportes com trava ou sistema anti queda, para evitar que o aparelho caia com vibração ou buraco na pista.",
+  "Se for usar GPS, considere um modelo com carregamento USB para não depender só da bateria do celular.",
+  "Prefira modelos que não tapem os controles da moto nem a visão do painel."
+ ],
+ "faq": [
+  {
+   "q": "Suporte magnético é seguro para moto?",
+   "a": "Depende da força do imã e da superfície onde ele é colocado. Ele funciona melhor em superfícies metálicas e exige atenção, já que um imã fraco ou sujeira na base pode soltar o celular em movimento. Modelos com mais imãs costumam oferecer maior firmeza, mas isso não substitui a conferência regular de fixação."
+  },
+  {
+   "q": "Preciso de capa para usar o suporte magnético?",
+   "a": "Em geral, não é necessário com suportes magnéticos, pois o celular precisa ter contato com o imã. Algumas capas grossas ou de metal podem atrapalhar a fixação, então é bom verificar antes de comprar."
+  },
+  {
+   "q": "Como evitar que o celular supere o calor ou a chuva na moto?",
+   "a": "Evite deixar o aparelho exposto ao sol forte por longos períodos e prefira suportes que protejam o celular da água, como modelos marcados como à prova d'água. Mesmo assim, o ideal é retirar o celular quando a moto ficar estacionada."
+  }
+ ],
+ "descricao_meta": "Veja os melhores suportes de celular para moto por perfil e preço: custo-benefício, mais barato, mais vendido e com USB. Compare notas e vendas.",
+ "slug": "melhor-suporte-de-celular-para-moto",
+ "pergunta": "Melhor suporte de celular para moto",
+ "nicho": "carro",
+ "escrito_em": 1795563216,
+ "criado_em": 1795563216
+}

@@ -1,0 +1,52 @@
+{
+ "titulo": "Micro-ondas bom e barato: qual escolher",
+ "resposta_curta": "Entre os produtos disponíveis, o micro-ondas mais barato é o Britânia 20L, por R$ 449,90, com nota 4.9 e mais de 3.600 vendas. Nenhum micro-ondas da lista custa menos de R$ 400, então o \"barato\" aqui fica na faixa de R$ 450 a R$ 530. Se o orçamento permitir, o Philco 33L (R$ 529,90) oferece mais capacidade.",
+ "intro": "A lista traz apenas dois micro-ondas, ambos com preço acima de R$ 400. Os outros itens são potes, um suporte e um adaptador de tomada, que podem complementar a compra. Veja abaixo as opções e o que observar antes de decidir.",
+ "escolhas": [
+  {
+   "id": "23993933147",
+   "rotulo": "Melhor custo-benefício",
+   "porque": "É o micro-ondas de menor preço da lista, com 20 litros, nota 4.9 e mais de 3.600 vendas. O nome indica acabamento em pintura de limpeza fácil.",
+   "ideal_para": "Quem quer um micro-ondas com bom histórico de vendas e gastar o mínimo possível nesta lista."
+  },
+  {
+   "id": "58269452072",
+   "rotulo": "Mais capacidade",
+   "porque": "Tem 33 litros e acabamento inox espelhado, com nota 5.0 em 1.003 vendas. Custa cerca de R$ 80 a mais que o Britânia.",
+   "ideal_para": "Quem precisa de mais espaço interno, como para pratos maiores ou para a família."
+  },
+  {
+   "id": "58269499294",
+   "rotulo": "Acessório para marmitas",
+   "porque": "Não é um micro-ondas, mas são 10 potes de 800 ml com tampa com trava, por R$ 29,90, nota 4.9 e 6.528 vendas. O nome indica uso em micro-ondas e freezer e menciona material BPAFree.",
+   "ideal_para": "Quem vai aquecer e guardar refeições e quer um kit barato para usar junto com o micro-ondas."
+  }
+ ],
+ "como_escolher": [
+  "Confira a capacidade em litros: 20 L costuma atender a pratos individuais, e modelos maiores ajudam quando você aquece refeições para mais pessoas.",
+  "Verifique a tensão da tomada (127 V ou 220 V) e confirme se ela corresponde ao aparelho antes de comprar.",
+  "A potência em watts não aparece no nome dos produtos. Procure essa informação na descrição completa do anúncio.",
+  "Para aquecer no micro-ondas, use somente recipientes que indiquem a compatibilidade no próprio produto, e evite tampas não indicadas para isso.",
+  "Compare o preço final com frete e parcelamento, porque o valor de capa pode mudar a diferença entre as opções."
+ ],
+ "faq": [
+  {
+   "q": "Vale a pena pagar mais de R$ 400 em um micro-ondas?",
+   "a": "Na lista disponível, não há opção abaixo de R$ 400. O Britânia 20L é a alternativa de menor preço, e o Philco 33L se justifica se você precisar de mais capacidade."
+  },
+  {
+   "q": "O adaptador de tomada da lista serve para micro-ondas?",
+   "a": "O nome do produto cita micro-ondas entre os aparelhos compatíveis, mas a adequação depende da potência do seu aparelho e da tomada. Confirme no manual do micro-ondas e, se tiver dúvida, consulte um eletricista antes de usar."
+  },
+  {
+   "q": "Posso aquecer qualquer pote de vidro no micro-ondas?",
+   "a": "Não. Use somente potes que indiquem uso em micro-ondas. Os conjuntos de vidro hermético da lista citam micro-ondas no nome, mas confira também as instruções do fabricante antes de aquecer."
+  }
+ ],
+ "descricao_meta": "Micro-ondas bom e barato: veja as opções da lista, com preços, notas e o que observar antes de comprar.",
+ "slug": "micro-ondas-bom-e-barato",
+ "pergunta": "Micro-ondas bom e barato",
+ "nicho": "moveis",
+ "escrito_em": 1795563192,
+ "criado_em": 1795563192
+}

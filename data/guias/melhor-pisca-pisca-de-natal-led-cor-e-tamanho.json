@@ -1,0 +1,64 @@
+{
+ "titulo": "Melhor pisca-pisca de Natal: como escolher LED, cor e tamanho",
+ "resposta_curta": "Para a maioria das casas, a cortina de 5 m com 148 LEDs (R$ 69,99) é a escolha mais equilibrada da lista, com 9886 vendidos e nota 4.9. Se o orçamento for menor, há opções de 10 m e 2 m entre R$ 16,99 e R$ 42,99. Para áreas externas grandes, o cordão de 50 m por R$ 299,99 é o de maior tamanho.",
+ "intro": "Escolher um pisca-pisca de Natal depende do lugar onde ele vai ficar, do tamanho da área e da cor que você quer. Abaixo estão opções de perfis diferentes, com preços entre R$ 16,99 e R$ 299,99. Os critérios são nota, vendas e o que o nome do produto informa.",
+ "escolhas": [
+  {
+   "id": "58269228792",
+   "rotulo": "Melhor geral",
+   "porque": "Cortina de 5 m com 148 LEDs por R$ 69,99. Tem 9886 vendidos e nota 4.9, e o tamanho cobre bem janelas e paredes.",
+   "ideal_para": "Janelas, portas e paredes em que você quer um efeito de cortina sem sobrar muito cabo."
+  },
+  {
+   "id": "43924823754",
+   "rotulo": "Mais barato com 8 funções",
+   "porque": "Pisca-pisca de 100 LEDs e 10 m, com 8 funções, por R$ 16,99. O nome informa fio transparente e voltagem 127V.",
+   "ideal_para": "Árvore pequena ou quem quer testar o efeito gastando pouco."
+  },
+  {
+   "id": "58267468674",
+   "rotulo": "Cortina bivolt com estrela",
+   "porque": "Cortina de 3 m bivolt (110V–220V) com tema de estrela de 5 pontas, por R$ 42,99. Tem 6066 vendidos e nota 4.9.",
+   "ideal_para": "Quem precisa de um modelo que funcione em 110V ou 220V e quer um tema natalino para janela ou quintal."
+  },
+  {
+   "id": "15494293737",
+   "rotulo": "Kit para enfeitar pontos pequenos",
+   "porque": "Kit de 10 cordas de 2 m, em cores colorido ou branco quente, por R$ 25,99. Tem 5330 vendidos e nota 4.9.",
+   "ideal_para": "Árvore, guirlanda ou móveis em que você precisa de vários trechos curtos de luz."
+  },
+  {
+   "id": "44667747739",
+   "rotulo": "Maior área",
+   "porque": "Cordão de 50 m com 500 LEDs e 100 flashes, por R$ 299,99. O nome indica prova d'água e bivolt.",
+   "ideal_para": "Jardins, fachadas e áreas externas grandes que exigem muito cabo."
+  }
+ ],
+ "como_escolher": [
+  "Escolha a cor pela atmosfera: branco quente costuma dar um visual mais aconchegante, e o colorido chama mais atenção. Confira a cor no nome do produto antes de comprar.",
+  "Meça a superfície antes de comprar: janelas, árvores e fachadas pedem comprimentos diferentes. Some uma folga para curvas e emendas.",
+  "Confira a voltagem: produtos bivolt funcionam em 110V e 220V; modelos com voltagem fixa precisam combinar com a tomada da sua casa.",
+  "Para uso externo, procure a indicação de prova d'água no nome e use tomadas protegidas.",
+  "Respeite o limite de ligação indicado pelo fabricante e não emende séries além dele."
+ ],
+ "faq": [
+  {
+   "q": "Pisca-pisca de LED gasta muita energia?",
+   "a": "Em geral, o LED consome bem menos que lâmpadas incandescentes. O consumo exato depende do modelo, então confira a potência na embalagem ou na ficha do produto."
+  },
+  {
+   "q": "Posso usar pisca-pisca externo na chuva?",
+   "a": "Só se o produto indicar prova d'água ou uso externo. Mesmo assim, use tomadas protegidas e evite conexões expostas à água."
+  },
+  {
+   "q": "Qual cor escolher para a decoração?",
+   "a": "Depende do estilo. O branco quente combina com decorações clássicas, e o colorido dá um visual mais festivo. Pense no ambiente antes de decidir."
+  }
+ ],
+ "descricao_meta": "Compare pisca-piscas de Natal por LED, cor e tamanho: cortinas, cordões e kits de R$ 16,99 a R$ 299,99. Veja qual serve para janela, árvore ou jardim.",
+ "slug": "melhor-pisca-pisca-de-natal-led-cor-e-tamanho",
+ "pergunta": "Melhor pisca-pisca de Natal: LED, cor e tamanho",
+ "nicho": "natal",
+ "escrito_em": 1795562990,
+ "criado_em": 1795562990
+}

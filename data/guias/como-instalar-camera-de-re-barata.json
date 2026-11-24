@@ -1,58 +1,57 @@
 {
- "titulo": "Como instalar câmera de ré barata (guia com passo a passo)",
- "resposta_curta": "Para instalar uma câmera de ré barata, o caminho é ligar a câmera ao fio da luz de ré e levar o cabo de vídeo até o monitor ou à tela da multimídia. O destaque da faixa é a Câmera de Ré Automotiva HD 8 LEDs (R$ 27,98), com nota 4.8, e a Câmera De Ré Parking Visão Noturna (R$ 24,99), com nota 4.9. Se o orçamento for menor ainda, a Câmera de Ré Colorida Automotiva Para Estacionamento sai por R$ 19,82.",
- "intro": "Instalar uma câmera de ré é mais simples do que parece, mas depende do modelo do carro e do kit escolhido. Antes de comprar, confirme no anúncio se o kit tem o cabo de vídeo e a forma de alimentação. Os passos abaixo são gerais: siga sempre o manual do produto.",
+ "titulo": "Como instalar câmera de ré barata: guia e opções de compra",
+ "resposta_curta": "Para instalar uma câmera de ré barata, a opção mais em conta da lista é a Câmera Veicular De Ré Borboleta 8 LED Visão Noturna (id 23894138305), por R$ 33,90, com nota 4.9 e 388 vendidos. Se você quiser uma tela junto, as alternativas vão de R$ 88,99 (retrovisor com LCD) a cerca de R$ 230 (central multimídia com câmera). Confirme se o seu aparelho ou tela tem entrada de câmera de ré antes de comprar.",
+ "intro": "Instalar uma câmera de ré é mais simples do que parece, mas exige atenção à ligação elétrica e à passagem dos cabos. Abaixo estão opções de compra da lista e um passo a passo geral para você planejar a instalação.",
  "escolhas": [
   {
-   "id": "58253641022",
-   "rotulo": "Melhor custo-benefício",
-   "porque": "Tem nota 4.9, 245 vendidos e preço de R$ 24,99. O nome informa visão noturna, prova d'água e ajuste de 360 graus, o que facilita posicionar a câmera.",
-   "ideal_para": "Quem quer uma câmera simples, com boa avaliação, para instalar sozinho."
-  },
-  {
-   "id": "17617768503",
+   "id": "23894138305",
    "rotulo": "Mais barata",
-   "porque": "Custa R$ 19,82 e tem nota 4.9. É uma câmera colorida simples, indicada para o uso de estacionamento.",
-   "ideal_para": "Quem tem o orçamento mais apertado e não precisa de recursos extras."
+   "porque": "Custa R$ 33,90 e tem nota 4.9 com 388 vendidos. O nome indica modelo borboleta com 8 LEDs e visão noturna, para uso com multimídia universal.",
+   "ideal_para": "Quem já tem uma tela compatível e quer gastar pouco só com a câmera."
   },
   {
-   "id": "58251313627",
-   "rotulo": "Mais recursos de visão",
-   "porque": "Custa R$ 27,98, tem nota 4.8 e 209 vendidos. O anúncio cita HD, 8 LEDs para visão noturna e proteção à prova d'água.",
-   "ideal_para": "Quem costuma estacionar à noite ou em ambientes escuros."
+   "id": "22497893980",
+   "rotulo": "Mais vendida",
+   "porque": "Central de 7 polegadas com CarPlay, Android e câmera de ré por R$ 194,99, nota 4.8 e 1014 vendidos, o maior volume de vendas da lista.",
+   "ideal_para": "Quem quer trocar o som do carro e já sair com câmera incluída, sem comprar peças separadas."
   },
   {
-   "id": "20399843234",
-   "rotulo": "Mais vendida (com tela integrada)",
-   "porque": "Tem 636 vendidos e nota 4.9. Combina retrovisor com tela LCD e câmera de ré, então dispensa monitor separado. Custa R$ 75,00.",
-   "ideal_para": "Quem quer trocar o retrovisor e ter a imagem de ré num só equipamento."
+   "id": "23693475398",
+   "rotulo": "Retrovisor com tela",
+   "porque": "Retrovisor com tela LCD e câmera de ré por R$ 88,99, nota 4.8 e 165 vendidos. Não exige trocar o rádio do carro.",
+   "ideal_para": "Quem quer manter o rádio original e só adicionar a visualização de ré."
+  },
+  {
+   "id": "58260850770",
+   "rotulo": "Melhor avaliada com câmera",
+   "porque": "Central Multimídia 1 DIN de 7 polegadas com Bluetooth, MP5 e câmera de ré, por R$ 256,00, nota 4.9 e 128 vendidos.",
+   "ideal_para": "Quem tem painel 1 DIN e quer uma central completa com câmera pelo preço médio da lista."
   }
  ],
  "como_escolher": [
-  "Confirme se o kit inclui câmera, cabo de vídeo, cabo de alimentação e monitor (ou se a imagem vai para a tela da multimídia).",
-  "Prefira câmeras com prova d'água e visão noturna se for estacionar na chuva ou à noite.",
-  "Veja se o produto indica compatibilidade com o seu tipo de tela ou monitor antes de comprar.",
-  "Para tela própria do carro, confirme se a multimídia tem entrada de câmera de ré.",
-  "Considere o custo de instalação: se for pagar um profissional, o valor pode aumentar bastante o gasto total."
+  "Veja primeiro se o seu carro tem painel 1 DIN ou 2 DIN, pois isso define qual central cabe no painel.",
+  "Confirme se a tela ou o aparelho tem entrada de câmera de ré (geralmente um conector RCA amarelo) antes de comprar só a câmera.",
+  "Para a câmera, observe o tipo de fixação (placa, borboleta ou embutida) e se o cabo é longo o suficiente para chegar até o porta-malas ou tampa traseira.",
+  "Procure conferir a nota e o número de vendas, mas também as fotos e a descrição do produto para entender o que vem na caixa."
  ],
  "faq": [
   {
-   "q": "Preciso de habilidade elétrica para instalar uma câmera de ré?",
-   "a": "Não é obrigatório ser técnico, mas é preciso ter cuidado. Se você não se sentir seguro com fios e conexões, vale procurar uma oficina ou um instalador de acessórios automotivos."
+   "q": "Como ligar a câmera de ré ao fio de luz de ré?",
+   "a": "Em geral, o fio positivo da câmera é ligado ao fio da luz de ré do carro, que recebe energia só quando você engata a marcha. Assim a câmera liga automaticamente. Confira no manual do veículo qual fio é o da luz de ré antes de cortar ou emendar qualquer cabo."
   },
   {
-   "q": "Onde a câmera deve ficar?",
-   "a": "Normalmente ela é fixada perto da placa traseira ou da maçaneta do porta-malas, em um ponto que mostre a área atrás do carro sem ficar coberto por sujeira. Ajuste o ângulo conforme o manual do produto."
+   "q": "Preciso de ferramenta especial para instalar?",
+   "a": "Geralmente é preciso chave de fenda, alicate de crimpagem ou conectores, fita isolante, fita de vedação e um multímetro para testar os fios. Para remover painéis internos, pode ser necessário um kit de desmontagem plástica, que evita arranhar o acabamento."
   },
   {
-   "q": "Quais erros comuns devo evitar?",
-   "a": "Não deixe os fios soltos ou expostos à água e ao calor do motor, e não conecte a câmera diretamente em um fio sem conferir a polaridade e a tensão indicadas no manual. Antes de fechar os acabamentos, teste a imagem com o carro engatando a ré."
+   "q": "Quais erros comuns devo evitar na instalação?",
+   "a": "Os mais comuns são: não testar a câmera antes de fechar o painel, deixar o cabo preso ou esticado perto de partes móveis, fazer emendas sem isolamento e ligar o positivo em um fio errado. Também evite furar a carroceria sem verificar o que há atrás. Se não se sentir seguro com a parte elétrica, procure um instalador de som automotivo."
   }
  ],
- "descricao_meta": "Veja como instalar câmera de ré barata e compare modelos a partir de R$ 19,82, com dicas de escolha e cuidados na instalação.",
+ "descricao_meta": "Veja como instalar câmera de ré barata, com passo a passo geral, dicas de compatibilidade e opções de R$ 33,90 a R$ 256 para comparar.",
  "slug": "como-instalar-camera-de-re-barata",
  "pergunta": "Como instalar câmera de ré barata?",
  "nicho": "carro",
- "escrito_em": 1795558403,
+ "escrito_em": 1795563205,
  "criado_em": 1795558403
 }

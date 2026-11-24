@@ -1,0 +1,64 @@
+{
+ "titulo": "Cafeteira elétrica: qual comprar em 2025",
+ "resposta_curta": "Para uso diário com coador de pó, a Cafeteira Elétrica Programável Mallory 1,5 Litros (R$ 199,90, nota 4,9 e 606 vendidos) é a opção mais equilibrada da lista. Se você quer espresso, a Mondial Dolce Crema 20 Bar (R$ 569,99) é a faixa mais alta, e o kit Dolce Gusto Mini Me (R$ 420,94) serve a quem prefere cápsulas.",
+ "intro": "A escolha depende de como você costuma preparar o café: no coador, em cápsulas ou no espresso. Abaixo estão opções de faixas de preço diferentes, com o perfil de cada uma. Os dados são de nota, vendas e preço informados na listagem.",
+ "escolhas": [
+  {
+   "id": "22594221605",
+   "rotulo": "Melhor custo-benefício para o dia a dia",
+   "porque": "Cafeteira elétrica de 1,5 litros, programável, com nota 4,9 e 606 vendidos. Está na faixa de R$ 199,90 e é compatível com 127V/220V, segundo o nome do produto.",
+   "ideal_para": "Quem quer uma cafeteira elétrica tradicional para preparar café para a casa ou o escritório."
+  },
+  {
+   "id": "56108296641",
+   "rotulo": "Para quem quer espresso",
+   "porque": "Cafeteira espresso de 20 bar e 1200W, em inox, nota 5,0 e 213 vendidos. Custa R$ 569,99.",
+   "ideal_para": "Quem quer café tipo espresso em casa e está disposto a pagar mais por esse tipo de preparo."
+  },
+  {
+   "id": "58215949856",
+   "rotulo": "Para quem usa cápsulas",
+   "porque": "Kit com cafeteira Dolce Gusto Mini Me 2.0 e 30 cápsulas, nota 5,0 e 490 vendidos. Custa R$ 420,94.",
+   "ideal_para": "Quem prefere praticidade, com cápsulas prontas, e aceita o custo por xícara das cápsulas."
+  },
+  {
+   "id": "21497992290",
+   "rotulo": "Opção mais barata (sem eletricidade)",
+   "porque": "Cafeteira de vidro borossilicato com tampa e filtro, de 600 ml, nota 4,9 e 392 vendidos. Custa R$ 69,99. Não é elétrica, mas é uma alternativa de baixo custo para preparar café.",
+   "ideal_para": "Quem quer experimentar o café de filtro sem gastar com uma máquina elétrica."
+  },
+  {
+   "id": "22494499643",
+   "rotulo": "Acessório de manutenção",
+   "porque": "Descalcificante em embalagem de 250 ml, pronto para uso, nota 4,9 e 740 vendidos. Custa R$ 29,80 e é compatível com máquinas Philips Saeco e outras, segundo o nome.",
+   "ideal_para": "Quem tem uma cafeteira que usa água e quer fazer a manutenção periódica."
+  }
+ ],
+ "como_escolher": [
+  "Defina o tipo de café: coador de pó (cafeteira elétrica tradicional), espresso (máquina com pressão) ou cápsulas (sistema fechado).",
+  "Calcule o volume: 1,5 litros atende bem a família pequena. Para uma pessoa, modelos menores costumam bastar.",
+  "Verifique a voltagem (127V ou 220V) antes de comprar, principalmente em produtos que informam as duas opções.",
+  "Compare o custo por xícara: cápsulas costumam ser mais caras que o café em pó a longo prazo.",
+  "Considere a manutenção: máquinas que aquecem água precisam de descalcificação periódica para durar mais."
+ ],
+ "faq": [
+  {
+   "q": "Vale mais a pena uma cafeteira elétrica ou uma cafeteira espresso?",
+   "a": "Depende do seu gosto e do orçamento. A elétrica de coador costuma custar menos e faz café em volume maior. A espresso faz uma bebida mais concentrada, com preço mais alto e um preparo que exige um pouco mais de atenção."
+  },
+  {
+   "q": "Com que frequência devo descalcificar a cafeteira?",
+   "a": "Siga o manual do fabricante, que indica a periodicidade para cada modelo. Em regiões com água mais dura, a descalcificação tende a ser necessária com mais frequência."
+  },
+  {
+   "q": "Posso usar qualquer cápsula reutilizável no sistema Dolce Gusto?",
+   "a": "As cápsulas reutilizáveis são pensadas para o sistema Dolce Gusto, mas o resultado depende do pó usado e do encaixe. Confira a compatibilidade descrita na listagem antes de comprar."
+  }
+ ],
+ "descricao_meta": "Cafeteira elétrica: compare modelos de coador, espresso e cápsulas, com preços, notas e vendas. Veja qual opção faz sentido para o seu café.",
+ "slug": "cafeteira-eletrica-qual-comprar",
+ "pergunta": "Cafeteira elétrica: qual comprar",
+ "nicho": "moveis",
+ "escrito_em": 1795563178,
+ "criado_em": 1795563178
+}

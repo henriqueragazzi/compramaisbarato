@@ -1,0 +1,64 @@
+{
+ "titulo": "Como decorar a casa para o Natal gastando até R$ 60",
+ "resposta_curta": "Para decorar gastando pouco, a melhor escolha geral é o Pisca Pisca 100 LEDs de 10 metros, branco quente, por R$ 21,66, com nota 4.9 e mais de 3.700 vendas. Se o orçamento apertar, o Pisca Pisca 10m de R$ 16,90 cumpre a mesma função. Com R$ 60 você consegue iluminar a casa e ainda ter uma opção para a mesa de ceia.",
+ "intro": "Decorar para o Natal não exige gastar muito: uma boa luz em volta da árvore, janela ou varanda já muda o ambiente. Abaixo estão cinco produtos da lista, cada um para um objetivo, com preços entre R$ 16,90 e R$ 50,00. Antes de comprar, vale conferir a voltagem e o tamanho do espaço onde a luz será instalada.",
+ "escolhas": [
+  {
+   "id": "22093433759",
+   "rotulo": "Melhor geral",
+   "porque": "Pisca Pisca de 100 LEDs e 10 metros, com 8 funções e luz branco quente, por R$ 21,66. Tem nota 4.9 e mais de 3.700 vendidos.",
+   "ideal_para": "Árvore de Natal, cortinas e contornos de janelas."
+  },
+  {
+   "id": "58220901761",
+   "rotulo": "Mais barato",
+   "porque": "Pisca Pisca de 10 metros com 100 LEDs e 8 funções, por R$ 16,90, nas opções colorido ou amarelo. Também tem nota 4.9 e mais de 5.600 vendidos.",
+   "ideal_para": "Quem quer decorar com o menor gasto possível."
+  },
+  {
+   "id": "19199382343",
+   "rotulo": "Mais vendido",
+   "porque": "Cortina de luz em cascata RGB, com motivos de estrela, lua, Papai Noel e neve, por R$ 31,99. É o item com mais vendas da lista, com mais de 6.100 unidades.",
+   "ideal_para": "Sacadas, janelas e fachadas."
+  },
+  {
+   "id": "58266333994",
+   "rotulo": "Para a mesa de ceia",
+   "porque": "Toalha de mesa natalina em Oxford estampada, com modelos para 4, 6 ou 8 lugares, por R$ 44,99. Tem nota 4.9 e mais de 4.100 vendidos.",
+   "ideal_para": "Mesa de ceia de Natal com decoração temática."
+  },
+  {
+   "id": "58251737363",
+   "rotulo": "Kit maior para janelas",
+   "porque": "Kit com 2 cortinas de luz de 600 LEDs, 8 modos de piscagem ajustáveis e 10 ganchos, por R$ 50,00. Cobre mais área por um preço ainda dentro do orçamento.",
+   "ideal_para": "Cobrir janelas grandes ou paredes externas."
+  }
+ ],
+ "como_escolher": [
+  "Confira a voltagem (110V ou 220V) antes de comprar, especialmente em luzes sem indicação de bivolt.",
+  "Meça o espaço antes: 10 metros cobrem bem uma árvore média, mas janelas grandes pedem cortinas ou kits.",
+  "Prefira luz branco quente para um clima mais aconchegante e colorida para uma decoração mais alegre.",
+  "Escolha o número de funções de piscagem de acordo com o gosto: efeitos mais lentos ficam mais discretos.",
+  "Para ambientes externos, verifique se o produto informa uso externo ou proteção contra umidade."
+ ],
+ "faq": [
+  {
+   "q": "Dá para decorar a casa toda com R$ 60?",
+   "a": "Sim, com um pisca pisca de R$ 16,90 a R$ 21,66 e uma cortina de luz de cerca de R$ 32, por exemplo, você cobre dois pontos da casa. Para a mesa, a toalha de R$ 44,99 já consome quase todo o orçamento, então escolha uma das duas coisas."
+  },
+  {
+   "q": "Qual a diferença entre pisca pisca e cortina de luz?",
+   "a": "O pisca pisca é um fio de LEDs para enrolar em árvores, guirlandas e móveis. A cortina de luz é uma série de fios em formato de cascata, usada em janelas, sacadas e varandas."
+  },
+  {
+   "q": "Preciso de tomada específica para as luzes de Natal?",
+   "a": "Em geral, basta uma tomada comum compatível com a voltagem do produto. Evite ligar muitas séries em uma mesma extensão sem verificar a potência indicada e não deixe as luzes ligadas sem supervisão."
+  }
+ ],
+ "descricao_meta": "Decore a casa no Natal gastando até R$ 60: pisca pisca, cortinas de luz e toalha de mesa com preços a partir de R$ 16,90.",
+ "slug": "como-decorar-a-casa-para-o-natal-gastando-pouco",
+ "pergunta": "Como decorar a casa para o Natal gastando pouco",
+ "nicho": "natal",
+ "escrito_em": 1795563015,
+ "criado_em": 1795563015
+}
