@@ -21,6 +21,7 @@ jobs:
     outputs:
       ok: ${{ steps.check.outputs.ok }}
     env:
+      PYTHONUNBUFFERED: "1"
       SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
       SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
       LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'anthropic' }}
