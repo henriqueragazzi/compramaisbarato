@@ -17,7 +17,7 @@
     <h2 style="font-size:18px;margin:4px 0">{{ e.p.nome }}</h2>
     <p>{{ e.porque }}</p>
     <p class="meta"><b>Ideal para:</b> {{ e.ideal_para }}</p>
-    <span class="preco">{{ e.p.preco|brl }}</span>{% if e.p.preco_antigo %}<span class="antigo">{{ e.p.preco_antigo|brl }}</span>{% endif %}
+    {% if e.p.a_partir %}<span class="meta">a partir de </span>{% endif %}<span class="preco">{{ e.p.preco|brl }}</span>{% if e.p.preco_antigo %}<span class="antigo">{{ e.p.preco_antigo|brl }}</span>{% endif %}
     {% if e.p.menor_30d %} <span class="selo">Menor preço em 30 dias</span>{% endif %}<br>
     <a class="btn" href="{{ e.p.link }}" rel="sponsored nofollow noopener" target="_blank">Ver preço na Shopee →</a>{{ alerta(site, e.p) }}
   </div>

@@ -14,6 +14,7 @@ from comum import HISTORICO, PRODUTOS, agora, config, ler_json, pontuacao, salva
 from shopee import Shopee, ShopeeAPIError
 
 DIAS_PARA_EXPIRAR = 7
+DESCONTO_MAXIMO = 70
 
 
 def num(v, padrao=0.0):
@@ -25,14 +26,19 @@ def num(v, padrao=0.0):
 
 def normalizar(n, nicho, palavra):
     preco = num(n.get("priceMin") or n.get("price"))
+    preco_max = num(n.get("priceMax"))
     desconto = num(n.get("priceDiscountRate"))
-    preco_antigo = round(preco / (1 - desconto / 100), 2) if 0 < desconto < 95 else None
+    # desconto acima de 70% quase sempre é preço riscado inflado pela loja: não mostramos
+    if desconto > DESCONTO_MAXIMO:
+        desconto = 0
+    preco_antigo = round(preco / (1 - desconto / 100), 2) if 0 < desconto <= DESCONTO_MAXIMO else None
     return {
         "id": str(n["itemId"]),
         "shop_id": str(n.get("shopId", "")),
         "nome": (n.get("productName") or "").strip(),
         "loja": n.get("shopName", ""),
         "preco": round(preco, 2),
+        "a_partir": preco_max > preco * 1.05,  # tem variações mais caras (tamanho/cor)
         "preco_antigo": preco_antigo,
         "desconto": round(desconto),
         "vendas": int(num(n.get("sales"))),
@@ -47,6 +53,7 @@ def normalizar(n, nicho, palavra):
 
 
 def passa_filtro(p, f):
+    f = {**f, **f.get("por_nicho", {}).get(p["nicho"], {})}
     return (
         p["nota"] >= f["nota_minima"]
         and p["vendas"] >= f["vendas_minimas"]

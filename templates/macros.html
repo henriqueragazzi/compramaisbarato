@@ -3,7 +3,7 @@
   <img src="{{ p.imagem }}" alt="{{ p.nome }}" loading="lazy" width="300" height="300">
   <div class="in">
     <div class="nm">{{ p.nome }}</div>
-    <div><span class="preco">{{ p.preco|brl }}</span>{% if p.preco_antigo %}<span class="antigo">{{ p.preco_antigo|brl }}</span>{% endif %}</div>
+    <div>{% if p.a_partir %}<span class="meta">a partir de </span>{% endif %}<span class="preco">{{ p.preco|brl }}</span>{% if p.preco_antigo %}<span class="antigo">{{ p.preco_antigo|brl }}</span>{% endif %}</div>
     <div class="meta">⭐ {{ p.nota }} · {{ p.vendas|milhar }} vendidos</div>
     <div>{% if p.desconto >= 10 %}<span class="selo off">-{{ p.desconto }}%</span> {% endif %}{% if p.menor_30d %}<span class="selo">Menor preço em 30 dias</span>{% endif %}</div>
   </div>

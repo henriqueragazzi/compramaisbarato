@@ -17,6 +17,8 @@ filtros:
   vendas_minimas: 100
   comissao_minima: 0.03     # 3%
   max_produtos_por_nicho: 400
+  por_nicho:            # regras próprias de um nicho (sobrepõem as de cima)
+    pet: { vendas_minimas: 50, nota_minima: 4.5 }
 
 # Nichos e palavras-chave que o Caçador pesquisa na API da Shopee
 nichos:
@@ -55,6 +57,16 @@ nichos:
       - escova tira pelo pet
       - coleira gps pet
       - transportadora pet
+      - brinquedo para gato
+      - comedouro automático
+      - areia sanitária gato
+      - roupa para cachorro
+      - shampoo pet
+      - fonte bebedouro cachorro
+      - casinha para gato
+      - escada pet
+      - porta coleira guia
+      - tapete lambedor
   carro:
     nome: "Carro e moto"
     emoji: "🚗"
