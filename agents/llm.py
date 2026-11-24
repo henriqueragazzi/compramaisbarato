@@ -21,7 +21,9 @@ PADROES = {
 def gerar(sistema, usuario, max_tokens=2500):
     prov = os.environ.get("LLM_PROVIDER", "anthropic").lower()
     modelo = os.environ.get("LLM_MODEL") or PADROES[prov]
-    chave = os.environ["LLM_API_KEY"]
+    bruto = os.environ["LLM_API_KEY"]
+    achado = re.search(r"sk-ant-[A-Za-z0-9_-]{20,}", bruto)
+    chave = achado.group(0) if achado else bruto.strip()
 
     if prov == "anthropic":
         r = requests.post(
