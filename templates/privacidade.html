@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block corpo %}
+<article>
+<h1>Política de privacidade</h1>
+<p class="meta">Atualizada em {{ atualizado }}</p>
+<p>O {{ site.nome }} ({{ site.url }}) é um site e um app para o ChatGPT que indicam produtos da Shopee. Esta política vale para os dois.</p>
+<h2>O que coletamos</h2>
+<ul>
+<li><b>No site e no app do ChatGPT:</b> não pedimos cadastro, nome, e-mail, telefone ou endereço. Contamos, de forma agregada e por dia, quantas vezes o app foi usado, quantos produtos foram mostrados e quantos cliques foram para a loja, por origem (ChatGPT, site, Telegram). Esses números não identificam pessoas.</li>
+<li><b>No app do ChatGPT:</b> recebemos apenas o texto da busca (por exemplo, "fonte de água para gato") para encontrar produtos. Não guardamos esse texto nem o vinculamos a nenhuma pessoa.</li>
+<li><b>Alertas de preço no Telegram (opcional):</b> se você pedir um alerta ao nosso bot, guardamos o identificador do seu chat no Telegram e os produtos que você quer acompanhar, de forma criptografada, só para mandar o aviso. Você pode cancelar a qualquer momento com /parar, e os dados são apagados.</li>
+</ul>
+<h2>Para que usamos</h2>
+<p>Para mostrar produtos relevantes, enviar os alertas que você pediu e medir quais indicações são úteis. Não vendemos dados nem mostramos anúncios personalizados.</p>
+<h2>Com quem compartilhamos</h2>
+<p>Ao clicar em "Ver na Shopee", você vai para a Shopee, que tem a própria política de privacidade. Os links são de afiliado: a Shopee sabe que a visita veio do {{ site.nome }} para calcular a comissão. Usamos serviços de hospedagem (GitHub e Cloudflare) que processam os acessos tecnicamente.</p>
+<h2>Por quanto tempo guardamos</h2>
+<p>Contadores agregados: até 24 meses. Dados de alerta do Telegram: até você cancelar o alerta ou bloquear o bot.</p>
+<h2>Seus direitos</h2>
+<p>Você pode pedir informações ou a exclusão de dados pela página de <a href="/contato/">contato</a>, conforme a LGPD (Lei 13.709/2018).</p>
+</article>
+{% endblock %}

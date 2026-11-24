@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block corpo %}
+<article>
+<h1>Contato e suporte</h1>
+<p>Fale com a gente sobre o site, o app do {{ site.nome }} no ChatGPT ou os alertas do Telegram.</p>
+{% if site.email_contato %}<p><b>E-mail:</b> <a href="mailto:{{ site.email_contato }}">{{ site.email_contato }}</a></p>{% endif %}
+{% if site.telegram_bot %}<p><b>Telegram:</b> <a href="https://t.me/{{ site.telegram_bot }}">@{{ site.telegram_bot }}</a></p>{% endif %}
+<p>Problemas com um pedido (entrega, troca, reembolso) são resolvidos direto com a Shopee, pelo app ou site da Shopee.</p>
+<p>Respondemos em até 3 dias úteis.</p>
+</article>
+{% endblock %}

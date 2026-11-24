@@ -1,0 +1,16 @@
+# App "Compra Mais Barato" para o ChatGPT (servidor MCP) + contador de cliques.
+# Publicado automaticamente pelo GitHub Actions (.github/workflows/app.yml).
+name = "compramaisbarato-app"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+
+[vars]
+SITE_URL = "https://www.compramaisbarato.com.br"
+# Código de verificação de domínio que a OpenAI mostra no portal (é público).
+OPENAI_APPS_CHALLENGE = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "compramaisbarato"
+database_id = "PREENCHIDO_PELO_DEPLOY"

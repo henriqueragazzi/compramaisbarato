@@ -70,7 +70,7 @@ footer{margin-top:50px;background:#fff;border-top:1px solid var(--bd);padding:28
 </main>
 <footer><div class="wrap">
   <p><b>{{ site.nome }}</b> — {{ site.descricao }}</p>
-  <p>{% for k, n in nichos.items() %}<a href="/n/{{ k }}/">{{ n.nome }}</a> · {% endfor %}<a href="/guias/">Todos os guias</a> · <a href="/sobre/">Como escolhemos</a>{% if site.telegram %} · <a href="{{ site.telegram }}">Telegram</a>{% endif %}{% if site.whatsapp %} · <a href="{{ site.whatsapp }}">WhatsApp</a>{% endif %}</p>
+  <p>{% for k, n in nichos.items() %}<a href="/n/{{ k }}/">{{ n.nome }}</a> · {% endfor %}<a href="/guias/">Todos os guias</a> · <a href="/sobre/">Como escolhemos</a> · <a href="/privacidade/">Privacidade</a> · <a href="/termos/">Termos</a> · <a href="/contato/">Contato</a>{% if site.telegram %} · <a href="{{ site.telegram }}">Telegram</a>{% endif %}{% if site.whatsapp %} · <a href="{{ site.whatsapp }}">WhatsApp</a>{% endif %}</p>
   <p class="aviso">Participamos do programa de afiliados da Shopee: quando você compra por um link daqui, podemos receber uma comissão, sem custo extra para você. Preços e disponibilidade podem mudar; o valor válido é o da loja no momento da compra.</p>
   <p class="aviso">© {{ ano }} {{ site.nome }}</p>
 </div></footer>

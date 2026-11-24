@@ -76,6 +76,8 @@ def rodar(indexnow=False):
 
     env = Environment(loader=FileSystemLoader(RAIZ / "templates"), autoescape=select_autoescape(["html"]))
     env.filters.update(brl=brl, milhar=milhar)
+    app_url = (site.get("app_url") or "").rstrip("/")
+    env.globals["compra"] = lambda p, origem="site": f"{app_url}/ir/{p['id']}?o={origem}" if app_url else p["link"]
     agora_ts = int(datetime.now(timezone.utc).timestamp())
     hoje = datetime.now(BRT)
     base = dict(site=site, nichos=nichos, filtros=cfg["filtros"], ano=hoje.year, jsonld=[], imagem=None,
@@ -129,6 +131,9 @@ def rodar(indexnow=False):
 
     render("sobre.html", "/sobre/", titulo=f"Como escolhemos os produtos | {site['nome']}",
            descricao=f"Critérios do {site['nome']} para escolher produtos e como o site ganha dinheiro.")
+    for cam, tpl, tit in [("/privacidade/", "privacidade.html", "Política de privacidade"),
+                          ("/termos/", "termos.html", "Termos de uso"), ("/contato/", "contato.html", "Contato e suporte")]:
+        render(tpl, cam, titulo=f"{tit} | {site['nome']}", descricao=f"{tit} do {site['nome']}.", atualizado=data_br(agora_ts))
     render("busca.html", "/busca/", titulo=f"Buscar | {site['nome']}", descricao="Busque produtos e guias.")
     urls.pop()  # página de busca fora do sitemap
 
@@ -208,6 +213,20 @@ def rodar(indexnow=False):
         "g": [{"s": g["slug"], "t": g["titulo"], "q": g["pergunta"], "r": g["resposta_curta"][:120]} for g in guias_ok],
         "p": [{"s": p["slug"], "n": p["nome"], "k": " ".join(p.get("palavras", [])), "pr": p["preco"], "nt": p["nota"],
                "v": p["vendas"], "i": p["imagem"], "sc": p["score"]} for p in todos],
+    }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    # catálogo para o app do ChatGPT (lido pelo servidor em app/)
+    (DIST / "api").mkdir(exist_ok=True)
+    (DIST / "api" / "catalogo.json").write_text(json.dumps({
+        "gerado_em": agora_ts,
+        "nichos": {k: {"nome": n["nome"]} for k, n in nichos.items()},
+        "produtos": [{"id": p["id"], "nome": p["nome"], "preco": p["preco"], "a_partir": bool(p.get("a_partir")),
+                      "nota": p["nota"], "vendas": p["vendas"], "imagem": p["imagem"], "nicho": p["nicho"],
+                      "slug": p["slug"], "link": p["link"], "palavras": " ".join(p.get("palavras", [])),
+                      "score": p["score"]} for p in todos],
+        "guias": [{"slug": g["slug"], "titulo": g["titulo"], "pergunta": g["pergunta"], "nicho": g["nicho"],
+                   "resposta_curta": g["resposta_curta"],
+                   "escolhas": [{"id": e["id"], "rotulo": e.get("rotulo", "")} for e in g["_escolhas"]]} for g in guias_ok],
     }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     # 404
