@@ -3,7 +3,7 @@
 # ============================================================
 site:
   nome: "Compra Mais Barato"
-  url: "https://henriqueragazzi.github.io/compramaisbarato"   # provisório; troque por https://www.compramaisbarato.com.br quando o domínio estiver registrado
+  url: "https://www.compramaisbarato.com.br"   # sem barra no fim
   slogan: "Diga o que você precisa e a gente acha o melhor preço"
   descricao: "Guias de compra e ofertas da Shopee para casa, pet, carro e presentes, com preço atualizado várias vezes ao dia."
   telegram: "https://t.me/comprarmaisbarato"   # link do CANAL de ofertas
