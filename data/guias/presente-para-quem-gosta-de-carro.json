@@ -1,0 +1,68 @@
+{
+ "titulo": "Presente para quem gosta de carro até R$ 150",
+ "resposta_curta": "Para quem gosta de carro, um mini compressor de ar sem fio é um presente útil e bem avaliado: o Mini Compressor de Ar Sem Fio 4000mAh sai por R$ 79,98 e tem nota 4.9. Se quiser gastar menos, há suportes de celular e kits de limpeza entre R$ 12,49 e R$ 26,90, todos com nota acima de 4.8. Assim dá para escolher entre um presente de maior valor ou várias opções de baixo custo.",
+ "intro": "Quem gosta de carro costuma valorizar acessórios práticos para o dia a dia, como algo para calibrar pneus, manter o celular firme no painel ou deixar o carro limpo. Abaixo estão cinco opções dentro de R$ 150, escolhidas por faixa de preço e perfil de uso, com base na nota dos vendedores, no número de vendas e no que cada nome descreve.",
+ "escolhas": [
+  {
+   "id": "23297742238",
+   "rotulo": "Melhor presente de uso prático",
+   "porque": "Mini compressor sem fio de 4000mAh, com indicação de inflador digital LED automático. Tem nota 4.9 e 1693 vendidos, e R$ 79,98 cabe no orçamento.",
+   "ideal_para": "Quem quer um presente útil para calibrar pneus de carro, moto ou bike sem depender de tomada."
+  },
+  {
+   "id": "19499545730",
+   "rotulo": "Alternativa recarregável por USB",
+   "porque": "Mini compressor portátil recarregável por USB, com calibragem digital e modo automático. Tem nota 4.9 e custa R$ 65,99.",
+   "ideal_para": "Quem quer um compressor mais barato que o sem fio de 4000mAh, mantendo o uso prático."
+  },
+  {
+   "id": "22993693932",
+   "rotulo": "Mais vendido",
+   "porque": "Suporte de celular universal com trava automática e rotação de 360°. É o item com mais vendas da lista (4083 unidades), tem nota 4.8 e custa R$ 21,99.",
+   "ideal_para": "Quem usa GPS ou celular no carro e quer um presente barato e bem vendido."
+  },
+  {
+   "id": "19797416287",
+   "rotulo": "Mais barato",
+   "porque": "Suporte de celular e GPS com fixação na saída do ar-condicionado e grampo ajustável de 360°. Tem nota 4.9 e custa R$ 12,49.",
+   "ideal_para": "Quem quer um mimo de baixo custo para completar o presente."
+  },
+  {
+   "id": "22793412477",
+   "rotulo": "Kit de limpeza automotiva",
+   "porque": "Kit com flanela de microfibra 30x40cm, luva e 5 pincéis para detalhamento. Tem nota 4.9 e custa R$ 26,90.",
+   "ideal_para": "Quem gosta de lavar e cuidar da aparência do carro."
+  }
+ ],
+ "como_escolher": [
+  "Antes de comprar, veja se a pessoa já tem o acessório. Um suporte de celular, por exemplo, pode ser repetido à toa se ela já usa um modelo que gosta.",
+  "Para compressores, confira a voltagem e a forma de carregamento (bateria recarregável por USB ou ligação no acendedor de cigarro). Isso evita surpresas na hora de usar.",
+  "Suportes de celular de ventosa funcionam melhor em superfícies lisas e limpas. Já os de grampo na saída do ar-condicionado dependem do formato da grade de ventilação do carro.",
+  "Em kits de limpeza, a microfibra de maior gramatura costuma absorver mais água e deixar menos marcas. Vale verificar as medidas e o que vem no kit antes de comprar.",
+  "Se o presente for para alguém que nunca comprou acessórios de carro, um kit de limpeza ou um compressor costuma ser mais útil do que um item de decoração."
+ ],
+ "faq": [
+  {
+   "q": "Qual é o presente mais útil para quem gosta de carro até R$ 150?",
+   "a": "Depende do uso. Um mini compressor de ar é prático para calibrar pneus, e um kit de limpeza serve para quem gosta de cuidar do carro. Os dois ficam dentro do orçamento."
+  },
+  {
+   "q": "Vale mais a pena comprar um compressor com bateria ou um ligado no carro?",
+   "a": "O recarregável por USB ou com bateria é mais flexível, porque funciona sem estar ligado ao carro. O ligado no acendedor depende do veículo ter essa tomada e de o motor estar em funcionamento."
+  },
+  {
+   "q": "Posso dar um suporte de celular como presente?",
+   "a": "Sim, mas confirme antes qual tipo de suporte a pessoa prefere. Há modelos de ventosa, de grampo no ar-condicionado e magnéticos, e cada um se adapta a um tipo de painel."
+  },
+  {
+   "q": "Como saber se o presente foi bem avaliado?",
+   "a": "Verifique a nota e o número de vendas na página do produto. As opções desta lista têm nota entre 4.7 e 4.9, o que indica boa aceitação, mas vale ler os comentários recentes."
+  }
+ ],
+ "descricao_meta": "Presentes para quem gosta de carro até R$ 150: compressor de ar, suportes de celular e kits de limpeza automotiva, com nota e preço.",
+ "slug": "presente-para-quem-gosta-de-carro",
+ "pergunta": "Presente para quem gosta de carro",
+ "nicho": "carro",
+ "escrito_em": 1795546664,
+ "criado_em": 1795546664
+}
