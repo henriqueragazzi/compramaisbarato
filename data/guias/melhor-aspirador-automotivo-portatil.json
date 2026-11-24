@@ -1,0 +1,58 @@
+{
+ "titulo": "Melhor aspirador automotivo portátil: 4 opções para cada perfil",
+ "resposta_curta": "Pelas avaliações e vendas da lista, o Mini Aspirador de Pó Portátil Automotivo Casa Sem Fio 3 em 1 (id 22791523448) é a escolha mais equilibrada, com nota 4.6, 7300 vendidos e preço de R$ 20,99. Se você quer a maior nota disponível, o aspirador e soprador 5 em 1 (id 19198324514, nota 4.7) custa R$ 38,23. A faixa geral da lista vai de R$ 20,99 a R$ 38,23.",
+ "intro": "Aspiradores portáteis para carro costumam ser parecidos entre si, e muitos anúncios usam nomes quase idênticos. Por isso, vale comparar nota, número de vendas e o que o produto oferece além da aspiração. Abaixo estão opções para perfis diferentes.",
+ "escolhas": [
+  {
+   "id": "22791523448",
+   "rotulo": "Mais barato e mais vendido da lista",
+   "porque": "Tem o menor preço da lista (R$ 20,99), nota 4.6 e 7300 vendidos, o maior volume de vendas entre os itens comparados. É uma opção de entrada com boa aceitação.",
+   "ideal_para": "Quem quer gastar pouco em um aspirador simples para o carro ou uso ocasional em casa."
+  },
+  {
+   "id": "23298660358",
+   "rotulo": "Melhor custo-benefício",
+   "porque": "Por R$ 24,88, tem nota 4.6, 4311 vendidos e o nome indica 3 em 1, recarregável e 6000Pa. Fica numa faixa de preço intermediária.",
+   "ideal_para": "Quem quer um equilíbrio entre preço e recursos anunciados para uso no carro e em casa."
+  },
+  {
+   "id": "19198324514",
+   "rotulo": "Melhor avaliação",
+   "porque": "É o item com maior nota da lista (4.7). Além de aspirar, o nome indica função de soprador, em modelo 5 em 1 para automotivo e casa. Custa R$ 38,23, o valor mais alto entre as opções.",
+   "ideal_para": "Quem prefere pagar mais por uma nota maior e por mais funções, como soprar poeira em frestas."
+  },
+  {
+   "id": "22499404692",
+   "rotulo": "Maior desconto no anúncio",
+   "porque": "Aparece com 68% de desconto e preço de R$ 21,80, nota 4.6. O número de vendas é menor (635), então a recomendação depende mais do preço do que do histórico de compras.",
+   "ideal_para": "Quem já pesquisou e aceita um anúncio com menos vendas em troca de um preço menor."
+  }
+ ],
+ "como_escolher": [
+  "Confira a voltagem e o tipo de carregamento. Os nomes dizem \"recarregável\" e \"sem fio\", mas vale ver no anúncio se o carregador vem incluso e como é feito (USB ou tomada).",
+  "Compare a nota e o número de vendas juntos. Uma nota alta com muitas vendas indica mais histórico de compras, mas não substitui a leitura dos comentários recentes.",
+  "Veja se a função de soprador é necessária. Modelos 3 em 1 ou 5 em 1 servem para aspirar, e alguns também sopram, o que ajuda a tirar poeira de frestas, mas pode não ser útil para todo mundo.",
+  "Considere o uso. Para tapetes e estofados do carro, um bocal estreito e uma escova facilitam a limpeza. Para casa, verifique se os acessórios incluídos cobrem o que você precisa.",
+  "Não decida só pelo maior desconto. Um preço baixo ajuda, mas um produto com nota um pouco menor e boa quantidade de vendas pode ser mais confiável."
+ ],
+ "faq": [
+  {
+   "q": "Vale a pena um aspirador portátil para carro?",
+   "a": "Sim, para retirar farelos, pó e sujeira leve do banco e do porta-malas. Para sujeira mais pesada ou tapetes muito sujos, um aspirador com mais potência e tomada elétrica pode render mais."
+  },
+  {
+   "q": "Preciso de um modelo com soprador?",
+   "a": "Não é obrigatório. O soprador ajuda a remover poeira de frestas, grades e teclados, mas quem quer apenas aspirar o carro pode escolher um modelo mais simples e mais barato."
+  },
+  {
+   "q": "Como cuidar do aspirador para ele durar mais?",
+   "a": "Esvazie o reservatório após cada uso, limpe o filtro conforme as instruções do fabricante e carregue a bateria com o carregador indicado. Evite deixar o aparelho descarregado por longos períodos."
+  }
+ ],
+ "descricao_meta": "Comparativo de aspiradores automotivos portáteis sem fio: opções de R$ 20,99 a R$ 38,23 com notas, vendas e dicas para escolher o melhor para você.",
+ "slug": "melhor-aspirador-automotivo-portatil",
+ "pergunta": "Melhor aspirador automotivo portátil",
+ "nicho": "carro",
+ "escrito_em": 1795558370,
+ "criado_em": 1795558370
+}

@@ -1,0 +1,64 @@
+{
+ "titulo": "Peitoral ou coleira para passear com cachorro: qual escolher?",
+ "resposta_curta": "Para passear, o peitoral costuma ser a opção mais indicada, porque distribui a força pelo tórax em vez de concentrá-la no pescoço, o que ajuda especialmente em cães que puxam. Entre os produtos da lista, o mais vendido e também o de menor preço é a Coleira Peitoral e Guia Tipo Colete (ID 23592921540), por R$ 13,59, com nota 4,9. As faixas vão de R$ 13,59 a R$ 29,90.",
+ "intro": "A escolha entre peitoral e coleira depende do tamanho do cão, do jeito de andar e de quanto ele costuma puxar. Abaixo estão opções da lista para perfis diferentes, com base em nota, vendas, preço e no que cada nome descreve.",
+ "escolhas": [
+  {
+   "id": "23592921540",
+   "rotulo": "Mais vendido e mais barato",
+   "porque": "Conjunto de guia com colete para pets pequenos e médios, com 3.634 vendidos, nota 4,9 e preço de R$ 13,59 na lista.",
+   "ideal_para": "Quem quer um kit simples e barato para cães de porte pequeno a médio."
+  },
+  {
+   "id": "58219678485",
+   "rotulo": "Melhor custo-benefício para puxão",
+   "porque": "O nome indica colete confortável, material respirável e característica anti puxão, com guia incluída, por R$ 15,99 e 3.018 vendidos.",
+   "ideal_para": "Tutores de cães que puxam na guia durante o passeio."
+  },
+  {
+   "id": "14796214327",
+   "rotulo": "Com sistema amortecedor",
+   "porque": "Traz sistema amortecedor de impacto e regulagem, além de guia, por R$ 14,74. A nota é 4,8, um pouco abaixo das demais.",
+   "ideal_para": "Quem quer um item extra de conforto na guia e aceita uma nota ligeiramente menor."
+  },
+  {
+   "id": "58206605624",
+   "rotulo": "Kit ajustável com guia de nylon",
+   "porque": "Conjunto de peitoral com guia de nylon ajustável para passeio, com 1.346 vendidos, nota 4,9 e preço de R$ 19,74.",
+   "ideal_para": "Quem busca um kit resistente de nylon com ajuste para diferentes tamanhos."
+  },
+  {
+   "id": "21399199444",
+   "rotulo": "Modelo em H com estampas",
+   "porque": "Peitoral com formato em H, regulável e disponível em várias estampas, com nota 4,9, por R$ 29,90. Não é indicado que a guia esteja incluída.",
+   "ideal_para": "Quem prioriza estilo e aparência e pode comprar a guia à parte."
+  }
+ ],
+ "como_escolher": [
+  "Prefira peitoral se o cão puxa muito ou tem pescoço sensível, pois a pressão fica distribuída pelo tórax.",
+  "Use coleira com cães calmos e bem treinados, que andam ao lado do tutor sem puxar.",
+  "Meça o pescoço e o tórax do cão antes de comprar e confira se o produto é regulável para o seu tamanho.",
+  "Verifique se a guia já vem incluída, porque alguns anúncios vendem só o peitoral ou só a coleira.",
+  "Escolha materiais que você consiga limpar com facilidade, já que o item encosta no corpo do cão todos os dias."
+ ],
+ "faq": [
+  {
+   "q": "Coleira pode causar problema no pescoço do cachorro?",
+   "a": "Em cães que puxam com força, a coleira concentra a pressão na região do pescoço. Por isso, muitos tutores preferem peitoral nos passeios, e a escolha deve considerar o comportamento do animal."
+  },
+  {
+   "q": "Como saber se o peitoral está do tamanho certo?",
+   "a": "Ele deve encaixar com firmeza, mas sem apertar, e você deve conseguir passar poucos dedos entre o peitoral e o corpo do cão. Confira também se as regulagens permitem ajuste conforme o cão cresce ou muda de peso."
+  },
+  {
+   "q": "Preciso trocar o peitoral com frequência?",
+   "a": "Verifique periodicamente costuras, fivelas e argolas. Se houver desgaste, folga ou peças soltas, substitua o item para manter a segurança durante o passeio."
+  }
+ ],
+ "descricao_meta": "Peitoral ou coleira para passear com cachorro? Veja as diferenças, como escolher o tamanho certo e opções com preços de R$ 13,59 a R$ 29,90.",
+ "slug": "peitoral-ou-coleira-qual-o-melhor-para-passear-com-cachorro",
+ "pergunta": "Peitoral ou coleira: qual o melhor para passear com cachorro?",
+ "nicho": "pet",
+ "escrito_em": 1795558303,
+ "criado_em": 1795558303
+}

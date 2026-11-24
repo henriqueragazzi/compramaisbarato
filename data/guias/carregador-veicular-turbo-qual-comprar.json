@@ -1,0 +1,64 @@
+{
+ "titulo": "Carregador veicular turbo: qual comprar em 2025",
+ "resposta_curta": "Para a maioria das pessoas, o Carregador Veicular Turbo 87.5W USB-C USB-A (id 58252016104), por R$ 38,39, é a opção mais completa da lista, com duas portas e nota 4.9. Se o orçamento é menor, o modelo com 3 USB e QC3.0 (id 22499533305) sai por R$ 12,50 e é o mais vendido entre os listados. Os preços desta lista vão de R$ 12,50 a R$ 38,39.",
+ "intro": "Carregadores veiculares turbo variam bastante em potência, tipo de porta e preço. Abaixo estão cinco opções da lista, cada uma para um tipo de necessidade. As informações vêm do nome do produto, da nota e do número de vendas.",
+ "escolhas": [
+  {
+   "id": "58252016104",
+   "rotulo": "Melhor geral",
+   "porque": "Traz 87.5W com portas USB-C e USB-A, o que permite carregar dois aparelhos ao mesmo tempo. O nome indica acabamento em metal aeronáutico e a nota é 4.9 com 2.178 vendidos.",
+   "ideal_para": "Quem quer uma opção completa para carregar celular e outro dispositivo com um único carregador."
+  },
+  {
+   "id": "22499533305",
+   "rotulo": "Mais barato e mais vendido",
+   "porque": "Tem três portas USB e uma QC3.0 por R$ 12,50, o menor preço da lista. É também o produto com mais vendas (4.501) e nota 4.9.",
+   "ideal_para": "Quem busca um carregador simples e barato para o carro, com várias portas."
+  },
+  {
+   "id": "58207551093",
+   "rotulo": "Com cabos inclusos",
+   "porque": "Vem com cabo Lightning e cabo Tipo-C, e tem potência de 60W com portas USB e Tipo-C. Custa R$ 24,99 e tem nota 4.9.",
+   "ideal_para": "Quem tem iPhone ou Android e não quer comprar cabos à parte."
+  },
+  {
+   "id": "23197767167",
+   "rotulo": "Com tela digital",
+   "porque": "Tem potência de 38W, tela digital LED para acompanhar a carga e porta USB. Custa R$ 19,99 e tem nota 4.8.",
+   "ideal_para": "Quem gosta de acompanhar a tensão ou a corrente de carga no painel."
+  },
+  {
+   "id": "58270812614",
+   "rotulo": "Com suporte para celular",
+   "porque": "Combina carregador turbo com suporte de celular que gira 360°, pensado para deixar o aparelho visível durante o uso. Custa R$ 35,99 e tem nota 4.9.",
+   "ideal_para": "Quem usa o celular como GPS dentro do carro e quer deixá-lo fixo."
+  }
+ ],
+ "como_escolher": [
+  "Confira a potência (em W) e o tipo de porta: USB-C costuma ser usado por celulares mais novos, e USB-A por aparelhos mais antigos ou acessórios.",
+  "Veja se o carregador tem mais de uma porta se você precisa carregar dois dispositivos ao mesmo tempo.",
+  "Verifique se o cabo já vem incluso ou se você precisa de um cabo compatível com seu aparelho (Lightning para iPhone, USB-C para Android etc.).",
+  "Considere a tomada do carro: confirme se o produto indica compatibilidade com 12V/24V, caso o veículo seja diferente do padrão comum.",
+  "Compare nota e número de vendas, mas leve em conta que a avaliação não garante desempenho específico; leia comentários recentes antes de decidir."
+ ],
+ "faq": [
+  {
+   "q": "Carregador turbo estraga a bateria do celular?",
+   "a": "Um carregador compatível com o aparelho segue o padrão de carga que ele aceita. O uso de cabos de baixa qualidade e o aquecimento excessivo são fatores que merecem atenção no dia a dia."
+  },
+  {
+   "q": "Preciso de um carregador com mais watts?",
+   "a": "Depende do aparelho. Celulares carregam apenas até a potência que suportam, então um carregador de alta potência não fará o celular carregar mais rápido do que ele permite. Para tablets e notebooks, potência maior costuma ser necessária."
+  },
+  {
+   "q": "Vale a pena pagar mais por um carregador veicular?",
+   "a": "Nem sempre. Modelos mais baratos podem atender bem quem usa o celular de forma simples. Pague mais quando precisa de duas portas, cabos inclusos, tela ou acabamento específico."
+  }
+ ],
+ "descricao_meta": "Carregador veicular turbo: compare opções de R$ 12,50 a R$ 38,39 com portas USB-C, cabos inclusos e tela digital. Veja qual vale a pena comprar.",
+ "slug": "carregador-veicular-turbo-qual-comprar",
+ "pergunta": "Carregador veicular turbo: qual comprar?",
+ "nicho": "carro",
+ "escrito_em": 1795558381,
+ "criado_em": 1795558381
+}

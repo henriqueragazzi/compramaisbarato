@@ -1,0 +1,63 @@
+{
+ "titulo": "Compressor de ar portátil para pneu vale a pena? Guia de compra",
+ "resposta_curta": "Vale a pena para quem quer calibrar pneus em casa ou levar um equipamento no carro para emergências. O mais vendido da lista é o Mini Compressor de Ar Portátil Recarregável Digital USB, por R$ 62,99, com nota 4.9 e 15.899 vendidos. Os modelos para pneu da lista ficam entre R$ 59,55 e R$ 179,99.",
+ "intro": "Um compressor portátil ajuda a manter a pressão dos pneus sem depender de posto de combustível. Os modelos abaixo são voltados a carro, moto e bicicleta, com preços e notas da lista disponível. Veja o perfil de cada um antes de decidir.",
+ "escolhas": [
+  {
+   "id": "18199657078",
+   "rotulo": "Mais vendido",
+   "porque": "Tem o maior número de vendas da lista (15.899) e nota 4.9, por R$ 62,99. É um modelo recarregável por USB com calibrador digital.",
+   "ideal_para": "Quem quer um equipamento popular para calibrar pneus de carro ou moto em casa."
+  },
+  {
+   "id": "22393243510",
+   "rotulo": "Mais barato para pneu",
+   "porque": "É o de menor preço entre os modelos para pneu da lista, R$ 59,55, com nota 4.9 e 2.145 vendidos. Inclui lanterna LED.",
+   "ideal_para": "Quem quer gastar pouco e ainda ter uma lanterna para usar no carro."
+  },
+  {
+   "id": "58200560185",
+   "rotulo": "Com power bank",
+   "porque": "Traz a função de power bank, por R$ 74,05, com nota 4.9 e 1.106 vendidos. Serve para o inflador e também para carregar outros dispositivos.",
+   "ideal_para": "Quem quer um item útil também para carregar o celular na estrada."
+  },
+  {
+   "id": "23297742238",
+   "rotulo": "Sem fio com LED automático",
+   "porque": "Tem bateria de 4000mAh e indicação digital com LED, por R$ 79,98, com nota 4.9 e 1.743 vendidos.",
+   "ideal_para": "Quem prefere um inflador sem fio com leitura digital para carro, moto ou bicicleta."
+  },
+  {
+   "id": "58257139840",
+   "rotulo": "Kit completo",
+   "porque": "Reúne compressor, auxiliar de partida, power bank e lanterna LED em um só aparelho, por R$ 178,99, com nota 4.9 e 2.750 vendidos.",
+   "ideal_para": "Quem quer um kit de emergência para o carro e aceita pagar mais por várias funções."
+  }
+ ],
+ "como_escolher": [
+  "Confira a pressão recomendada no manual do veículo ou na etiqueta na porta do motorista, e veja se o aparelho consegue atingir esse valor.",
+  "Prefira modelos com calibrador digital, que mostram a pressão em números e facilitam o ajuste.",
+  "Verifique a bateria: modelos recarregáveis por USB dependem de carga, então deixe o aparelho carregado antes de viajar.",
+  "Considere o uso: para calibragens ocasionais em casa, um modelo simples basta; para emergências na estrada, vale um kit com lanterna e power bank."
+ ],
+ "faq": [
+  {
+   "q": "Compressor portátil substitui o compressor de posto?",
+   "a": "Para calibragens de manutenção, geralmente sim, porque a pressão pode ser ajustada com calma. Para encher um pneu muito vazio, ele pode demorar mais e exigir pausas para o aparelho esfriar."
+  },
+  {
+   "q": "Como usar o compressor sem errar a calibragem?",
+   "a": "Defina a pressão no visor digital antes de ligar, conecte o bico na válvula com firmeza e confira a medição com um calibrador à parte se tiver dúvida. Pneus frios dão a leitura mais precisa."
+  },
+  {
+   "q": "Vale a pena para bicicleta?",
+   "a": "Depende do modelo. Alguns aparelhos da lista citam bicicleta na descrição, mas confirme o tipo de bico (Presta, Schrader ou Dunlop) e a faixa de pressão antes de comprar."
+  }
+ ],
+ "descricao_meta": "Compressor de ar portátil para pneu vale a pena? Veja modelos de R$ 59,55 a R$ 179,99, com dicas para escolher o ideal.",
+ "slug": "compressor-de-ar-portatil-para-pneu-vale-a-pena",
+ "pergunta": "Compressor de ar portátil para pneu vale a pena?",
+ "nicho": "carro",
+ "escrito_em": 1795558392,
+ "criado_em": 1795558392
+}

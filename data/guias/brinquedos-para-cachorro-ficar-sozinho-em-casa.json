@@ -1,0 +1,57 @@
+{
+ "titulo": "Brinquedos para cachorro ficar sozinho em casa: opções e como escolher",
+ "resposta_curta": "Para o cachorro ficar sozinho, a melhor escolha geral da lista é o brinquedo de mastigação para cães com sabor bacon, por R$ 21,99 e nota 4,9. Se o orçamento for menor, a bola interativa automática recarregável por USB (R$ 11,88) é a opção de entrada e também a mais vendida da lista. Os preços das opções ficam entre R$ 11,88 e R$ 21,99.",
+ "intro": "Cachorro sozinho pode se entediar, e brinquedos ajudam a ocupar o tempo. As opções abaixo têm perfis de uso diferentes, mas nenhum substitui companhia, passeios ou treino. Considere nota, vendas e preço, e lembre que pelúcias e peças pequenas pedem supervisão.",
+ "escolhas": [
+  {
+   "id": "23494350892",
+   "rotulo": "Melhor geral",
+   "porque": "Brinquedo de mastigação com sabor bacon, que o nome indica para limpeza dental e remoção de tártaro. Tem nota 4,9, 612 vendidos e custa R$ 21,99.",
+   "ideal_para": "Cães que gostam de roer e precisam de algo para ocupar o tempo por mais tempo."
+  },
+  {
+   "id": "58254297432",
+   "rotulo": "Mais vendido e mais barato",
+   "porque": "Bola interativa automática recarregável por USB, com nota 4,8 e 2525 vendidos, por R$ 11,88. O nome indica uso com cães e gatos.",
+   "ideal_para": "Quem quer a opção de menor preço com alta aceitação de compra."
+  },
+  {
+   "id": "44178838862",
+   "rotulo": "Movimento automático",
+   "porque": "Bola inteligente recarregável por USB que, segundo o nome, corre sozinha e alivia o tédio. Tem nota 4,8, 498 vendidos e custa R$ 19,90.",
+   "ideal_para": "Cães que se interessam por brinquedos em movimento e se entediam rápido."
+  },
+  {
+   "id": "23230411364",
+   "rotulo": "Pelúcia com apito",
+   "porque": "Macaco de pelúcia mordedor com apito e olhos bordados, com nota 4,9 e 587 vendidos, por R$ 18,99. Como toda pelúcia, convém checar costuras e partes soltas com frequência.",
+   "ideal_para": "Cães que gostam de carregar e morder pelúcia, desde que não destruam brinquedos rapidamente."
+  }
+ ],
+ "como_escolher": [
+  "Tamanho e força: escolha um brinquedo que o cachorro não consiga engolir inteiro e que aguente a mordida dele.",
+  "Peças soltas: olhos, apitos e enchimentos podem ser ingeridos, então prefira brinquedos sem partes pequenas soltas.",
+  "Tempo de interesse: brinquedos de mastigação costumam prolongar a atividade, enquanto os de movimento automático podem cansar o cachorro mais cedo.",
+  "Bateria e carregador: brinquedos recarregáveis devem ficar longe do alcance de cães que roem."
+ ],
+ "faq": [
+  {
+   "q": "Posso deixar o cachorro sozinho com brinquedo elétrico?",
+   "a": "Brinquedos eletrônicos pedem cuidado, porque um cachorro que mastiga pode ter contato com a bateria ou com peças soltas. Deixe-os apenas quando ele já lida bem com o objeto e mantenha o carregador fora do alcance."
+  },
+  {
+   "q": "Quantos brinquedos devo oferecer de uma vez?",
+   "a": "Em geral, dois ou três em rodízio mantêm o interesse melhor do que deixar todos disponíveis ao mesmo tempo. Trocar os brinquedos a cada um ou dois dias ajuda a manter a novidade."
+  },
+  {
+   "q": "Brinquedo resolve a ansiedade de separação?",
+   "a": "Não. Brinquedos ajudam a distrair, mas não substituem treino nem companhia. Se o cachorro late sem parar, destrói tudo ou se machuca ao ficar sozinho, procure um médico veterinário ou um treinador de comportamento."
+  }
+ ],
+ "descricao_meta": "Brinquedos para cachorro ficar sozinho em casa: opções de mastigação, bola automática e pelúcia, com preços de R$ 11,88 a R$ 21,99 e dicas de segurança.",
+ "slug": "brinquedos-para-cachorro-ficar-sozinho-em-casa",
+ "pergunta": "Brinquedos para cachorro ficar sozinho em casa",
+ "nicho": "pet",
+ "escrito_em": 1795558321,
+ "criado_em": 1795558321
+}

@@ -1,0 +1,58 @@
+{
+ "titulo": "Melhor lâmpada LED para farol: como escolher e quais comprar",
+ "resposta_curta": "Para a maioria dos carros, o Kit 2 Lâmpadas Led H4 6500K (R$ 49,86, nota 4.9, 2.635 vendidos) é a escolha mais equilibrada. Se o orçamento for menor, o Par Lâmpada C6 Super Led 6000K sai por R$ 21,99. Opções com mais lumens na descrição ficam entre R$ 106 e R$ 130.",
+ "intro": "A melhor lâmpada depende do modelo do seu farol, principalmente da base (H1, H4, H7, H11 etc.). Abaixo estão opções com boa avaliação e preços diferentes, para você comparar com o que cabe no seu veículo. Os dados são de nota, vendas e preço informados na listagem.",
+ "escolhas": [
+  {
+   "id": "46816447833",
+   "rotulo": "Melhor custo-benefício",
+   "porque": "Kit com 2 lâmpadas H4 para farol alto e baixo, 6500K, nota 4.9 e 2.635 vendidos. Preço de R$ 49,86 facilita a compra.",
+   "ideal_para": "Quem quer uma troca simples do farol original sem gastar muito."
+  },
+  {
+   "id": "22595894408",
+   "rotulo": "Mais barato",
+   "porque": "Par com várias bases listadas (H1, H4, H7, H11, HB3, HB4 e outras), 12V a 24V, 6000K, por R$ 21,99. Nota 4.7.",
+   "ideal_para": "Quem tem orçamento apertado e precisa de uma base que esteja na lista de compatibilidade."
+  },
+  {
+   "id": "58267527789",
+   "rotulo": "Econômica com nota alta",
+   "porque": "Kit H4 com opção de 1 ou 2 lâmpadas, 6500K, por R$ 28,99 e nota 4.8. Permite comprar só a quantidade necessária.",
+   "ideal_para": "Quem quer nota alta gastando pouco ou precisa trocar apenas uma lâmpada."
+  },
+  {
+   "id": "55809370555",
+   "rotulo": "Faixa intermediária com mais lumens",
+   "porque": "Par de 110W e 22000LM, 6500K, para H1, H3, H4, H7, H11, H27, 9005 e 9006, nota 4.9, por R$ 106,99.",
+   "ideal_para": "Quem quer mais luminosidade em relação aos modelos básicos e aceita pagar um pouco mais."
+  }
+ ],
+ "como_escolher": [
+  "Confira a base da sua lâmpada (H4, H7, H11, 9005 etc.) no manual ou na lâmpada atual antes de comprar.",
+  "Compare lumens (LM) e não só watts: o número de watts sozinho não define o brilho.",
+  "Confirme a tensão do veículo (12V ou 24V), quando o produto informar as duas faixas.",
+  "A temperatura de cor (6000K a 6500K) é uma preferência de visual. Lembre-se de verificar a legislação de iluminação veicular antes de trocar.",
+  "Prefira kits com nota alta e bom número de vendas, e confira se o modelo tem a base correta para o seu farol."
+ ],
+ "faq": [
+  {
+   "q": "Lâmpada LED de mais watts ilumina mais?",
+   "a": "Não necessariamente. Watts indicam consumo, e o brilho é medido em lumens. Os anúncios costumam destacar números altos, então vale comparar lumens e avaliações antes de decidir."
+  },
+  {
+   "q": "Posso trocar a lâmpada halógena por LED sem adaptação?",
+   "a": "Só se a base e o formato forem compatíveis com o seu farol. Se o modelo for diferente da lâmpada original, o encaixe ou o foco podem não ficar adequados. Confira a base antes de comprar."
+  },
+  {
+   "q": "Que cuidados tomar na instalação?",
+   "a": "Desligue o carro antes de trocar, não encoste nos bulbos com as mãos sem proteção e verifique se a tampa do farol está bem vedada. Se tiver dúvida no encaixe, procure um profissional."
+  }
+ ],
+ "descricao_meta": "Lâmpada LED para farol: veja opções de H4, H7 e H11 com nota alta, preços de R$ 21 a R$ 130 e dicas para escolher a base certa.",
+ "slug": "lampada-led-para-farol-qual-a-melhor",
+ "pergunta": "Lâmpada LED para farol: qual a melhor?",
+ "nicho": "carro",
+ "escrito_em": 1795558415,
+ "criado_em": 1795558415
+}

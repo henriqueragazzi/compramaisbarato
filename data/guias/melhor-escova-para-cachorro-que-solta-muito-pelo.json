@@ -1,0 +1,64 @@
+{
+ "titulo": "Melhor escova para cachorro que solta muito pelo: 5 opções baratas",
+ "resposta_curta": "Para cachorro que solta muito pelo, a escova multifuncional de id 22693536592 é a mais vendida da lista, com nota 4.9 e mais de 9 mil vendas, por R$ 13,99. Se preferir luva, a de id 58207714861 (nota 4.8, R$ 12,99) é outra opção popular. As opções desta lista ficam entre R$ 9,89 e R$ 15,99.",
+ "intro": "Quem tem cachorro de pelo abundante sabe que o pelo solto aparece no sofá, na cama e nas roupas. Reunimos cinco opções baratas, com perfis diferentes, para facilitar a escolha. As indicações são baseadas em nota, número de vendas, preço e no que cada nome descreve.",
+ "escolhas": [
+  {
+   "id": "22693536592",
+   "rotulo": "Melhor geral (mais vendida)",
+   "porque": "É a escova multifuncional mais vendida da lista, com nota 4.9 e 9.421 vendas, por R$ 13,99. O nome indica uso em cães, gatos e roupas.",
+   "ideal_para": "Quem quer uma escova popular e bem avaliada para usar no pet e em roupas."
+  },
+  {
+   "id": "58207714861",
+   "rotulo": "Luva eletrostática",
+   "porque": "Tem nota 4.8 e 4.777 vendas, por R$ 12,99. O nome indica que é laválvel e reutilizável.",
+   "ideal_para": "Quem prefere passar a mão no pelo do cachorro e recolher o pelo solto."
+  },
+  {
+   "id": "23294740202",
+   "rotulo": "Mais barata",
+   "porque": "Custa R$ 9,89 e tem nota 4.9. O nome indica pente fino para pelos mortos, além de pulgas e carrapatos.",
+   "ideal_para": "Quem quer gastar pouco e tem interesse em um pente fino para a rotina de cuidados."
+  },
+  {
+   "id": "58210936796",
+   "rotulo": "Mais bem avaliada (pouca amostra)",
+   "porque": "Tem nota 5.0, mas com apenas 82 vendas, por R$ 16,90. Com poucas avaliações, a nota ainda diz pouco sobre a experiência geral.",
+   "ideal_para": "Quem quer experimentar um modelo de rasqueadeira e aceita uma base menor de avaliações."
+  },
+  {
+   "id": "23098133224",
+   "rotulo": "Rolo para roupas e estofados",
+   "porque": "É um rolo pegajoso com nota 4.8 e 1.214 vendas, por R$ 15,99. O nome indica que é lavável e serve para remover pelos de roupas e animais.",
+   "ideal_para": "Quem quer tirar pelo de sofá, cama e roupas, além de escovar o cachorro."
+  }
+ ],
+ "como_escolher": [
+  "Pense onde o pelo mais aparece: se for no sofá e na cama, um rolo ou luva ajuda bastante; se for no próprio cachorro, prefira escova ou rasqueadeira.",
+  "Veja o tipo de pelo do seu cachorro antes de comprar. Pelo curto e denso costuma responder bem a luvas; pelo mais comprido pode pedir um pente ou rasqueadeira.",
+  "Confira se o produto é lavável ou reutilizável, para não precisar trocar a cada uso.",
+  "Compare nota e número de vendas. Nota alta com poucas avaliações é um sinal menos confiável do que nota boa com muitas avaliações.",
+  "Escolha a escova conforme a pele do pet: com movimentos leves, evitando pressão forte, para não machucar."
+ ],
+ "faq": [
+  {
+   "q": "Com que frequência devo escovar um cachorro que solta muito pelo?",
+   "a": "Não há regra fixa. Muitos tutores escovam alguns dias por semana nas fases de muita queda, mas a frequência ideal depende da raça e do pelo. Em caso de dúvida, pergunte ao veterinário ou ao tosador."
+  },
+  {
+   "q": "Luva ou escova: qual é melhor?",
+   "a": "Depende do pelo e do hábito do tutor. A luva costuma ser mais fácil de usar em momentos de carinho, e a escova ou rasqueadeira ajuda a desembaraçar e a retirar pelo solto de pelagens mais densas."
+  },
+  {
+   "q": "Como evitar que o pelo do cachorro caia no sofá e na roupa?",
+   "a": "Escovar o pet antes de sentar em áreas que ele também usa ajuda a reduzir o pelo solto. Um rolo ou escova de roupas pode ser usado no sofá e nas peças de tecido, e a manutenção regular diminui o acúmulo."
+  }
+ ],
+ "descricao_meta": "Melhor escova para cachorro que solta muito pelo: 5 opções baratas, de R$ 9,89 a R$ 15,99, com dicas de como escolher a ideal.",
+ "slug": "melhor-escova-para-cachorro-que-solta-muito-pelo",
+ "pergunta": "Melhor escova para cachorro que solta muito pelo",
+ "nicho": "pet",
+ "escrito_em": 1795558345,
+ "criado_em": 1795558345
+}

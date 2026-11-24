@@ -1,0 +1,64 @@
+{
+ "titulo": "Cama para gato ou cachorro: qual escolher",
+ "resposta_curta": "Nenhum produto desta lista é cama, então não há um modelo de cama para recomendar aqui. Para gato, os itens mais vendidos são o Arranhador Adesivo Premium (R$ 17,80) e a Caixa de Areia com Bandeja e Peneira (R$ 16,91). Para cachorro, o Tapete Higiênico 80x60cm com 50 ou 100 unidades (R$ 62,93) é a opção de maior quantidade.",
+ "intro": "Quem procura cama para gato ou cachorro precisa primeiro saber o tamanho e o hábito do pet. A lista atual traz acessórios de higiene e proteção, que podem complementar a rotina enquanto você escolhe a cama. Veja abaixo o que está disponível para cada animal.",
+ "escolhas": [
+  {
+   "id": "22693511862",
+   "rotulo": "Mais vendido para gato",
+   "porque": "Arranhador adesivo com proteção para sofá, cama e móveis, com 4.530 vendas e nota 4.8. Por R$ 17,80, é o item de maior volume de vendas da lista.",
+   "ideal_para": "Gatos que arranham móveis e tutores que querem proteger sofá e cama."
+  },
+  {
+   "id": "49308359710",
+   "rotulo": "Mais barato para gato",
+   "porque": "Arranhador adesivo para sofá e cama, vendido em kit de 1, 2 ou 3 unidades, por R$ 10,77. Nota 4.9 com 1.234 vendas.",
+   "ideal_para": "Quem quer testar a proteção de móveis com pouco investimento."
+  },
+  {
+   "id": "58218125525",
+   "rotulo": "Caixa de areia para gato",
+   "porque": "Caixa com bandeja e peneira, com nota 4.9 e 2.417 vendas. Sai por R$ 16,91 e a variação pode ser escolhida na página do produto.",
+   "ideal_para": "Tutores de gatos que precisam de um local fixo para a higiene diária."
+  },
+  {
+   "id": "58212573737",
+   "rotulo": "Tapete para cachorro com aroma",
+   "porque": "Tapete higiênico com carvão de bambu ativado, aroma lavanda e 30 unidades, em tamanhos 60x60cm ou 80x60cm. Nota 4.9 e R$ 45,90.",
+   "ideal_para": "Cães que usam tapete higiênico e tutores que preferem um aroma discreto."
+  },
+  {
+   "id": "19699210101",
+   "rotulo": "Maior quantidade para cachorro",
+   "porque": "Tapete higiênico 80x60cm, com 50 ou 100 unidades, nota 4.9 e 3.086 vendas. O preço é R$ 62,93, mas o custo por unidade tende a cair nas embalagens maiores.",
+   "ideal_para": "Tutores que usam tapete todos os dias e querem comprar em maior quantidade."
+  }
+ ],
+ "como_escolher": [
+  "Meça o pet deitado esticado (comprimento e largura) e escolha uma cama um pouco maior que essa medida, para que ele possa se virar sem ficar apertado.",
+  "Prefira capas laváveis ou removíveis, já que a cama precisa de limpeza frequente.",
+  "Gatos costumam preferir lugares mais altos e tranquilos, longe do movimento e da caixa de areia. Cães normalmente se adaptam melhor a camas com bordas de apoio.",
+  "Confira o material de enchimento e a base antiderrapante, principalmente se o pet é agitado ou idoso.",
+  "Observe o hábito do seu pet antes de comprar: quem dorme enrolado pede um formato diferente de quem se espicha."
+ ],
+ "faq": [
+  {
+   "q": "Dá para usar o mesmo produto para gato e cachorro?",
+   "a": "Alguns itens, como tapetes higiênicos e arranhadores, têm usos específicos para cada espécie, então confira a indicação no nome do produto antes de comprar. Nas camas, o tamanho é o fator mais importante."
+  },
+  {
+   "q": "Como saber se a cama é do tamanho certo?",
+   "a": "Meça o pet deitado, de ponta a ponta do corpo, e acrescente alguns centímetros. Uma cama muito pequena incomoda e uma muito grande pode não dar a sensação de aconchego."
+  },
+  {
+   "q": "Com que frequência devo lavar a cama do pet?",
+   "a": "Não há uma regra fixa. Como orientação geral, lave a capa sempre que estiver suja, com odor ou com pelos acumulados, e siga as instruções de lavagem do fabricante."
+  }
+ ],
+ "descricao_meta": "Cama para gato ou cachorro: a lista não tem camas, mas veja arranhadores, caixas de areia e tapetes higiênicos com preços e dicas de escolha.",
+ "slug": "cama-para-gato-ou-cachorro-qual-comprar",
+ "pergunta": "Cama para gato ou cachorro: qual comprar?",
+ "nicho": "pet",
+ "escrito_em": 1795558359,
+ "criado_em": 1795558359
+}
