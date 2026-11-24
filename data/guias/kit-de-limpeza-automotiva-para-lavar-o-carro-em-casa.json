@@ -1,0 +1,66 @@
+{
+ "titulo": "Kit de limpeza automotiva para lavar o carro em casa: qual escolher",
+ "resposta_curta": "Para lavar o carro em casa, o kit mais completo da lista é o Kit Limpeza e Lavagem Automotiva com pano de microfibra 30x40cm, luva e 5 pincéis, por R$ 26,90, com nota 4,9 e 1.728 vendidos. Se você quer gastar menos, há kits de pincéis a partir de R$ 12,99. Para acabamento depois da lavagem, o Kit Estética Automotiva Vonixx custa R$ 109,90.",
+ "intro": "Lavar o carro em casa exige, basicamente, panos de microfibra para lavar e secar, uma luva ou pincéis para as áreas de difícil acesso e um produto para acabamento, se você quiser. Abaixo estão opções da nossa lista em faixas de preço diferentes, com base em nota, número de vendas e no que cada nome descreve.",
+ "escolhas": [
+  {
+   "id": "22793412477",
+   "rotulo": "Melhor kit completo",
+   "porque": "Reúne pano de microfibra 30x40cm, luva e 5 pincéis de detalhamento em um único kit. Tem nota 4,9 e 1.728 vendidos, a maior quantidade de vendas entre os kits de lavagem da lista. Custa R$ 26,90.",
+   "ideal_para": "Quem está começando e quer tudo o que precisa para lavar em casa numa compra só."
+  },
+  {
+   "id": "23093919310",
+   "rotulo": "Melhor custo-benefício em panos",
+   "porque": "Traz 5 panos de microfibra de 600 GSM, nos tamanhos 30x40 e 30x60, indicados para secagem e limpeza. Tem nota 4,9 e 1.083 vendidos, por R$ 25,90.",
+   "ideal_para": "Quem já tem luva e pincéis e quer reforçar os panos de secagem."
+  },
+  {
+   "id": "22336506478",
+   "rotulo": "Mais barato",
+   "porque": "Kit com 5 pincéis de tamanhos diferentes para limpeza e detalhamento, com nota 4,8 e 1.207 vendidos, por R$ 12,99. Não inclui panos nem luva, então é um complemento.",
+   "ideal_para": "Quem tem orçamento curto ou quer pincéis extras para rodas, grades e frestas."
+  },
+  {
+   "id": "55260497129",
+   "rotulo": "Mais vendido para acabamento",
+   "porque": "Kit de estética automotiva com produto V-Floc Tok Final Intense de 240ml, voltado para pneus, com pano, pincel e aplicador. Tem nota 4,9 e 2.505 vendidos, mas custa R$ 109,90, o preço mais alto da lista.",
+   "ideal_para": "Quem quer um acabamento de estética nos pneus após a lavagem e aceita investir mais."
+  }
+ ],
+ "como_escolher": [
+  "Separe a lavagem em etapas: lavar, secar e detalhar. Um kit com panos e luva cobre as duas primeiras; pincéis ajudam nas áreas menores.",
+  "Prefira microfibra para secar e lavar. Os panos de microfibra da lista têm gramatura de 600 GSM, indicada na descrição, e vários tamanhos.",
+  "Confira o que vem no kit antes de comprar. Alguns incluem só pincéis, outros trazem panos e luva. Comparar o conteúdo evita comprar peças repetidas.",
+  "Compre o básico primeiro e os acabamentos depois. Produtos de estética, como o da lista, são complementos e não substituem a lavagem.",
+  "Lave com um balde de água e shampoo automotivo próprio para carro, usando um pano só para a carroceria e outro para as rodas, para não misturar sujeira."
+ ],
+ "faq": [
+  {
+   "q": "Preciso de um kit completo ou posso comprar peças separadas?",
+   "a": "Depende do que você já tem. Se não tem nada, um kit completo costuma sair mais prático. Se já tem luva ou pincéis, vale comprar só os panos que faltam."
+  },
+  {
+   "q": "Panos de microfibra servem para secar o carro?",
+   "a": "Sim, a microfibra é a opção indicada para secagem e os kits da lista trazem panos próprios para isso, como os de 600 GSM e os de 30x60cm."
+  },
+  {
+   "q": "Preciso de um produto de acabamento depois de lavar?",
+   "a": "Não é obrigatório. A lavagem já limpa o carro. Produtos de estética, como o da lista, são opcionais e servem para dar um aspecto de acabamento."
+  },
+  {
+   "q": "Posso usar detergente de louça para lavar o carro?",
+   "a": "Evite. Detergentes de louça são fortes e podem retirar a proteção da pintura. Prefira shampoo automotivo, que foi formulado para isso."
+  },
+  {
+   "q": "Como cuidar dos panos de microfibra?",
+   "a": "Lave-os separados de outras roupas, sem amaciante, e deixe secar à sombra. Assim eles mantêm a capacidade de absorção por mais tempo."
+  }
+ ],
+ "descricao_meta": "Kit de limpeza automotiva para lavar o carro em casa: comparamos kits com panos de microfibra, luva e pincéis, de R$ 12,99 a R$ 109,90.",
+ "slug": "kit-de-limpeza-automotiva-para-lavar-o-carro-em-casa",
+ "pergunta": "Kit de limpeza automotiva para lavar o carro em casa",
+ "nicho": "carro",
+ "escrito_em": 1795547996,
+ "criado_em": 1795547996
+}

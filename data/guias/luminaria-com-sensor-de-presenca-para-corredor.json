@@ -1,0 +1,66 @@
+{
+ "titulo": "Luminária com sensor de presença para corredor: qual escolher",
+ "resposta_curta": "Para corredor, a opção mais adequada da lista é o KIT 2 Luz Noturna com sensor de movimento, de fixação magnética e recarregável, indicado no próprio nome para corredor, quarto e escadas. Ele custa R$ 36,99 e tem nota 4.9. Se o orçamento for menor, a Luminária LED USB sem fio com sensor, por R$ 15,90 e nota 4.8, é uma alternativa econômica.",
+ "intro": "Um sensor de presença acende a luz quando alguém passa e a desliga depois de um tempo, o que ajuda a iluminar o caminho sem precisar de interruptor. Reunimos opções de luminárias com sensor, na faixa de R$ 15,90 a R$ 36,99, com foco em uso interno. As escolhas abaixo consideram nota, número de vendas, preço e o que o nome de cada produto descreve.",
+ "escolhas": [
+  {
+   "id": "58201279644",
+   "rotulo": "Melhor para corredor",
+   "porque": "É um kit de 2 unidades com sensor de movimento, lâmpada magnética e recarregável, e o nome indica uso em corredor, quarto e escadas. Tem nota 4.9 e mais de 3 mil vendas.",
+   "ideal_para": "Quem quer iluminar corredores, escadas ou a região da cama sem fazer instalação elétrica."
+  },
+  {
+   "id": "23097971890",
+   "rotulo": "Melhor avaliação com regulagem",
+   "porque": "A descrição cita 3 cores, regulagem de intensidade, recarga por USB e sensor de movimento, com formato de 60 cm. Tem nota 4.9 e boa quantidade de vendas.",
+   "ideal_para": "Quem quer ajustar a luz conforme o horário, por exemplo mais suave à noite."
+  },
+  {
+   "id": "23193935526",
+   "rotulo": "Mais barata",
+   "porque": "É a opção de menor preço da lista, a R$ 15,90, e combina sensor de presença, recarga USB e instalação sem fio. Tem nota 4.8 e mais de 1.500 vendas.",
+   "ideal_para": "Quem quer testar a ideia com pouco investimento ou precisa de uma luz simples para um corredor curto."
+  },
+  {
+   "id": "42226908068",
+   "rotulo": "Opção decorativa",
+   "porque": "É um kit de 2 arandelas de madeira, no estilo minimalista, com sensor de movimento e recarga. Tem nota 4.9 e mais de 2.500 vendas.",
+   "ideal_para": "Quem quer combinar iluminação com a decoração da casa, em parede ou mesa."
+  }
+ ],
+ "como_escolher": [
+  "Antes de comprar, confirme se a luminária é recarregável por USB ou usa bateria, e considere com que frequência você vai precisar recarregá-la.",
+  "Verifique o alcance do sensor de presença e o tempo que a luz fica acesa após detectar movimento, pois essas informações costumam estar na descrição do produto.",
+  "Pense na fixação: modelos magnéticos ou adesivos dispensam furos na parede, mas precisam de uma superfície metálica ou de uma boa aderência, conforme o caso.",
+  "Para corredores, prefira luz de intensidade moderada para não incomodar quem está dormindo em um quarto vizinho.",
+  "Luminárias solares são feitas para áreas externas. Para corredor interno, prefira modelos recarregáveis por USB ou com bateria."
+ ],
+ "faq": [
+  {
+   "q": "Sensor de presença e sensor de movimento são a mesma coisa?",
+   "a": "Na prática, são usados como sinônimos nos anúncios: ambos acendem a luz ao detectar alguém se movendo na área. Ao comprar, verifique a descrição para confirmar o alcance e o tempo de funcionamento."
+  },
+  {
+   "q": "Essas luminárias servem para uso externo?",
+   "a": "Depende do modelo. As solares, marcadas como prova d'água e para jardim, são indicadas para áreas externas. Para corredor interno, as opções recarregáveis por USB ou com bateria são as mais indicadas."
+  },
+  {
+   "q": "Preciso de eletricista para instalar?",
+   "a": "Não, a maioria dos modelos listados é sem fio e pode ser fixada com adesivo, fita ou ímã, sem precisar de fiação. Mesmo assim, siga as instruções do fabricante."
+  },
+  {
+   "q": "Vale mais a pena comprar um kit com 2 unidades?",
+   "a": "Um kit costuma sair mais em conta por unidade e permite iluminar dois pontos, como o início e o fim de um corredor ou dois degraus de uma escada."
+  },
+  {
+   "q": "Como evitar a compra de um modelo que não atende à necessidade?",
+   "a": "Leia a descrição com atenção, confira a forma de recarga e o tipo de fixação, e observe se o produto foi indicado para o ambiente que você quer iluminar."
+  }
+ ],
+ "descricao_meta": "Luminária com sensor de presença para corredor: compare opções recarregáveis e sem fio, de R$ 15,90 a R$ 36,99, com dicas para escolher.",
+ "slug": "luminaria-com-sensor-de-presenca-para-corredor",
+ "pergunta": "Luminária com sensor de presença para corredor",
+ "nicho": "casa",
+ "escrito_em": 1795547530,
+ "criado_em": 1795547530
+}

@@ -1,0 +1,62 @@
+{
+ "titulo": "Presentes para quem tem pet até R$ 100",
+ "resposta_curta": "Para presentear quem tem pet com até R$ 100, o Arranhador de Parede para Gatos (Sisal Natural 6mm, R$ 29,99, nota 5.0 e 2.078 vendidos) é uma boa escolha geral, sobretudo se a pessoa tem gato. Se preferir algo mais barato, a Escova Removedor de Pelos Multifuncional sai por R$ 13,99 e serve para cães e gatos. As opções da lista vão de cerca de R$ 10 a R$ 50, então dá para escolher um presente útil dentro do orçamento.",
+ "intro": "Presentes para pets costumam agradar mais quando resolvem uma rotina do dia a dia, como manter a casa limpa ou dar espaço para o gato se exercitar. Abaixo estão opções da lista disponível, cada uma para um perfil diferente, sempre considerando nota, número de vendas e preço.",
+ "escolhas": [
+  {
+   "id": "22394836346",
+   "rotulo": "Melhor geral para gatos",
+   "porque": "Arranhador de parede em sisal natural e MDF reforçado, com nota 5.0 e 2.078 vendidos. O nome destaca o uso em apartamento e como brinquedo.",
+   "ideal_para": "Quem tem gato e quer um presente que ocupe o pet e ajude a proteger móveis."
+  },
+  {
+   "id": "22693536592",
+   "rotulo": "Mais barato",
+   "porque": "Escova multifuncional para remoção de pelos e pó, com nota 4.9 e mais de 9 mil vendidos, por R$ 13,99.",
+   "ideal_para": "Quem quer um presente simples e útil para casas com cães ou gatos, mesmo com orçamento curto."
+  },
+  {
+   "id": "22996121313",
+   "rotulo": "Mais vendido da lista",
+   "porque": "Areia Catbio biodegradável de 4 kg, grãos finos, nota 5.0 e mais de 33 mil vendidos, por R$ 49,90.",
+   "ideal_para": "Quem tem gato e costuma reabastecer a caixa de areia; é um presente prático para o dia a dia."
+  },
+  {
+   "id": "11485271859",
+   "rotulo": "Para passeios de cachorro pequeno",
+   "porque": "Peitoral e guia regulável para cães e gatos, indicado para pet pequeno, com nota 4.9 e 1.122 vendidos, por R$ 15,99.",
+   "ideal_para": "Quem tem cachorro de porte pequeno e passeia com frequência."
+  }
+ ],
+ "como_escolher": [
+  "Confira o tipo de pet antes de comprar: arranhadores e tapetes higiênicos são para gatos, enquanto peitorais e guias são para cães.",
+  "Observe o porte do animal ao escolher peitoral ou guia. O nome do produto indica que o modelo é para pet pequeno.",
+  "Para areia e refis, veja a quantidade e o tipo de grão. A Areia Catbio, por exemplo, é de grãos finos e tem 4 kg.",
+  "Dê preferência a produtos com nota alta e muitas avaliações, pois isso indica boa aceitação de outros compradores, sem garantir que o produto atenda a todos os casos.",
+  "Se o presente for para alguém que ainda não conhece a rotina do pet, um item de consumo, como areia ou refil, costuma ser mais seguro do que um acessório de tamanho ou modelo específicos."
+ ],
+ "faq": [
+  {
+   "q": "Arranhador de parede serve para qualquer gato?",
+   "a": "Ele é indicado para gatos e pensado para uso em apartamento, segundo o nome do produto. Antes de comprar, vale considerar o espaço disponível na parede e o hábito do gato de arranhar."
+  },
+  {
+   "q": "Escova para pelos funciona em cachorro e gato?",
+   "a": "O produto é descrito como multifuncional e para remoção de pelos de cachorros e gatos, além de pó em roupas. Como qualquer escova, o resultado depende do tipo de pelagem do animal."
+  },
+  {
+   "q": "Qual a diferença entre peitoral e coleira?",
+   "a": "O peitoral distribui a pressão pelo tórax, o que costuma ser mais confortável para cães pequenos e de focinho curto. A coleira fica no pescoço. Em passeios, muitos tutores preferem peitoral, mas a escolha depende do animal."
+  },
+  {
+   "q": "Vale a pena dar um item de consumo de presente?",
+   "a": "Sim, areia, refil ou kit de higiene são úteis porque são gastos no dia a dia. Só confirme antes o tipo de pet e a necessidade da pessoa presenteada."
+  }
+ ],
+ "descricao_meta": "Presentes para quem tem pet até R$ 100: arranhador, escova para pelos, areia biodegradável e peitoral. Veja opções com nota, vendas e preço.",
+ "slug": "presente-para-quem-tem-pet",
+ "pergunta": "Presente para quem tem pet",
+ "nicho": "pet",
+ "escrito_em": 1795547839,
+ "criado_em": 1795547839
+}
