@@ -18,9 +18,8 @@ concurrency:
 jobs:
   robo:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    outputs:
+      ok: ${{ steps.check.outputs.ok }}
     env:
       SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
       SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
@@ -77,9 +76,17 @@ jobs:
           git add data && git commit -m "dados $(date -u +%F-%H%M)" || echo "sem mudanças"
           for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((i*7)); done
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         if: steps.check.outputs.ok == 'true'
         with: { path: dist }
+
+  publicar:
+    needs: robo
+    if: needs.robo.outputs.ok == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - id: deploy
-        if: steps.check.outputs.ok == 'true'
         uses: actions/deploy-pages@v4
