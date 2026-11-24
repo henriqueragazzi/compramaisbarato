@@ -10,9 +10,36 @@
     <p>{% if p.a_partir %}<span class="meta">a partir de </span>{% endif %}<span class="preco" style="font-size:28px">{{ p.preco|brl }}</span>{% if p.preco_antigo %}<span class="antigo">{{ p.preco_antigo|brl }}</span>{% endif %}</p>
     <p>{% if p.desconto >= 10 %}<span class="selo off">-{{ p.desconto }}%</span> {% endif %}{% if p.menor_30d %}<span class="selo">Menor preço em 30 dias</span>{% endif %}{% if p.queda %} <span class="selo">Caiu {{ p.queda }}%</span>{% endif %}</p>
     <a class="btn" href="{{ p.link }}" rel="sponsored nofollow noopener" target="_blank">Ver na Shopee →</a>{{ alerta(site, p) }}
-    <p class="aviso">Preço verificado em {{ atualizado }}. {% if hist %}Nos últimos {{ hist|length }} dias: mínimo {{ hist_min|brl }}, máximo {{ hist_max|brl }}.{% endif %}</p>
+    <p class="aviso">Preço verificado em {{ atualizado }}.</p>
   </div>
 </div>
+
+<h2>Resumo rápido</h2>
+<div class="resposta">{{ resumo }}</div>
+
+{% if indicacoes %}
+<h2>Por que indicamos</h2>
+{% for i in indicacoes %}
+<p><b>{{ i.rotulo }}</b> no guia <a href="/guia/{{ i.guia.slug }}/">{{ i.guia.titulo }}</a>: {{ i.porque }}{% if i.ideal_para %} <span class="meta">Ideal para: {{ i.ideal_para }}</span>{% endif %}</p>
+{% endfor %}
+{% endif %}
+
+{% if hist|length >= 2 %}
+<h2>Histórico de preço</h2>
+<p>Nos últimos {{ hist|length }} dias que acompanhamos: menor preço <b>{{ hist_min|brl }}</b>, maior <b>{{ hist_max|brl }}</b>{% if hist_max > hist_min %}, e hoje está {{ posicao_preco }}{% endif %}.</p>
+{% endif %}
+
+{% if similares %}
+<h2>Comparação com parecidos</h2>
+<table class="comp"><thead><tr><th>Produto</th><th>Preço</th><th>Nota</th><th>Vendidos</th></tr></thead><tbody>
+<tr><td><b>Este produto</b></td><td>{{ p.preco|brl }}</td><td>⭐ {{ p.nota }}</td><td>{{ p.vendas|milhar }}</td></tr>
+{% for s in similares[:4] %}<tr><td><a href="/p/{{ s.slug }}/">{{ s.nome|truncate(60) }}</a></td><td>{{ s.preco|brl }}</td><td>⭐ {{ s.nota }}</td><td>{{ s.vendas|milhar }}</td></tr>{% endfor %}
+</tbody></table>
+{% endif %}
+
+<h2>Perguntas frequentes</h2>
+{% for f in faq %}<h3 style="font-size:16px;margin-bottom:4px">{{ f.q }}</h3><p style="margin-top:0">{{ f.a }}</p>{% endfor %}
+<p class="aviso">Como escolhemos: cruzamos a nota dos compradores, o volume de vendas, o preço atual e o histórico de preço. Não testamos os produtos pessoalmente. <a href="/sobre/">Saiba mais</a>.</p>
 </article>
 {% if guias %}<h2 class="sec">Aparece nestes guias</h2><div class="guias">{% for g in guias %}{{ guia_link(g) }}{% endfor %}</div>{% endif %}
 {% if similares %}<h2 class="sec">Parecidos</h2><div class="grid">{% for s in similares %}{{ card(s) }}{% endfor %}</div>{% endif %}

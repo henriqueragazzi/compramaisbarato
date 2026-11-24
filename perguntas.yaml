@@ -23,6 +23,33 @@ presentes:
   - {pergunta: "Jogos de tabuleiro para família no Natal", busca: [jogo de tabuleiro, jogo]}
   - {pergunta: "Caixa de som bluetooth barata e potente", busca: [caixa de som]}
 
+natal:
+  - {pergunta: "Qual árvore de Natal comprar: tamanho e modelo ideais", busca: [árvore de natal]}
+  - {pergunta: "Melhor pisca-pisca de Natal: LED, cor e tamanho", busca: [pisca, led, luz de fada, cortina de led]}
+  - {pergunta: "Decoração de Natal barata e bonita para casa", busca: [enfeite, bola de natal, guirlanda, pisca], ate: 80}
+  - {pergunta: "Como decorar a casa para o Natal gastando pouco", busca: [enfeite, pisca, guirlanda, toalha de mesa], ate: 60}
+  - {pergunta: "Enfeites de Natal para a porta e a sala", busca: [guirlanda, papai noel, enfeite]}
+  - {pergunta: "Presépio de Natal: qual comprar", busca: [presépio]}
+  - {pergunta: "Luz de fada LED para decorar: vale a pena?", busca: [luz de fada, cortina de led, fio de fada]}
+  - {pergunta: "Mesa de Natal: toalha e itens para a ceia", busca: [toalha de mesa natal, mesa, ceia]}
+
+moveis:
+  - {pergunta: "Melhor purificador de água para casa custo-benefício", busca: [purificador]}
+  - {pergunta: "Qual ar-condicionado split comprar para quarto", busca: [ar condicionado, split]}
+  - {pergunta: "Armário de cozinha compacto para cozinha pequena", busca: [armário de cozinha, cozinha compacta]}
+  - {pergunta: "Guarda-roupa barato e resistente: qual comprar", busca: [guarda roupa, guarda-roupa]}
+  - {pergunta: "Sofá retrátil para sala pequena: qual escolher", busca: [sofá]}
+  - {pergunta: "Melhor jogo de panelas antiaderente", busca: [jogo de panelas, panela]}
+  - {pergunta: "Air fryer boa e barata: qual comprar", busca: [air fryer, fritadeira]}
+  - {pergunta: "Aspirador robô vale a pena? Qual comprar", busca: [aspirador robô, robô aspirador]}
+  - {pergunta: "Rack para TV de sala pequena", busca: [rack, painel tv]}
+  - {pergunta: "Melhor ventilador de coluna silencioso", busca: [ventilador]}
+  - {pergunta: "Colchão casal custo-benefício", busca: [colchão]}
+  - {pergunta: "Escrivaninha para home office pequena", busca: [escrivaninha, mesa de escritório]}
+  - {pergunta: "Liquidificador potente e barato", busca: [liquidificador]}
+  - {pergunta: "Cafeteira elétrica: qual comprar", busca: [cafeteira]}
+  - {pergunta: "Micro-ondas bom e barato", busca: [micro-ondas, microondas]}
+
 casa:
   - {pergunta: "Qual o melhor mop giratório para comprar?", busca: [mop]}
   - {pergunta: "Como tirar mofo do guarda-roupa de vez?", busca: [mofo, antimofo, desumidificador]}

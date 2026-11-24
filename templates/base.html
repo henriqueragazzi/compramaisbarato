@@ -60,7 +60,7 @@ footer{margin-top:50px;background:#fff;border-top:1px solid var(--bd);padding:28
 <header class="top"><div class="wrap">
   <a class="logo" href="/">🔎 {{ site.nome }}</a>
   <nav class="menu">
-    {% for k, n in nichos.items() %}<a href="/n/{{ k }}/">{{ n.emoji }} {{ n.nome.split(',')[0] }}</a>{% endfor %}
+    {% for k, n in nichos.items() %}<a href="/n/{{ k }}/">{{ n.emoji }} {{ n.curto or n.nome.split(',')[0] }}</a>{% endfor %}
     {% if black_friday %}<a href="/black-friday/" style="color:#111;font-weight:700">🖤 Black Friday</a>{% endif %}<a href="/guias/">Guias</a><a href="/ofertas/">Ofertas</a>
   </nav>
 </div></header>

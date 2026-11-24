@@ -19,11 +19,14 @@ filtros:
   max_produtos_por_nicho: 400
   por_nicho:            # regras próprias de um nicho (sobrepõem as de cima)
     pet: { vendas_minimas: 50, nota_minima: 4.5 }
+    moveis: { vendas_minimas: 20, nota_minima: 4.5 }   # itens caros vendem menos unidades, mas pagam mais comissão
+    natal: { vendas_minimas: 50, nota_minima: 4.5 }
 
 # Nichos e palavras-chave que o Caçador pesquisa na API da Shopee
 nichos:
   casa:
     nome: "Casa, limpeza e organização"
+    curto: "Casa"
     emoji: "🏠"
     palavras:
       - organizador de armário
@@ -69,6 +72,7 @@ nichos:
       - tapete lambedor
   carro:
     nome: "Carro e moto"
+    curto: "Carro"
     emoji: "🚗"
     palavras:
       - suporte celular carro
@@ -100,6 +104,44 @@ nichos:
       - caixa de som bluetooth
       - presente para pai
 
+  moveis:
+    nome: "Móveis e eletrodomésticos"
+    curto: "Móveis"
+    emoji: "🛋️"
+    palavras:
+      - purificador de água
+      - armário de cozinha compacto
+      - guarda roupa solteiro
+      - guarda roupa casal
+      - ar condicionado split
+      - sofá retrátil
+      - rack para tv
+      - escrivaninha
+      - cômoda
+      - jogo de panelas
+      - liquidificador
+      - air fryer
+      - ventilador de coluna
+      - aspirador robô
+      - cafeteira
+      - micro-ondas
+      - colchão casal
+      - quadros decorativos
+  natal:
+    nome: "Natal e decoração"
+    curto: "Natal"
+    emoji: "🎄"
+    palavras:
+      - árvore de natal
+      - pisca pisca natal
+      - enfeite de natal
+      - bola de natal
+      - guirlanda de natal
+      - presépio
+      - cortina de led
+      - toalha de mesa natal
+      - papai noel decorativo
+      - luz de fada led
 # Robôs de IA e buscadores que PODEM ler o site (é isso que faz o ChatGPT citar você)
 robos_permitidos:
   - OAI-SearchBot

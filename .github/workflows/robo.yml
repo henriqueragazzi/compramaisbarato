@@ -54,7 +54,7 @@ jobs:
 
       - name: Redator de guias
         if: steps.check.outputs.ok == 'true' && env.LLM_API_KEY != ''
-        run: python agents/redator.py --max 12
+        run: python agents/redator.py --max 20
 
       - name: Publicador
         if: steps.check.outputs.ok == 'true'

@@ -48,7 +48,11 @@ def pontuacao(p):
     vendas = int(p.get("vendas") or 0)
     desconto = float(p.get("desconto") or 0)
     comissao = float(p.get("comissao") or 0)
+    preco = float(p.get("preco") or 0)
+    ganho = preco * comissao  # comissão estimada em R$ por venda
     return round(
+        math.log10(ganho + 1) * 15  # R$1→4,5 · R$5→11,7 · R$20→19,8 · R$100→30
+        +
         (nota - 4) * 30            # 4.0→0, 5.0→30
         + math.log10(vendas + 1) * 10   # 1k vendas→30, 10k→40
         + min(desconto, 70) * 0.2  # até 14

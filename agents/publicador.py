@@ -133,10 +133,12 @@ def rodar(indexnow=False):
     urls.pop()  # página de busca fora do sitemap
 
     # GUIAS
-    por_produto = {}
+    por_produto, indicacoes = {}, {}
     for g in guias_ok:
         for e in g["_escolhas"]:
             por_produto.setdefault(e["id"], []).append(g)
+            indicacoes.setdefault(e["id"], []).append(
+                {"guia": g, "rotulo": e.get("rotulo", ""), "porque": e.get("porque", ""), "ideal_para": e.get("ideal_para", "")})
         rel = [r for r in guias_ok if r["nicho"] == g["nicho"] and r["slug"] != g["slug"]][:6]
         cam = f"/guia/{g['slug']}/"
         ld = [
@@ -162,14 +164,43 @@ def rodar(indexnow=False):
         sim = [s for s in todos if s["nicho"] == p["nicho"] and s["id"] != p["id"]
                and set(s.get("palavras", [])) & set(p.get("palavras", []))][:8]
         cam = f"/p/{p['slug']}/"
+        hmin, hmax = (min(h.values()), max(h.values())) if h else (p["preco"], p["preco"])
+        if hmax > hmin:
+            pos = (p["preco"] - hmin) / (hmax - hmin)
+            posicao = "no menor preço registrado" if pos <= 0.05 else ("mais perto do menor preço" if pos < 0.5 else "mais perto do maior preço")
+        else:
+            posicao = "estável"
+        mais_barato = min([p] + sim[:4], key=lambda x: x["preco"])
+        mais_vendido = max([p] + sim[:4], key=lambda x: x["vendas"])
+        destaque = []
+        if mais_vendido is p and sim:
+            destaque.append("é o mais vendido entre os parecidos que comparamos")
+        if mais_barato is p and sim:
+            destaque.append("é o mais barato entre os parecidos que comparamos")
+        resumo = (f"{p['nome'][:90]} custa {('a partir de ' if p.get('a_partir') else '')}{brl(p['preco'])} na Shopee, "
+                  f"tem nota {p['nota']} de 5 e {milhar(p['vendas'])} unidades vendidas"
+                  + (f", e {' e '.join(destaque)}" if destaque else "") + ".")
+        ind = indicacoes.get(p["id"], [])[:3]
+        faq = [
+            {"q": "Vale a pena comprar?",
+             "a": (f"Com nota {p['nota']} e {milhar(p['vendas'])} vendas, é um produto bem avaliado por quem comprou. "
+                   + (ind[0]["porque"] if ind else "Compare com os parecidos abaixo antes de decidir."))},
+            {"q": "O preço está bom agora?",
+             "a": (f"Hoje custa {brl(p['preco'])}. No período que acompanhamos, variou de {brl(hmin)} a {brl(hmax)}." if hmax > hmin
+                   else f"Hoje custa {brl(p['preco'])}. Ainda estamos montando o histórico; ative o alerta para saber quando baixar.")},
+            {"q": "É seguro comprar?",
+             "a": "A compra é feita direto na Shopee, com a Garantia Shopee: o pagamento só é liberado ao vendedor depois que você confirma o recebimento."},
+        ]
         ld = [{"@context": "https://schema.org", "@type": "Product", "name": p["nome"], "image": p["imagem"],
+               "description": resumo,
                "offers": {"@type": "Offer", "price": f"{p['preco']:.2f}", "priceCurrency": "BRL",
                           "availability": "https://schema.org/InStock", "url": p["link"],
-                          "seller": {"@type": "Organization", "name": p["loja"] or "Shopee"}}}]
+                          "seller": {"@type": "Organization", "name": p["loja"] or "Shopee"}}},
+              {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                  {"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in faq]}]
         render("produto.html", cam, titulo=f"{p['nome'][:70]} por {brl(p['preco'])} | {site['nome']}",
-               descricao=f"{p['nome'][:110]} — {brl(p['preco'])}, nota {p['nota']} e {milhar(p['vendas'])} vendidos na Shopee.",
-               p=p, guias=por_produto.get(p["id"], []), similares=sim, hist=h,
-               hist_min=min(h.values()) if h else 0, hist_max=max(h.values()) if h else 0,
+               descricao=resumo[:155], p=p, guias=por_produto.get(p["id"], []), similares=sim, hist=h,
+               hist_min=hmin, hist_max=hmax, posicao_preco=posicao, resumo=resumo, indicacoes=ind, faq=faq,
                atualizado=data_br(p.get("visto_em", agora_ts)), imagem=p["imagem"], jsonld=ld, _lastmod=p.get("visto_em", agora_ts))
 
     # índice da busca (compacto)
