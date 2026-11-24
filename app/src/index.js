@@ -87,7 +87,7 @@ function tokens(texto) {
 }
 
 async function catalogo(env) {
-  const r = await fetch(`${env.SITE_URL}/api/catalogo.json`, { cf: { cacheTtl: 900, cacheEverything: true } });
+  const r = await fetch(`${env.SITE_URL}/api/catalogo.json`, { cf: { cacheTtlByStatus: { "200-299": 900, "404": 0, "500-599": 0 }, cacheEverything: true } });
   if (!r.ok) throw new Error(`catálogo indisponível (${r.status})`);
   return r.json();
 }
