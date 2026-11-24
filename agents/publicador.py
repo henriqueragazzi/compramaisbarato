@@ -77,7 +77,9 @@ def rodar(indexnow=False):
     env = Environment(loader=FileSystemLoader(RAIZ / "templates"), autoescape=select_autoescape(["html"]))
     env.filters.update(brl=brl, milhar=milhar)
     agora_ts = int(datetime.now(timezone.utc).timestamp())
-    base = dict(site=site, nichos=nichos, filtros=cfg["filtros"], ano=datetime.now(BRT).year, jsonld=[], imagem=None)
+    hoje = datetime.now(BRT)
+    base = dict(site=site, nichos=nichos, filtros=cfg["filtros"], ano=hoje.year, jsonld=[], imagem=None,
+                black_friday=(hoje.month == 11 or (hoje.month == 12 and hoje.day <= 2)))
     org = {"@context": "https://schema.org", "@type": "Organization", "name": site["nome"], "url": site["url"]}
     urls = []  # (caminho, lastmod)
 
@@ -112,6 +114,19 @@ def rodar(indexnow=False):
            intro="Só entram produtos com boa nota e muitas vendas. O selo 'menor preço em 30 dias' vem do nosso histórico.",
            guias=[], produtos=(sorted([p for p in todos if p.get("menor_30d")], key=lambda p: -p["score"]) + ofertas)[:80],
            titulo_produtos="Em oferta agora")
+    # BLACK FRIDAY (fica no ar o ano todo; o link no menu só aparece em novembro)
+    def bf_nota(p):
+        return p["score"] + p.get("queda", 0) * 1.5 + (15 if p.get("menor_30d") else 0) + min(p["desconto"], 70) * 0.3
+    grupos = []
+    for k in nichos:
+        cand = [p for p in todos if p["nicho"] == k and (p["desconto"] >= 15 or p.get("queda", 0) >= 5)]
+        grupos.append((k, sorted(cand, key=lambda p: -bf_nota(p))[:16]))
+    guias_bf = [g for g in guias_ok if g["nicho"] == "presentes" or "black friday" in g.get("pergunta", "").lower()][:12]
+    render("black-friday.html", "/black-friday/",
+           titulo=f"Black Friday {datetime.now(BRT).year} Shopee: melhores ofertas de verdade | {site['nome']}",
+           descricao="Ofertas da Black Friday na Shopee para casa, pet, carro e presentes: só produtos bem avaliados, com preço conferido várias vezes ao dia e sem desconto inflado.",
+           grupos=grupos, guias=guias_bf, atualizado=data_br(agora_ts))
+
     render("sobre.html", "/sobre/", titulo=f"Como escolhemos os produtos | {site['nome']}",
            descricao=f"Critérios do {site['nome']} para escolher produtos e como o site ganha dinheiro.")
     render("busca.html", "/busca/", titulo=f"Buscar | {site['nome']}", descricao="Busque produtos e guias.")

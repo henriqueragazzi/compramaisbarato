@@ -3,6 +3,26 @@
 # "busca" = termos para achar produtos no catálogo; "ate" = preço máximo (opcional).
 # O Monitor de IA usa esta mesma lista para medir se o site é citado.
 
+presentes:
+  # Black Friday / fim de ano
+  - {pergunta: "O que comprar na Black Friday da Shopee para casa?", busca: [organizador, mop, aspirador, lençol, umidificador]}
+  - {pergunta: "Melhores ofertas de Black Friday para pet", busca: [arranhador, fonte, comedouro, cama pet, brinquedo]}
+  - {pergunta: "Acessórios para carro que valem a pena comprar na Black Friday", busca: [suporte celular carro, aspirador automotivo, compressor, câmera de ré]}
+  - {pergunta: "Presentes de Natal para comprar na Black Friday", busca: [presente, kit, fone, smartwatch, caixa de som], ate: 200}
+  - {pergunta: "Como saber se o desconto da Black Friday é real?", busca: [presente, organizador, fone, smartwatch]}
+  - {pergunta: "Presente de Natal até 50 reais", busca: [presente, kit, caneca, luminária], ate: 50}
+  - {pergunta: "Presente de Natal até 100 reais", busca: [presente, kit, fone, garrafa térmica], ate: 100}
+  - {pergunta: "Presente para pai que tem tudo", busca: [churrasco, presente para pai, garrafa térmica, carteira]}
+  - {pergunta: "Presente para mãe criativo e barato", busca: [skincare, kit, caneca, luminária], ate: 100}
+  - {pergunta: "Amigo secreto até 30 reais", busca: [presente, caneca, kit, chaveiro], ate: 30}
+  - {pergunta: "Presente para namorado criativo", busca: [presente criativo, smartwatch, fone, kit]}
+  - {pergunta: "Presente para namorada barato e bonito", busca: [kit skincare, luminária, perfume, caneca], ate: 120}
+  - {pergunta: "Fone bluetooth bom e barato para presente", busca: [fone bluetooth], ate: 150}
+  - {pergunta: "Smartwatch barato que vale a pena", busca: [smartwatch], ate: 250}
+  - {pergunta: "Presente para quem gosta de churrasco", busca: [churrasco, faca, avental]}
+  - {pergunta: "Jogos de tabuleiro para família no Natal", busca: [jogo de tabuleiro, jogo]}
+  - {pergunta: "Caixa de som bluetooth barata e potente", busca: [caixa de som]}
+
 casa:
   - {pergunta: "Qual o melhor mop giratório para comprar?", busca: [mop]}
   - {pergunta: "Como tirar mofo do guarda-roupa de vez?", busca: [mofo, antimofo, desumidificador]}
@@ -47,17 +67,3 @@ carro:
   - {pergunta: "Central multimídia com CarPlay barata vale a pena?", busca: [multimídia, carplay]}
   - {pergunta: "Capa de banco de carro: qual comprar?", busca: [capa de banco]}
   - {pergunta: "Presente para quem gosta de carro", busca: [carro, automotivo], ate: 150}
-
-presentes:
-  - {pergunta: "Presente de Natal até 50 reais", busca: [presente, kit, caneca, luminária], ate: 50}
-  - {pergunta: "Presente de Natal até 100 reais", busca: [presente, kit, fone, garrafa térmica], ate: 100}
-  - {pergunta: "Presente para pai que tem tudo", busca: [churrasco, presente para pai, garrafa térmica, carteira]}
-  - {pergunta: "Presente para mãe criativo e barato", busca: [skincare, kit, caneca, luminária], ate: 100}
-  - {pergunta: "Amigo secreto até 30 reais", busca: [presente, caneca, kit, chaveiro], ate: 30}
-  - {pergunta: "Presente para namorado criativo", busca: [presente criativo, smartwatch, fone, kit]}
-  - {pergunta: "Presente para namorada barato e bonito", busca: [kit skincare, luminária, perfume, caneca], ate: 120}
-  - {pergunta: "Fone bluetooth bom e barato para presente", busca: [fone bluetooth], ate: 150}
-  - {pergunta: "Smartwatch barato que vale a pena", busca: [smartwatch], ate: 250}
-  - {pergunta: "Presente para quem gosta de churrasco", busca: [churrasco, faca, avental]}
-  - {pergunta: "Jogos de tabuleiro para família no Natal", busca: [jogo de tabuleiro, jogo]}
-  - {pergunta: "Caixa de som bluetooth barata e potente", busca: [caixa de som]}

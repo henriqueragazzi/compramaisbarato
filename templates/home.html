@@ -6,6 +6,7 @@
   <form class="busca" action="/busca/" method="get"><input name="q" placeholder="Ex.: meu gato arranha o sofá, presente até R$50…" aria-label="O que você precisa?"><button>Buscar</button></form>
   <div class="chips">{% for g in guias[:6] %}<a href="/guia/{{ g.slug }}/">{{ g.pergunta }}</a>{% endfor %}</div>
 </section>
+{% if black_friday %}<a href="/black-friday/" style="display:block;background:#111;color:#fff;border-radius:14px;padding:18px 20px;text-decoration:none;margin:10px 0 0"><b style="font-size:20px">🖤 Black Friday na Shopee</b><br><span style="opacity:.8">Só ofertas de produtos bem avaliados, sem desconto inflado →</span></a>{% endif %}
 <h2 class="sec">🔥 Ofertas do dia</h2>
 <div class="grid">{% for p in ofertas[:12] %}{{ card(p) }}{% endfor %}</div>
 {% if quedas %}<h2 class="sec">📉 Baixaram de preço</h2>
