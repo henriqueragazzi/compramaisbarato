@@ -1,0 +1,58 @@
+{
+ "titulo": "Como saber se o desconto da Black Friday é real (e onde comprar com segurança)",
+ "resposta_curta": "Um desconto é real quando o preço atual é menor que o histórico recente do mesmo produto, e não apenas menor que um \"preço de referência\" que a loja escolheu. Use ferramentas de histórico de preço e compare em mais de uma loja antes de comprar. Nesta lista, os itens vão de R$ 8,00 a R$ 39,90, e o Fone Bluetooth BETTDOW (R$ 39,00, nota 4.9) aparece como opção de melhor equilíbrio.",
+ "intro": "Na Black Friday, muitas lojas mostram percentuais de desconto muito altos, mas o valor de \"de\" nem sempre reflete um preço que o produto já praticou. Antes de comprar, vale checar o histórico e comparar com outros vendedores. Abaixo, algumas opções da lista com perfis diferentes.",
+ "escolhas": [
+  {
+   "id": "23092951296",
+   "rotulo": "Melhor equilíbrio",
+   "porque": "Fone Bluetooth 5.3 com cancelamento de ruído e certificação IPX5 (resistência à água, segundo o nome), por R$ 39,00, com nota 4.9 e 2274 vendidos.",
+   "ideal_para": "Quem quer um fone com recursos mais completos sem gastar muito."
+  },
+  {
+   "id": "40331456554",
+   "rotulo": "Mais vendido",
+   "porque": "Fone TWS Senbenbao X55 com 18434 vendidos e nota 4.8, por R$ 19,29.",
+   "ideal_para": "Quem prefere um modelo popular, com muitas avaliações de compradores."
+  },
+  {
+   "id": "58219336682",
+   "rotulo": "Mais barato",
+   "porque": "Livro de colorir Booboo Goods Ursinhos, com 50 folhas, por R$ 8,00 e nota 4.9.",
+   "ideal_para": "Quem busca um presente de baixo custo ou uma compra pequena na promoção."
+  },
+  {
+   "id": "55006996925",
+   "rotulo": "Organização da cozinha",
+   "porque": "Kit de potes herméticos transparentes com trava, por R$ 39,90, nota 4.9 e 2082 vendidos.",
+   "ideal_para": "Quem quer organizar mantimentos e alimentos na despensa ou geladeira."
+  }
+ ],
+ "como_escolher": [
+  "Procure o histórico de preço do produto (sites e extensões de comparação de preços mostram a variação dos últimos meses).",
+  "Desconfie de descontos muito altos, como 60% ou mais, sem nenhum histórico de preço anterior.",
+  "Compare o mesmo item em pelo menos duas ou três lojas antes de decidir.",
+  "Confira a nota e o número de avaliações, mas leia comentários recentes para ver se a qualidade se mantém.",
+  "Verifique o prazo de entrega, a política de troca e se o vendedor é o próprio site ou um terceiro."
+ ],
+ "faq": [
+  {
+   "q": "O percentual de desconto mostrado na loja é confiável?",
+   "a": "Não necessariamente. O percentual costuma ser calculado com base em um preço de referência definido pelo vendedor, que pode não ter sido praticado antes. Por isso, compare com o histórico de preço."
+  },
+  {
+   "q": "Como saber se o preço caiu de verdade na Black Friday?",
+   "a": "Consulte o histórico de preço do mesmo produto nas semanas anteriores e compare com o valor atual. Se o preço hoje é igual ou parecido com o de antes, a promoção pode ser pouco vantajosa."
+  },
+  {
+   "q": "O que fazer se eu achar que o desconto foi enganoso?",
+   "a": "Guarde prints da oferta e do preço anunciado, e registre a reclamação no consumidor.gov.br ou no Procon da sua cidade. Isso ajuda a documentar o problema."
+  }
+ ],
+ "descricao_meta": "Aprenda a checar se o desconto da Black Friday é real, com dicas de histórico de preço e comparação entre lojas antes de comprar.",
+ "slug": "como-saber-se-o-desconto-da-black-friday-e-real",
+ "pergunta": "Como saber se o desconto da Black Friday é real?",
+ "nicho": "presentes",
+ "escrito_em": 1795559924,
+ "criado_em": 1795559924
+}

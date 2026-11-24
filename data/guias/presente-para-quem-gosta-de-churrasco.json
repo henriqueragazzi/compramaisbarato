@@ -1,0 +1,64 @@
+{
+ "titulo": "Presentes para quem gosta de churrasco: 5 opções por faixa de preço",
+ "resposta_curta": "Para presente, o kit personalizado com garfo, faca, estojo e gravação a laser (id 23696726775, R$ 35,00, nota 4,9) é a escolha mais pessoal. Se o orçamento for menor, há opções a partir de cerca de R$ 11, como o kit de 2 facas (id 23399440017) e as petisqueiras.",
+ "intro": "Quem gosta de churrasco costuma apreciar utensílios práticos e presentes com um toque pessoal. Reunimos opções de diferentes preços, com base em nota, número de vendas e no que cada anúncio descreve. Os preços podem variar, então confira antes de comprar.",
+ "escolhas": [
+  {
+   "id": "23696726775",
+   "rotulo": "Presente personalizado",
+   "porque": "Kit com garfo, faca e estojo, com opção de nome e gravação a laser, o que dá um toque pessoal ao presente. Tem nota 4,9 e 793 vendas.",
+   "ideal_para": "Quem quer dar um presente com nome ou mensagem para um churrasqueiro."
+  },
+  {
+   "id": "23399440017",
+   "rotulo": "Mais vendido e barato",
+   "porque": "Kit com 2 facas para churrasco e carne, com bainha, por R$ 11,96. É o item com mais vendas da lista (11.710) e nota 4,8.",
+   "ideal_para": "Quem quer um presente útil e de baixo custo."
+  },
+  {
+   "id": "22894783385",
+   "rotulo": "Mais barato",
+   "porque": "Kit de petisqueiras para servir petiscos, amendoim e frios, por R$ 10,73, com nota 4,8. O título indica opções de 3 a 10 unidades.",
+   "ideal_para": "Quem tem orçamento apertado e quer um mimo para as festas de família ou amigos."
+  },
+  {
+   "id": "22894551427",
+   "rotulo": "Multiuso fora de casa",
+   "porque": "Canivete dobrável em aço inox com trava, indicado no anúncio para camping, pesca e churrasco. Tem nota 4,9 e 3.127 vendas.",
+   "ideal_para": "Quem gosta de churrasco também em viagens, acampamentos ou pescarias."
+  },
+  {
+   "id": "58263587985",
+   "rotulo": "Acendedor prático",
+   "porque": "Kit com 4 acendedores elétricos USB recarregáveis, com haste flexível de 360°, indicados para fogão, velas e churrasco. Nota 4,9 e 692 vendas.",
+   "ideal_para": "Quem quer praticidade para acender a churrasqueira ou o fogão sem usar fósforo."
+  }
+ ],
+ "como_escolher": [
+  "Defina o orçamento antes de escolher. Há opções a partir de R$ 10 e outras acima de R$ 35.",
+  "Pense se o presente será para uso diário na churrasqueira (facas, garfos) ou para receber visitas (petisqueiras).",
+  "Confira o título do anúncio: alguns kits de petisqueira trazem variações de quantidade, como 5, 10 ou de 3 a 10 peças. Veja qual opção está selecionada antes de finalizar.",
+  "Se o presente for personalizado, confirme o nome ou a mensagem exatamente como deseja antes de pagar, porque a gravação geralmente não pode ser alterada depois.",
+  "Para acendedores e outros itens elétricos, verifique se o produto é recarregável e se o cabo USB está incluído."
+ ],
+ "faq": [
+  {
+   "q": "Qual presente de churrasco é mais barato?",
+   "a": "Entre os itens desta lista, o kit de petisqueiras de 3 a 10 unidades (id 22894783385) é o mais barato, a R$ 10,73. Os kits de facas também ficam abaixo de R$ 12."
+  },
+  {
+   "q": "Vale a pena dar um kit de facas como presente?",
+   "a": "Sim, se a pessoa costuma cozinhar ou fazer churrasco com frequência. Facas e garfos são itens de uso constante, mas vale checar se o modelo combina com o que ela já usa."
+  },
+  {
+   "q": "Como saber se o presente personalizado vai ficar bem feito?",
+   "a": "Peça ao vendedor uma prévia da gravação, se o anúncio permitir, e confira ortografia e espaçamento do nome. Depois da compra, é comum não haver troca por erro de digitação do próprio comprador."
+  }
+ ],
+ "descricao_meta": "Presentes para quem gosta de churrasco: kits de facas, petisqueiras, canivete e acendedor, com opções a partir de R$ 10 e sugestões por perfil.",
+ "slug": "presente-para-quem-gosta-de-churrasco",
+ "pergunta": "Presente para quem gosta de churrasco",
+ "nicho": "presentes",
+ "escrito_em": 1795560003,
+ "criado_em": 1795560003
+}

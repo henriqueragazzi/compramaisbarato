@@ -1,0 +1,64 @@
+{
+ "titulo": "Acessórios para carro que valem a pena na Black Friday",
+ "resposta_curta": "Para a maioria dos motoristas, vale começar por um suporte de celular firme, na faixa de R$ 12,49 a R$ 29,99, e por um mini compressor de ar portátil. O mais vendido entre os compressores é o modelo digital com USB de R$ 63,99, com nota 4.9 e 3.343 vendidos. Confira o preço final no carrinho antes de comprar, porque as ofertas podem mudar.",
+ "intro": "A Black Friday costuma reunir descontos em acessórios de carro, sobretudo suportes de celular e compressores de ar. Abaixo estão opções com boa nota e muitas vendas, cada uma indicada para um perfil diferente. A escolha ideal depende do que você precisa no dia a dia.",
+ "escolhas": [
+  {
+   "id": "23797127405",
+   "rotulo": "Mais vendido: mini compressor digital USB",
+   "porque": "Tem nota 4.9 e mais de 3.300 vendas, por R$ 63,99. Pelo nome, é um calibrador portátil com recarga USB e display digital.",
+   "ideal_para": "Quem quer calibrar os pneus em casa ou na estrada sem depender de posto."
+  },
+  {
+   "id": "58257139840",
+   "rotulo": "Mais completo: compressor 4 em 1",
+   "porque": "Reúne compressor sem fio, auxiliar de partida, power bank e lanterna LED no mesmo aparelho. Tem nota 4.9 e 2.750 vendas, por R$ 178,99.",
+   "ideal_para": "Quem quer um item único para emergências no carro ou na moto, aceitando investir mais."
+  },
+  {
+   "id": "23297742238",
+   "rotulo": "Compressor sem fio com bateria de 4000mAh",
+   "porque": "Pelo nome, traz bateria de 4000mAh, tela LED e modo automático. Tem nota 4.9 e 1.743 vendas, por R$ 79,98.",
+   "ideal_para": "Quem prefere um compressor sem fio com calibragem automática."
+  },
+  {
+   "id": "23499011933",
+   "rotulo": "Suporte mais vendido: magnético dobrável",
+   "porque": "Tem sucção a vácuo e rotação de 360°, com 3.047 vendas por R$ 15,86. A nota é 4.7, um pouco abaixo dos demais itens da lista.",
+   "ideal_para": "Quem quer um suporte para painel, mesa ou parede com bom custo-benefício."
+  },
+  {
+   "id": "19797416287",
+   "rotulo": "Mais barato: suporte de grampo na saída de ar",
+   "porque": "Fixa na saída do ar-condicionado e tem ajuste de 360°. Tem nota 4.9 e custa R$ 12,49.",
+   "ideal_para": "Quem quer gastar pouco e não tem espaço no painel ou no para-brisa."
+  }
+ ],
+ "como_escolher": [
+  "Compare o preço final no carrinho com o valor de antes da promoção, incluindo o frete, que pode pesar no total.",
+  "Em compressores, confira na descrição a pressão e a voltagem informadas e veja se são compatíveis com o seu veículo.",
+  "Em suportes, verifique onde ele fixa (ventosa, grampo, painel ou saída de ar) e se acomoda o tamanho do seu celular.",
+  "Prefira modelos com recarga USB e confira a capacidade da bateria informada no nome do produto.",
+  "Use nota e número de vendas como referência, mas leia avaliações recentes antes de decidir."
+ ],
+ "faq": [
+  {
+   "q": "Um compressor portátil substitui calibrar no posto?",
+   "a": "Para uso ocasional e ajustes rápidos, ele pode ser prático. A pressão correta costuma estar na etiqueta da porta ou no manual do carro, e vale conferir o pneu com um calibrador antes de rodar."
+  },
+  {
+   "q": "Onde o suporte de celular deve ficar?",
+   "a": "Posicione o aparelho onde não atrapalhe a visão da estrada nem a área de acionamento do airbag. O Código de Trânsito Brasileiro proíbe segurar o celular ao dirigir, então use o suporte com o aparelho fixo."
+  },
+  {
+   "q": "Vale esperar a Black Friday para comprar?",
+   "a": "Pode valer, desde que o preço seja realmente menor que o praticado antes da promoção. Compare o valor com o histórico de preço e confira o frete antes de finalizar a compra."
+  }
+ ],
+ "descricao_meta": "Acessórios para carro na Black Friday: suportes e compressores portáteis com nota alta e preços a partir de R$ 12,49. Veja as melhores opções.",
+ "slug": "acessorios-para-carro-que-valem-a-pena-comprar-na-black-friday",
+ "pergunta": "Acessórios para carro que valem a pena comprar na Black Friday",
+ "nicho": "presentes",
+ "escrito_em": 1795559899,
+ "criado_em": 1795559899
+}

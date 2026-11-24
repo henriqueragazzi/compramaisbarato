@@ -1,0 +1,63 @@
+{
+ "titulo": "Smartwatch barato que vale a pena: 5 opções até R$ 250",
+ "resposta_curta": "Para um smartwatch barato com bom custo-benefício, a opção mais equilibrada da lista é o Smart Watch BETTDOW com GPS, Bluetooth e resistência IP67, por R$ 169,99 e nota 4.9. Se o orçamento for menor, há modelos entre R$ 46 e R$ 70 com notas de 4.7 a 4.8 e muitas vendas. Antes de escolher, confira se você precisa de GPS, chamadas pelo pulso ou modos esportivos.",
+ "intro": "Smartwatches nessa faixa de preço variam muito. Alguns focam em estética e notificações, outros trazem GPS, NFC ou monitoramento de saúde. Reunimos opções com perfis diferentes para você comparar pelo que precisa.",
+ "escolhas": [
+  {
+   "id": "23097741874",
+   "rotulo": "Melhor geral (com GPS)",
+   "porque": "Combina GPS, atendimento de chamadas, modo esportivo e resistência IP67, com nota 4.9 e 496 vendidos. É a opção mais completa da lista dentro do orçamento.",
+   "ideal_para": "Quem quer um relógio para treinos e rotina, com GPS e chamadas pelo pulso."
+  },
+  {
+   "id": "23793172388",
+   "rotulo": "Mais vendido com GPS e NFC",
+   "porque": "Tem 1.235 vendidos, nota 4.8 e preço de R$ 69,88. O nome indica GPS, NFC e monitor de pressão arterial, com tamanho de 45 mm.",
+   "ideal_para": "Quem busca recursos como GPS e NFC gastando pouco."
+  },
+  {
+   "id": "18799900509",
+   "rotulo": "Mais vendido com saúde e esporte",
+   "porque": "É o modelo com mais vendas da lista (1.376) e nota 4.7, por R$ 49,80. O nome cita monitoramento de saúde, contagem de exercícios e NFC.",
+   "ideal_para": "Quem quer um modelo barato para acompanhar atividades físicas e notificações."
+  },
+  {
+   "id": "29926409235",
+   "rotulo": "Mais barato",
+   "porque": "Custa R$ 46,88, com nota 4.8 e 413 vendidos. O nome indica lançamento unissex, na versão Série 9 de 45 mm.",
+   "ideal_para": "Quem quer gastar o mínimo e aceita um modelo mais simples."
+  },
+  {
+   "id": "46500937846",
+   "rotulo": "Feminino com caixa metálica",
+   "porque": "Tem tela LCD de 1,27 polegadas, resistência IP68, caixa de liga metálica e modo esportivo, com nota 4.9 e 871 vendidos. Está no limite do orçamento, a R$ 235,99.",
+   "ideal_para": "Quem prefere um modelo feminino com acabamento metálico e está disposto a gastar mais."
+  }
+ ],
+ "como_escolher": [
+  "Defina a função principal: se precisa de GPS para corrida, procure esse item no nome do produto antes de comprar.",
+  "Confira a resistência à água: IP67 ou IP68 são indicados para suor e chuva leve, mas não substituem mergulho.",
+  "Compare o tamanho da tela e da caixa com o seu pulso, já que muitos modelos vêm em tamanhos fixos.",
+  "Verifique a compatibilidade com o celular antes da compra, pois alguns recursos dependem de aplicativo e sistema."
+ ],
+ "faq": [
+  {
+   "q": "Smartwatch barato funciona com iPhone e Android?",
+   "a": "Depende do modelo e do aplicativo exigido pelo fabricante. Leia a descrição completa da loja e confirme a compatibilidade com o seu celular antes de comprar."
+  },
+  {
+   "q": "Vale a pena pagar mais por GPS?",
+   "a": "Se você corre ou pedala e quer registrar percurso sem levar o celular, o GPS faz diferença. Para uso diário com notificações, um modelo sem GPS costuma bastar."
+  },
+  {
+   "q": "Como saber se a nota e as vendas são confiáveis?",
+   "a": "Notas altas e muitas vendas ajudam, mas leia avaliações recentes com fotos e reclamações. Dê preferência a vendedores com boa reputação e política de troca clara."
+  }
+ ],
+ "descricao_meta": "Smartwatch barato até R$ 250: 5 opções comparadas por preço, nota, vendas e recursos como GPS e resistência à água. Veja qual combina com você.",
+ "slug": "smartwatch-barato-que-vale-a-pena",
+ "pergunta": "Smartwatch barato que vale a pena",
+ "nicho": "presentes",
+ "escrito_em": 1795559990,
+ "criado_em": 1795559990
+}
