@@ -27,8 +27,14 @@ class ShopeeAPIError(RuntimeError):
 
 class Shopee:
     def __init__(self, app_id=None, secret=None):
-        self.app_id = app_id or os.environ.get("SHOPEE_APP_ID", "")
-        self.secret = secret or os.environ.get("SHOPEE_SECRET", "")
+        import re
+        bruto_id = app_id or os.environ.get("SHOPEE_APP_ID", "")
+        bruto_secret = secret or os.environ.get("SHOPEE_SECRET", "")
+        # tolera espaços/rótulos colados junto ("AppID: 123")
+        achado = re.search(r"\d{6,}", bruto_id)
+        self.app_id = achado.group(0) if achado else bruto_id.strip()
+        partes = re.findall(r"[A-Za-z0-9]{16,}", bruto_secret)
+        self.secret = max(partes, key=len) if partes else bruto_secret.strip()
         if not self.app_id or not self.secret:
             raise ShopeeAPIError("Defina SHOPEE_APP_ID e SHOPEE_SECRET (painel de afiliados > Open API).")
 

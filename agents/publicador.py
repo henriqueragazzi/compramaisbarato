@@ -34,15 +34,29 @@ def data_br(ts):
     return datetime.fromtimestamp(ts, BRT).strftime("%d/%m/%Y")
 
 
+BASE = ""  # prefixo do caminho quando o site roda numa subpasta (ex.: /compramaisbarato no GitHub Pages)
+
+
+def com_base(html):
+    if not BASE:
+        return html
+    for a in ('href="/', 'src="/', 'action="/', "fetch('/"):
+        html = html.replace(a, a[:-1] + BASE + "/")
+    return html.replace(BASE + "//", "//")  # não mexe em links //cdn
+
+
 def escrever(caminho_url, html):
+    html = com_base(html)
     destino = DIST / caminho_url.strip("/") / "index.html" if caminho_url != "/" else DIST / "index.html"
     destino.parent.mkdir(parents=True, exist_ok=True)
     destino.write_text(html, encoding="utf-8")
 
 
 def rodar(indexnow=False):
+    global BASE
     cfg = config()
     site, nichos = cfg["site"], cfg["nichos"]
+    BASE = (urlparse(site["url"]).path or "").rstrip("/")
     produtos = ler_json(PRODUTOS, {})
     historico = ler_json(HISTORICO, {})
     guias = [ler_json(p, {}) for p in sorted(GUIAS.glob("*.json"))]
@@ -151,9 +165,9 @@ def rodar(indexnow=False):
     }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     # 404
-    (DIST / "404.html").write_text(env.get_template("lista.html").render(
+    (DIST / "404.html").write_text(com_base(env.get_template("lista.html").render(
         **base, caminho="/404", titulo="Página não encontrada", descricao="", h1="Ops, essa página saiu do ar",
-        intro="O produto pode ter acabado. Veja os guias:", guias=guias_ok[:9], produtos=[]), encoding="utf-8")
+        intro="O produto pode ter acabado. Veja os guias:", guias=guias_ok[:9], produtos=[])), encoding="utf-8")
 
     # sitemap, robots, llms.txt
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -178,7 +192,7 @@ def rodar(indexnow=False):
     (DIST / "llms.txt").write_text("\n".join(llms), encoding="utf-8")
 
     host = urlparse(site["url"]).hostname
-    if host and "seudominio" not in host:
+    if host and "seudominio" not in host and not host.endswith("github.io"):
         (DIST / "CNAME").write_text(host, encoding="utf-8")
 
     chave = site.get("indexnow") or os.environ.get("INDEXNOW_KEY")
