@@ -1,6 +1,7 @@
 # App "Compra Mais Barato" para o ChatGPT (servidor MCP) + contador de cliques.
 # Publicado automaticamente pelo GitHub Actions (.github/workflows/app.yml).
 name = "compramaisbarato-app"
+account_id = "fc2bbe24f2304a4688a3b7e0a75463ec"
 main = "src/index.js"
 compatibility_date = "2026-11-01"
 workers_dev = true

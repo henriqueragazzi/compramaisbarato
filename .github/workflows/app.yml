@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_ACCOUNT_ID: fc2bbe24f2304a4688a3b7e0a75463ec
     defaults:
       run:
         working-directory: app
@@ -18,8 +18,8 @@ jobs:
       - name: Conferir segredos
         id: check
         run: |
-          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
-            echo "::warning::Faltam CLOUDFLARE_API_TOKEN e CLOUDFLARE_ACCOUNT_ID nos segredos. App não publicado."; echo "ok=false" >> $GITHUB_OUTPUT
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::warning::Falta CLOUDFLARE_API_TOKEN nos segredos. App não publicado."; echo "ok=false" >> $GITHUB_OUTPUT
           else echo "ok=true" >> $GITHUB_OUTPUT; fi
       - uses: actions/setup-node@v4
         if: steps.check.outputs.ok == 'true'
