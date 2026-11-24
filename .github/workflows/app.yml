@@ -43,7 +43,8 @@ jobs:
           ATUAL=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" $API | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result?.subdomain||'')}catch{console.log('')}})")
           if [ -z "$ATUAL" ]; then
             for nome in compramaisbarato compramaisbarato-br cmb-achados; do
-              R=$(curl -s -X PUT -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" -d "{\"subdomain\":\"$nome\"}" $API)
+              printf '{"subdomain":"%s"}' "$nome" > sub.json
+              R=$(curl -s -X PUT -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" --data-binary @sub.json $API)
               echo "$R" | grep -q '"success":true' && { echo "Registrado: $nome"; break; } || echo "$R"
             done
           else echo "Já existe: $ATUAL"; fi
