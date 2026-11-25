@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "achados-cmb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encontra produtos bem avaliados da Shopee Brasil para casa, pet, carro e moto, presentes, móveis e eletrodomésticos, com foto, preço, nota e link para a loja.",
   "author": {
     "name": "Achados CMB",
@@ -100,7 +100,7 @@
             }
           ]
         },
-        "demo_recording_url": "PREENCHER_COM_LINK_DO_VIDEO",
+        "demo_recording_url": "https://youtu.be/c45ulwTQMHU",
         "commerce": true,
         "commerce_description": "The app recommends physical products sold on Shopee Brasil. It never takes payment: the 'Ver na Shopee' button opens the product page on Shopee, where checkout happens. Links are affiliate links."
       },
