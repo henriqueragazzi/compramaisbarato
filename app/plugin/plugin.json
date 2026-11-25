@@ -1,0 +1,115 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "compra-mais-barato",
+  "version": "1.0.0",
+  "description": "Encontra produtos bem avaliados da Shopee Brasil para casa, pet, carro e moto, presentes, móveis e eletrodomésticos, com foto, preço, nota e link para a loja.",
+  "author": {
+    "name": "Compra Mais Barato",
+    "url": "https://www.compramaisbarato.com.br"
+  },
+  "homepage": "https://www.compramaisbarato.com.br",
+  "license": "Proprietary",
+  "keywords": [
+    "compras",
+    "shopee",
+    "produtos",
+    "presentes",
+    "pet",
+    "casa",
+    "carro",
+    "eletrodomésticos",
+    "natal",
+    "brasil"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Compra Mais Barato",
+        "shortDescription": "Produtos bem avaliados Shopee",
+        "longDescription": "Compra Mais Barato ajuda você a escolher produtos da Shopee Brasil. Diga o que procura (por exemplo, 'fonte de água para gato até 150 reais') e o app mostra opções com foto, preço, nota dos compradores e número de vendas, além de guias de compra com a melhor escolha geral e a de melhor custo-benefício. As categorias são casa, pet, carro e moto, presentes, móveis e eletrodomésticos. A compra é feita na própria Shopee: o botão 'Ver na Shopee' abre a página do produto. Os links são de afiliado. O app não pede login nem guarda dados pessoais.",
+        "developerName": "Henrique Ragazzi",
+        "category": "Shopping",
+        "capabilities": [
+          "Buscar produtos da Shopee Brasil",
+          "Guias de compra por categoria",
+          "Filtrar por preço máximo"
+        ],
+        "websiteURL": "https://www.compramaisbarato.com.br",
+        "supportURL": "https://www.compramaisbarato.com.br/contato/",
+        "privacyPolicyURL": "https://www.compramaisbarato.com.br/privacidade/",
+        "termsOfServiceURL": "https://www.compramaisbarato.com.br/termos/",
+        "defaultPrompt": [
+          "Me indica uma fonte de água para gato",
+          "Presente de Natal para meu pai até 200 reais",
+          "Qual aspirador de pó vale a pena?"
+        ],
+        "brandColor": "#ff5a1f",
+        "brandColorDark": "#ff7a45",
+        "composerIcon": "./assets/icon.png",
+        "composerIconDark": "./assets/icon-dark.png",
+        "logo": "./assets/logo.png",
+        "logoDark": "./assets/logo-dark.png"
+      },
+      "onboardingSkill": "./skills/get-started/SKILL.md",
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Search a pet product with a plain request",
+              "prompt": "Me indica uma fonte de água para gato",
+              "tools_triggered": "buscar_produtos",
+              "expected_behavior": "Shows up to 4 cat water fountains from Shopee Brasil with photo, price in BRL, rating and a 'Ver na Shopee' button; the reply says why each fits."
+            },
+            {
+              "description": "Respect a stated budget",
+              "prompt": "Quero um aspirador vertical sem fio até 300 reais",
+              "tools_triggered": "buscar_produtos",
+              "expected_behavior": "Only shows cordless stick vacuums priced at or under R$ 300, each with rating and number of sales."
+            },
+            {
+              "description": "Gift idea using buying guides",
+              "prompt": "O que dar de presente de Natal para meu pai?",
+              "tools_triggered": "guias_de_compra, buscar_produtos",
+              "expected_behavior": "Summarizes the matching buying guide (best overall / best value picks with prices) and shows gift products in the card view."
+            },
+            {
+              "description": "Car accessory search",
+              "prompt": "Preciso de um aspirador portátil para carro",
+              "tools_triggered": "buscar_produtos",
+              "expected_behavior": "Shows car vacuum cleaners from Shopee Brasil with price, rating and sales count."
+            },
+            {
+              "description": "Higher-ticket home appliance",
+              "prompt": "Qual purificador de água vale a pena comprar?",
+              "tools_triggered": "guias_de_compra, buscar_produtos",
+              "expected_behavior": "Returns the water purifier guide summary when available plus product cards; no invented prices."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Not a shopping request",
+              "prompt": "Qual é a capital da Austrália?"
+            },
+            {
+              "description": "Request to buy or pay on the user's behalf; the app only links to Shopee and must not place orders",
+              "prompt": "Compra essa fonte para mim e paga com meu cartão"
+            },
+            {
+              "description": "Product outside Shopee Brasil scope / prohibited item; the app should not return results",
+              "prompt": "Onde compro remédio controlado sem receita?"
+            }
+          ]
+        },
+        "demo_recording_url": "PREENCHER_COM_LINK_DO_VIDEO",
+        "commerce": true,
+        "commerce_description": "The app recommends physical products sold on Shopee Brasil. It never takes payment: the 'Ver na Shopee' button opens the product page on Shopee, where checkout happens. Links are affiliate links."
+      },
+      "publication": {
+        "countries": [
+          "BR"
+        ],
+        "release_notes": "Primeira versão: busca de produtos da Shopee Brasil (casa, pet, carro e moto, presentes, móveis e eletrodomésticos, Natal) com cartões de produto, filtro por preço máximo e guias de compra."
+      }
+    }
+  }
+}
