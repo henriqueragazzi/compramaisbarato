@@ -9,7 +9,7 @@ workers_dev = true
 [vars]
 SITE_URL = "https://www.compramaisbarato.com.br"
 # Código de verificação de domínio que a OpenAI mostra no portal (é público).
-OPENAI_APPS_CHALLENGE = ""
+OPENAI_APPS_CHALLENGE = "4x2MJxLyK0O4S_wwERebJCmeHqTQuSzCJlnvJrOH4fE"
 
 [[d1_databases]]
 binding = "DB"
