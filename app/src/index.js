@@ -223,9 +223,17 @@ async function tratarRpc(msg, env, ctx, req) {
   }
 }
 
+async function lerCorpo(req) {
+  const enc = (req.headers.get("content-encoding") || "").toLowerCase();
+  if (req.body && (enc === "gzip" || enc === "deflate")) {
+    return await new Response(req.body.pipeThrough(new DecompressionStream(enc))).text();
+  }
+  return await req.text();
+}
+
 async function mcp(req, env, ctx) {
   let corpo;
-  try { corpo = await req.json(); } catch { return json({ jsonrpc: "2.0", id: null, error: { code: -32700, message: "JSON inválido" } }, 400); }
+  try { corpo = JSON.parse(await lerCorpo(req)); } catch { return json({ jsonrpc: "2.0", id: null, error: { code: -32700, message: "JSON inválido" } }, 400); }
   const lote = Array.isArray(corpo) ? corpo : [corpo];
   const respostas = [];
   for (const m of lote) {
@@ -244,7 +252,7 @@ async function mcp(req, env, ctx) {
 async function debugLog(env, req, url) {
   try {
     let metodo = "";
-    if (req.method === "POST") { const t = await req.text(); try { const b = JSON.parse(t); metodo = (Array.isArray(b) ? b : [b]).map((m) => m.method + (m.params?.protocolVersion ? "@" + m.params.protocolVersion : "")).join(","); } catch { metodo = "RAW[" + t.length + "]:" + t.slice(0, 150); } }
+    if (req.method === "POST") { const t = await lerCorpo(req); try { const b = JSON.parse(t); metodo = (Array.isArray(b) ? b : [b]).map((m) => m.method + (m.params?.protocolVersion ? "@" + m.params.protocolVersion : "")).join(","); } catch { metodo = "RAW[" + t.length + "]:" + t.slice(0, 150); } }
     await env.DB.prepare("CREATE TABLE IF NOT EXISTS debug (ts TEXT, linha TEXT)").run();
     await env.DB.prepare("INSERT INTO debug VALUES (?1, ?2)").bind(new Date().toISOString(),
       [req.method, url.pathname, metodo, req.headers.get("accept") || "", req.headers.get("content-type") || "", req.headers.get("content-encoding") || "", req.headers.get("mcp-protocol-version") || "", (req.headers.get("user-agent") || "").slice(0, 80)].join(" | ")).run();
