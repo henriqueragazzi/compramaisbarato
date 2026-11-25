@@ -37,7 +37,7 @@ button{margin-top:auto;border:0;border-radius:10px;background:var(--cor);color:#
         '<div class="in"><div class="nm">'+esc(p.nome)+'</div><div class="preco">'+esc(p.preco_texto)+'</div>'+
         '<div class="meta">⭐ '+esc(p.nota)+' · '+Number(p.vendas).toLocaleString('pt-BR')+' vendidos</div>'+
         '<button data-i="'+i+'">Ver na Shopee</button></div></div>';
-    }).join('')+'</div><div class="rodape">Preços aproximados, conferidos várias vezes ao dia. O valor final é o da Shopee. Links de afiliado · Compra Mais Barato</div>';
+    }).join('')+'</div><div class="rodape">Preços aproximados, conferidos várias vezes ao dia. O valor final é o da Shopee. Links de afiliado · Achados CMB</div>';
     Array.prototype.forEach.call(app.querySelectorAll('button'),function(b){
       b.onclick=function(){abrir(out.produtos[+b.getAttribute('data-i')].url_compra)};
     });

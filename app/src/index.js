@@ -10,7 +10,7 @@
 
 import { WIDGET_HTML } from "./widget.js";
 
-const SERVER = { name: "compra-mais-barato", version: "1.0.0" };
+const SERVER = { name: "achados-cmb", version: "1.0.0" };
 const WIDGET_URI = "ui://widget/produtos-v1.html";
 const IMG_DOMAINS = ["https://cf.shopee.com.br", "https://down-br.img.susercontent.com"];
 const PARE = new Set(("de da do das dos para pra pro com sem que um uma uns umas o a os as e ou meu minha qual quais " +
@@ -18,7 +18,7 @@ const PARE = new Set(("de da do das dos para pra pro com sem que um uma uns umas
   "barato barata vale pena me indica indique sugira sugestao sugestão onde tem").split(" "));
 
 const INSTRUCOES =
-  "Compra Mais Barato encontra produtos da Shopee Brasil bem avaliados (nota alta e muitas vendas), " +
+  "Achados CMB encontra produtos da Shopee Brasil bem avaliados (nota alta e muitas vendas), " +
   "com preço atualizado várias vezes ao dia. Use buscar_produtos quando a pessoa quiser sugestões de produtos " +
   "para comprar no Brasil, e guias_de_compra quando ela pedir ajuda para escolher. Mostre o preço como " +
   "aproximado: o valor final é o da loja no momento da compra. Os links são de afiliado.";
