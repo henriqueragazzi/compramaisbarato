@@ -53,10 +53,6 @@ jobs:
         if: steps.check.outputs.ok == 'true' && env.TELEGRAM_BOT_TOKEN != ''
         run: python agents/alertas.py || true
 
-      - name: Vendas para o painel
-        if: steps.check.outputs.ok == 'true' && env.CLOUDFLARE_API_TOKEN != ''
-        run: python agents/vendas.py --dias 10 || true
-
       - name: Redator de guias
         if: steps.check.outputs.ok == 'true' && env.LLM_API_KEY != ''
         run: python agents/redator.py --max 20

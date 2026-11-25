@@ -1,0 +1,19 @@
+name: Vendas para o painel
+on:
+  schedule:
+    - cron: "37 * * * *"   # de hora em hora
+  workflow_dispatch:
+concurrency: { group: vendas, cancel-in-progress: false }
+jobs:
+  vendas:
+    runs-on: ubuntu-latest
+    env:
+      SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+      SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - run: python agents/vendas.py --dias 10
