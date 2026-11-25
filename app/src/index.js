@@ -240,6 +240,22 @@ async function mcp(req, env, ctx) {
   return json(Array.isArray(corpo) ? respostas : respostas[0]);
 }
 
+// ---------------------------------------------------------------- diagnóstico (últimas 50 requisições, sem dados pessoais)
+async function debugLog(env, req, url) {
+  try {
+    let metodo = "";
+    if (req.method === "POST") { try { const b = await req.json(); metodo = (Array.isArray(b) ? b : [b]).map((m) => m.method).join(","); } catch { metodo = "?"; } }
+    await env.DB.prepare("CREATE TABLE IF NOT EXISTS debug (ts TEXT, linha TEXT)").run();
+    await env.DB.prepare("INSERT INTO debug VALUES (?1, ?2)").bind(new Date().toISOString(),
+      [req.method, url.pathname, metodo, req.headers.get("accept") || "", (req.headers.get("user-agent") || "").slice(0, 80)].join(" | ")).run();
+    await env.DB.prepare("DELETE FROM debug WHERE ts NOT IN (SELECT ts FROM debug ORDER BY ts DESC LIMIT 50)").run();
+  } catch {}
+}
+async function debugVer(env) {
+  try { const r = await env.DB.prepare("SELECT * FROM debug ORDER BY ts DESC LIMIT 50").all(); return json(r.results); }
+  catch (e) { return json({ erro: String(e) }); }
+}
+
 // ---------------------------------------------------------------- clique e estatísticas
 async function clique(req, env, ctx, id) {
   const url = new URL(req.url);
@@ -268,6 +284,8 @@ async function stats(env) {
 export default {
   async fetch(req, env, ctx) {
     const url = new URL(req.url);
+    if (url.pathname === "/debug") return debugVer(env);
+    if (!url.pathname.startsWith("/ir/") && url.pathname !== "/stats") ctx.waitUntil(debugLog(env, req.clone(), url));
     if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
     if (url.pathname === "/mcp" || url.pathname === "/mcp/") {
       if (req.method === "POST") return mcp(req, env, ctx);
