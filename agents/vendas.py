@@ -5,6 +5,7 @@ Uso: python agents/vendas.py --dias 10
 """
 import argparse
 import os
+import re
 import time
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
@@ -34,7 +35,9 @@ def d1(token):
 
 
 def rodar(dias=10):
-    token = os.environ.get("CLOUDFLARE_API_TOKEN", "")
+    bruto = os.environ.get("CLOUDFLARE_API_TOKEN", "")
+    m = re.search(r"[A-Za-z0-9_-]{30,}", bruto)  # tolera espaço ou quebra de linha colados junto
+    token = m.group(0) if m else ""
     if not token:
         print("Sem CLOUDFLARE_API_TOKEN: vendas não enviadas ao painel.")
         return
