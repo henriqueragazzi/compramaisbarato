@@ -1,0 +1,58 @@
+{
+ "titulo": "Capa de banco de carro: qual comprar em 2025",
+ "resposta_curta": "Para a maioria dos casos, a capa de tecido grosso com espuma protetora Estampado Veículos (R$ 59,90, nota 4,7 e 1.284 vendidos) é a escolha mais segura pelo volume de vendas e pelo bom custo-benefício. Se você tem pet, a capa impermeável para banco traseiro (R$ 36,00, nota 4,9) é a opção mais bem avaliada. Os preços da lista vão de R$ 21,25 a R$ 69,88 nas opções que destacamos.",
+ "intro": "Capas de banco variam em material, encaixe e finalidade. Abaixo estão opções com perfis diferentes, com base em nota, número de vendas e no que cada nome descreve. Confira sempre se a capa é compatível com o seu modelo antes de comprar.",
+ "escolhas": [
+  {
+   "id": "22598858382",
+   "rotulo": "Mais vendida e melhor custo-benefício",
+   "porque": "Tem tecido grosso e espuma protetora, com nota 4,7 e 1.284 vendidos, o maior volume da lista. Preço de R$ 59,90.",
+   "ideal_para": "Quem quer uma capa resistente para o uso diário sem gastar muito."
+  },
+  {
+   "id": "22192762302",
+   "rotulo": "Melhor avaliada, para pet",
+   "porque": "É impermeável e protege o banco traseiro, com a maior nota da lista (4,9) e preço de R$ 36,00.",
+   "ideal_para": "Quem leva cachorro ou gato no carro e quer proteger o estofado."
+  },
+  {
+   "id": "23695509518",
+   "rotulo": "Mais barata",
+   "porque": "Custa R$ 21,25, tem nota 4,7 e 689 vendidos. É voltada a animais e tem proteção impermeável.",
+   "ideal_para": "Quem tem orçamento curto e precisa de proteção básica para pets."
+  },
+  {
+   "id": "22922768925",
+   "rotulo": "Couro impermeável universal",
+   "porque": "Jogo em couro impermeável indicado como universal, com nota 4,6, 494 vendidos e preço de R$ 69,88.",
+   "ideal_para": "Quem prefere visual de couro e quer proteção contra líquidos."
+  }
+ ],
+ "como_escolher": [
+  "Confirme se a capa é feita para o modelo e o ano do seu carro, pois encaixes errados ficam soltos e mal ajustados.",
+  "Verifique se é jogo completo (bancos dianteiros, traseiros ou ambos) para não comprar menos peças do que precisa.",
+  "Prefira tecido grosso ou couro quando quiser mais resistência ao uso diário e ao atrito.",
+  "Considere impermeáveis se houver risco de líquidos, chuva ou pelos de animais.",
+  "Veja o material do airbag: se o carro tiver airbag no banco, a capa deve indicar compatibilidade para não atrapalhar a função."
+ ],
+ "faq": [
+  {
+   "q": "Capa universal serve em qualquer carro?",
+   "a": "Capas universais costumam se ajustar a vários modelos, mas o encaixe pode ficar menos justo. Modelos específicos tendem a ter melhor acabamento."
+  },
+  {
+   "q": "Capa de banco atrapalha o airbag?",
+   "a": "Pode atrapalhar se não for compatível. Antes de comprar, verifique na descrição se o produto informa compatibilidade com airbag."
+  },
+  {
+   "q": "Como limpar a capa de banco?",
+   "a": "Siga as instruções do fabricante. Em geral, capas de tecido podem ser limpas com pano úmido e sabão neutro, e as de couro sintético precisam apenas de pano úmido. Evite produtos abrasivos."
+  }
+ ],
+ "descricao_meta": "Capa de banco de carro: veja as melhores opções por preço, nota e uso (pet, couro, tecido grosso). Compare antes de comprar e escolha a ideal.",
+ "slug": "capa-de-banco-de-carro-qual-comprar",
+ "pergunta": "Capa de banco de carro: qual comprar?",
+ "nicho": "carro",
+ "escrito_em": 1795570583,
+ "criado_em": 1795570583
+}

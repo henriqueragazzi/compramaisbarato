@@ -1,0 +1,64 @@
+{
+ "titulo": "Qual ar-condicionado split comprar para quarto: guia de escolha",
+ "resposta_curta": "Para a maioria dos quartos, um split inverter de 9.000 BTUs é a escolha mais equilibrada. O Electrolux NI09F/NE09F (nota 5.0, R$ 1.955,43) é a melhor opção geral da lista, e o Agratto ZICST9F-02 sai por R$ 1.814,13 se você quiser economizar. Os modelos de 9.000 BTUs variam de R$ 1.814 a R$ 2.445.",
+ "intro": "O quarto geralmente pede um modelo menor que o da sala, mas o tamanho do ambiente, a exposição ao sol e o uso diário mudam a escolha. Abaixo estão opções desta lista, com preço, nota e número de vendas para comparação. Os dados são os da listagem.",
+ "escolhas": [
+  {
+   "id": "58214792212",
+   "rotulo": "Melhor geral para quarto",
+   "porque": "Split inverter de 9.000 BTUs, somente frio, com nota 5.0 e 348 vendidos. Custa R$ 1.955,43 e tem bom equilíbrio entre preço e avaliação.",
+   "ideal_para": "Quem quer um aparelho só de refrigeração para quarto de casal ou solteiro, com bom custo-benefício."
+  },
+  {
+   "id": "58208363797",
+   "rotulo": "Mais barato",
+   "porque": "Split inverter de 9.000 BTUs, somente frio, por R$ 1.814,13, o menor preço entre os splits da lista. Tem nota 4.9 e 87 vendidos.",
+   "ideal_para": "Quem quer economizar na compra e precisa apenas de refrigeração."
+  },
+  {
+   "id": "58214434050",
+   "rotulo": "Mais vendido",
+   "porque": "É o campeão de vendas da lista, com 2.313 unidades e nota 4.9. É um modelo de 12.000 BTUs, Eco Inverter, só frio, por R$ 2.289,00.",
+   "ideal_para": "Quartos maiores ou ambientes que esquentam muito, onde 9.000 BTUs pode ser pouco."
+  },
+  {
+   "id": "58209221648",
+   "rotulo": "Quente e frio",
+   "porque": "Split inverter de 9.000 BTUs que faz frio e quente, com nota 5.0. Custa R$ 2.444,57, o valor mais alto entre os modelos de 9.000 BTUs da lista.",
+   "ideal_para": "Quem precisa aquecer o quarto em dias frios, além de refrigerar no calor."
+  },
+  {
+   "id": "22693906593",
+   "rotulo": "Com Wi-Fi",
+   "porque": "Split inverter de 9.000 BTUs, somente frio, com Wi-Fi indicado no nome. Custa R$ 1.998,91, com nota 4.9 e 198 vendidos.",
+   "ideal_para": "Quem quer controlar o aparelho pelo celular. Confira na ficha técnica como funciona o recurso."
+  }
+ ],
+ "como_escolher": [
+  "Confira a capacidade pelo tamanho do quarto. Como referência geral, 9.000 BTUs costuma atender quartos menores; ambientes maiores, com sol forte ou muitas pessoas, pedem mais BTUs.",
+  "Verifique a tensão. Todos os modelos desta lista são 220V, então confirme a tomada e o disjuntor antes da compra.",
+  "Considere o inverter se o aparelho ficar ligado por muitas horas, pois ele ajusta a potência em vez de ligar e desligar o tempo todo.",
+  "Veja se o preço inclui a instalação. Se não incluir, some esse custo ao orçamento e confirme se a parede e a distância até a rede elétrica são adequadas.",
+  "Compare nota e número de vendas, mas leia a descrição do anúncio para conferir garantia e o que vem na caixa."
+ ],
+ "faq": [
+  {
+   "q": "9.000 ou 12.000 BTUs para quarto?",
+   "a": "Para quartos menores, 9.000 BTUs costuma bastar. Quartos maiores, com janela voltada para o sol ou mais ocupantes, podem pedir 12.000 BTUs. Na dúvida, compare o tamanho do ambiente com a tabela do fabricante."
+  },
+  {
+   "q": "Vale a pena pagar mais pelo inverter?",
+   "a": "O inverter ajusta a velocidade do compressor em vez de ligar e desligar tudo. Isso costuma dar temperatura mais estável, mas a economia de energia depende do uso e do clima da sua região."
+  },
+  {
+   "q": "Quais cuidados evitar na instalação e no uso?",
+   "a": "Evite instalar em local sem apoio firme, sem ventilação para a unidade externa ou perto de fontes de calor. Limpe os filtros periodicamente, pois sujeira reduz o rendimento do aparelho."
+  }
+ ],
+ "descricao_meta": "Qual split comprar para quarto? Veja opções de 9.000 e 12.000 BTUs com preço, nota e vendas, e dicas para escolher o modelo certo.",
+ "slug": "qual-ar-condicionado-split-comprar-para-quarto",
+ "pergunta": "Qual ar-condicionado split comprar para quarto",
+ "nicho": "moveis",
+ "escrito_em": 1795570523,
+ "criado_em": 1795570523
+}
