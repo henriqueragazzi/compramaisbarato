@@ -1,10 +1,10 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "compra-mais-barato",
+  "name": "achados-cmb",
   "version": "1.0.0",
   "description": "Encontra produtos bem avaliados da Shopee Brasil para casa, pet, carro e moto, presentes, móveis e eletrodomésticos, com foto, preço, nota e link para a loja.",
   "author": {
-    "name": "Compra Mais Barato",
+    "name": "Achados CMB",
     "url": "https://www.compramaisbarato.com.br"
   },
   "homepage": "https://www.compramaisbarato.com.br",
@@ -24,11 +24,11 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Compra Mais Barato",
+        "displayName": "Achados CMB",
         "shortDescription": "Produtos bem avaliados Shopee",
-        "longDescription": "Compra Mais Barato ajuda você a escolher produtos da Shopee Brasil. Diga o que procura (por exemplo, 'fonte de água para gato até 150 reais') e o app mostra opções com foto, preço, nota dos compradores e número de vendas, além de guias de compra com a melhor escolha geral e a de melhor custo-benefício. As categorias são casa, pet, carro e moto, presentes, móveis e eletrodomésticos. A compra é feita na própria Shopee: o botão 'Ver na Shopee' abre a página do produto. Os links são de afiliado. O app não pede login nem guarda dados pessoais.",
+        "longDescription": "Achados CMB ajuda você a escolher produtos da Shopee Brasil. Diga o que procura (por exemplo, 'fonte de água para gato até 150 reais') e o app mostra opções com foto, preço, nota dos compradores e número de vendas, além de guias de compra com a melhor escolha geral e a de melhor custo-benefício. As categorias são casa, pet, carro e moto, presentes, móveis e eletrodomésticos. A compra é feita na própria Shopee: o botão 'Ver na Shopee' abre a página do produto. Os links são de afiliado. O app não pede login nem guarda dados pessoais.",
         "developerName": "Henrique Ragazzi",
-        "category": "Shopping",
+        "category": "Other",
         "capabilities": [
           "Buscar produtos da Shopee Brasil",
           "Guias de compra por categoria",

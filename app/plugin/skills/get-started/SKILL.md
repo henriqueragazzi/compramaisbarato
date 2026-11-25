@@ -1,9 +1,9 @@
 ---
 name: get-started
-description: Como usar o Compra Mais Barato para achar produtos bem avaliados da Shopee Brasil.
+description: Como usar o Achados CMB para achar produtos bem avaliados da Shopee Brasil.
 ---
 
-# Compra Mais Barato
+# Achados CMB
 
 Use quando a pessoa quiser uma indicação de produto para comprar no Brasil (casa, pet, carro e moto, presentes, móveis e eletrodomésticos, Natal).
 
