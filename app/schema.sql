@@ -7,3 +7,7 @@ CREATE TABLE IF NOT EXISTS eventos (
   n INTEGER NOT NULL DEFAULT 0,
   PRIMARY KEY (dia, tipo, origem, item)
 );
+
+-- Vendas da Shopee por dia (gravado pelo robô, agents/vendas.py)
+CREATE TABLE IF NOT EXISTS vendas (dia TEXT PRIMARY KEY, pedidos INTEGER, itens INTEGER, comissao REAL, valor REAL, atualizado TEXT);
+CREATE TABLE IF NOT EXISTS vendas_itens (dia TEXT, item TEXT, nome TEXT, nicho TEXT, qtd INTEGER, comissao REAL, PRIMARY KEY (dia, item));

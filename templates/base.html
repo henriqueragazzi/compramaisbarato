@@ -74,5 +74,15 @@ footer{margin-top:50px;background:#fff;border-top:1px solid var(--bd);padding:28
   <p class="aviso">Participamos do programa de afiliados da Shopee: quando você compra por um link daqui, podemos receber uma comissão, sem custo extra para você. Preços e disponibilidade podem mudar; o valor válido é o da loja no momento da compra.</p>
   <p class="aviso">© {{ ano }} {{ site.nome }}</p>
 </div></footer>
+{% if site.app_url %}<script>
+(function(){try{if(sessionStorage.getItem("v"))return;sessionStorage.setItem("v","1")}catch(e){}
+var q=new URLSearchParams(location.search),u=(q.get("utm_source")||"").toLowerCase(),r="";try{r=new URL(document.referrer).hostname}catch(e){}
+var o="direto",t=u+" "+r;
+if(/chatgpt|openai/.test(t))o="chatgpt";else if(/perplexity/.test(t))o="perplexity";else if(/google/.test(t))o="google";else if(/bing/.test(t))o="bing";
+else if(/t\.me|telegram/.test(t))o="telegram";else if(/whatsapp|wa\.me/.test(t))o="whatsapp";else if(/instagram/.test(t))o="instagram";else if(/facebook|fb\./.test(t))o="facebook";
+else if(r&&r.indexOf("compramaisbarato")<0)o="outro";
+var p=location.pathname.split("/")[1]||"home";
+navigator.sendBeacon&&navigator.sendBeacon("{{ site.app_url }}/v?o="+o+"&p="+encodeURIComponent(p));})();
+</script>{% endif %}
 </body>
 </html>

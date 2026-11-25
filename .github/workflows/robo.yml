@@ -32,6 +32,7 @@ jobs:
       TELEGRAM_CANAL: ${{ vars.TELEGRAM_CANAL }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     steps:
       - id: check
         run: |
@@ -51,6 +52,10 @@ jobs:
       - name: Alertas de preço (Telegram)
         if: steps.check.outputs.ok == 'true' && env.TELEGRAM_BOT_TOKEN != ''
         run: python agents/alertas.py || true
+
+      - name: Vendas para o painel
+        if: steps.check.outputs.ok == 'true' && env.CLOUDFLARE_API_TOKEN != ''
+        run: python agents/vendas.py --dias 10 || true
 
       - name: Redator de guias
         if: steps.check.outputs.ok == 'true' && env.LLM_API_KEY != ''

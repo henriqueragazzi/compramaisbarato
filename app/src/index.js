@@ -9,6 +9,7 @@
 // O catálogo vem do próprio site (/api/catalogo.json), gerado pelo robô a cada 3 horas.
 
 import { WIDGET_HTML } from "./widget.js";
+import { painel } from "./painel.js";
 
 const SERVER = { name: "achados-cmb", version: "1.0.0" };
 const WIDGET_URI = "ui://widget/produtos-v1.html";
@@ -72,7 +73,7 @@ const TOOLS = [
 // ---------------------------------------------------------------- utilidades
 const norm = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const brl = (v) => "R$ " + Number(v).toFixed(2).replace(".", ",").replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-const hoje = () => new Date().toISOString().slice(0, 10);
+const hoje = () => new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10); // dia no horário de Brasília
 const CORS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
@@ -248,6 +249,18 @@ async function mcp(req, env, ctx) {
   return json(Array.isArray(corpo) ? respostas : respostas[0]);
 }
 
+// ---------------------------------------------------------------- visitas do site (beacon, sem cookies nem dados pessoais)
+const ORIGENS_OK = ["chatgpt", "google", "bing", "telegram", "whatsapp", "direto", "outro", "perplexity", "instagram", "facebook"];
+async function visita(req, env, ctx, url) {
+  const ua = req.headers.get("user-agent") || "";
+  if (!/bot|crawl|spider|headless|preview/i.test(ua)) {
+    const o = ORIGENS_OK.includes(url.searchParams.get("o")) ? url.searchParams.get("o") : "outro";
+    const pg = (url.searchParams.get("p") || "").replace(/[^a-z0-9-]/gi, "").slice(0, 20) || "home";
+    await contar(env, ctx, "visita", o, [pg]);
+  }
+  return new Response(null, { status: 204, headers: CORS });
+}
+
 // ---------------------------------------------------------------- diagnóstico (últimas 50 requisições, sem dados pessoais)
 async function debugLog(env, req, url) {
   try {
@@ -295,7 +308,9 @@ export default {
   async fetch(req, env, ctx) {
     const url = new URL(req.url);
     if (url.pathname === "/debug") return debugVer(env);
-    if (!url.pathname.startsWith("/ir/") && url.pathname !== "/stats") ctx.waitUntil(debugLog(env, req.clone(), url));
+    if (url.pathname.includes("mcp") || url.pathname.startsWith("/.well-known")) ctx.waitUntil(debugLog(env, req.clone(), url));
+    if (url.pathname === "/painel" || url.pathname === "/painel/dados") return painel(req, env);
+    if (url.pathname === "/v") return visita(req, env, ctx, url);
     if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
     if (["/mcp", "/mcp/", "/achados/mcp", "/achados/mcp/"].includes(url.pathname)) {
       if (req.method === "POST") return mcp(req, env, ctx);
