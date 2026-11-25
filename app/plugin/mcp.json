@@ -3,7 +3,7 @@
   "mcpServers": {
     "achados-cmb": {
       "type": "streamable-http",
-      "url": "https://compramaisbarato-app.henrique-ragazzi.workers.dev/mcp"
+      "url": "https://compramaisbarato-app.henrique-ragazzi.workers.dev/achados/mcp"
     }
   }
 }

@@ -295,7 +295,7 @@ export default {
     if (url.pathname === "/debug") return debugVer(env);
     if (!url.pathname.startsWith("/ir/") && url.pathname !== "/stats") ctx.waitUntil(debugLog(env, req.clone(), url));
     if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
-    if (url.pathname === "/mcp" || url.pathname === "/mcp/") {
+    if (["/mcp", "/mcp/", "/achados/mcp", "/achados/mcp/"].includes(url.pathname)) {
       if (req.method === "POST") return mcp(req, env, ctx);
       return new Response("Use POST", { status: 405, headers: { Allow: "POST", ...CORS } });
     }
