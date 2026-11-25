@@ -1,0 +1,64 @@
+{
+ "titulo": "Aspirador robô vale a pena? Veja os modelos e como escolher",
+ "resposta_curta": "Vale a pena para quem quer reduzir a limpeza diária, sobretudo em pisos lisos. O mais vendido da lista é o Aspirador de Pó Robô IDALI LIFE, por R$ 559,99, com nota 4.9 e 1.426 vendas. Para mais recursos, o Lydsto G1, por R$ 849, é uma opção equilibrada, e os preços da lista vão de R$ 559,99 a R$ 3.190.",
+ "intro": "Um aspirador robô faz a limpeza básica sem sua intervenção, mas não substitui totalmente a faxina em todos os casos. Tapetes grossos, cabos soltos e desníveis exigem atenção. Abaixo estão modelos com perfis de preço e recursos diferentes.",
+ "escolhas": [
+  {
+   "id": "23197569048",
+   "rotulo": "Mais vendido e mais barato",
+   "porque": "É o robô mais vendido da lista, com 1.426 vendas e nota 4.9. Traz sensores anti-queda, que ajudam a evitar que ele caia em degraus.",
+   "ideal_para": "Quem quer um robô simples para o dia a dia pagando menos."
+  },
+  {
+   "id": "23898911802",
+   "rotulo": "Equilíbrio entre preço e recursos",
+   "porque": "Combina varrição, aspiração e passagem de pano, além de recarga automática. Custa R$ 849 e tem nota 4.9.",
+   "ideal_para": "Quem quer varrer, aspirar e passar pano em um só aparelho."
+  },
+  {
+   "id": "58212379081",
+   "rotulo": "Mais potência de sucção",
+   "porque": "Anuncia 20000Pa de sucção e vem com base autolimpante. Custa R$ 1.599, com nota 4.8.",
+   "ideal_para": "Quem tem casa com muito pó ou pelos de animais e quer mais força."
+  },
+  {
+   "id": "58265788072",
+   "rotulo": "Topo com mapeamento",
+   "porque": "Traz 10000Pa, mapeamento inteligente e sucção potente. Custa R$ 2.999, com nota 5.0 em 115 vendas.",
+   "ideal_para": "Quem quer um robô que mapeie a casa e tenha orçamento maior."
+  },
+  {
+   "id": "58214467232",
+   "rotulo": "Menos manutenção",
+   "porque": "Inclui estação autolimpante com lavagem automática e sucção de 10.000Pa. Custa R$ 2.797, com nota 5.0.",
+   "ideal_para": "Quem não quer esvaziar e lavar o reservatório a cada uso."
+  }
+ ],
+ "como_escolher": [
+  "Tipo de piso: pisos lisos, cerâmicos e laminados rendem mais com robô. Em tapetes grossos, retire o tapete ou escolha modelo com boa sucção.",
+  "Navegação: mapeamento organiza melhor as rotas, e sensores anti-queda protegem contra quedas em degraus.",
+  "Recarga e base: recarga automática permite limpar sem intervenção, e a base autolimpante diminui o trabalho de manutenção.",
+  "Potência: o valor em Pa é o que o fabricante anuncia. Compare com cautela, porque o desempenho real depende do piso e da sujeira.",
+  "Tensão: confira se o produto é bivolt ou 127/220V antes de comprar."
+ ],
+ "faq": [
+  {
+   "q": "Robô aspirador substitui a vassoura?",
+   "a": "Na maioria dos casos, não por completo. Ele ajuda na manutenção diária, mas cantos, móveis baixos e áreas com muito acúmulo costumam pedir limpeza manual de vez em quando."
+  },
+  {
+   "q": "Quais erros são comuns na compra?",
+   "a": "Escolher só pela potência sem olhar o tipo de piso, ignorar o tamanho do reservatório e não verificar a disponibilidade de peças de reposição, como escovas e filtros."
+  },
+  {
+   "q": "Como cuidar do robô para ele durar mais?",
+   "a": "Limpe escovas e filtro com frequência, retire fios e meias do caminho e mantenha os sensores e a base de carregamento limpos."
+  }
+ ],
+ "descricao_meta": "Aspirador robô vale a pena? Veja como escolher e compare modelos de R$ 559 a R$ 3.190, com preço, nota e perfil de uso.",
+ "slug": "aspirador-robo-vale-a-pena-qual-comprar",
+ "pergunta": "Aspirador robô vale a pena? Qual comprar",
+ "nicho": "moveis",
+ "escrito_em": 1795580743,
+ "criado_em": 1795580743
+}
