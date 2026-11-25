@@ -20,7 +20,7 @@ def rodar(dias=7):
         rep = api.relatorio_conversoes(ini, fim, scroll)
         for n in rep["nodes"]:
             pedidos += 1
-            total += float(n.get("estimatedTotalCommission") or 0)
+            total += float(n.get("totalCommission") or 0)
             for o in n.get("orders") or []:
                 for it in o.get("items") or []:
                     c = float(it.get("itemTotalCommission") or 0)

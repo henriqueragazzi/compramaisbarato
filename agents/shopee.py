@@ -87,11 +87,13 @@ class Shopee:
         return self._post(q, {"url": url, "subs": sub_ids or ["site"]})["generateShortLink"]["shortLink"]
 
     def relatorio_conversoes(self, inicio_ts, fim_ts, scroll_id=""):
-        q = """query($s:Int64,$e:Int64,$scroll:String){
-          conversionReport(purchaseTimeStart:$s, purchaseTimeEnd:$e, scrollId:$scroll, limit:500){
-            nodes { purchaseTime checkoutId estimatedTotalCommission
-                    orders { items { itemId itemName itemPrice qty itemTotalCommission } } }
-            pageInfo { scrollId hasNextPage }
-          }
-        }"""
-        return self._post(q, {"s": int(inicio_ts), "e": int(fim_ts), "scroll": scroll_id})["conversionReport"]
+        # Argumentos escritos direto na consulta: a API recusa variáveis Int64 com "wrong type".
+        scroll = f', scrollId:"{scroll_id}"' if scroll_id else ""
+        q = f"""{{
+          conversionReport(purchaseTimeStart:{int(inicio_ts)}, purchaseTimeEnd:{int(fim_ts)}, limit:500{scroll}){{
+            nodes {{ purchaseTime checkoutId totalCommission
+                    orders {{ items {{ itemId itemName itemPrice qty itemTotalCommission }} }} }}
+            pageInfo {{ scrollId hasNextPage }}
+          }}
+        }}"""
+        return self._post(q)["conversionReport"]

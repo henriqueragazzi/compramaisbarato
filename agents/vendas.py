@@ -49,7 +49,7 @@ def rodar(dias=10):
         for n in rep["nodes"]:
             dia = datetime.fromtimestamp(int(n.get("purchaseTime") or fim), BRT).strftime("%Y-%m-%d")
             por_dia[dia]["pedidos"] += 1
-            por_dia[dia]["comissao"] += float(n.get("estimatedTotalCommission") or 0)
+            por_dia[dia]["comissao"] += float(n.get("totalCommission") or 0)
             for o in n.get("orders") or []:
                 for it in o.get("items") or []:
                     q = int(it.get("qty") or 1)
