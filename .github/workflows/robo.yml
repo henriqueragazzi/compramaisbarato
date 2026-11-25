@@ -69,7 +69,6 @@ jobs:
         if: steps.check.outputs.ok == 'true' && github.event.schedule == '41 12 * * 1'
         run: |
           python agents/analista.py --dias 7 || true
-          if [ -n "$OPENAI_API_KEY$PERPLEXITY_API_KEY" ]; then python agents/monitor_ia.py --max 40 || true; fi
 
       - name: Salvar dados
         if: steps.check.outputs.ok == 'true'

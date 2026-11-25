@@ -34,9 +34,14 @@ def dominios(texto):
     return ds
 
 
+def chave_openai():
+    m = re.search(r"sk-[A-Za-z0-9_-]{20,}", os.environ.get("OPENAI_API_KEY", ""))
+    return m.group(0) if m else os.environ.get("OPENAI_API_KEY", "").strip()
+
+
 def perguntar_openai(q):
     r = requests.post("https://api.openai.com/v1/responses", timeout=180,
-                      headers={"Authorization": f"Bearer {os.environ['OPENAI_API_KEY']}"},
+                      headers={"Authorization": f"Bearer {chave_openai()}"},
                       json={"model": os.environ.get("MONITOR_OPENAI_MODEL", "gpt-5-mini"),
                             "tools": [{"type": "web_search"}],
                             "input": q + " Responda para alguém no Brasil, com links."})
