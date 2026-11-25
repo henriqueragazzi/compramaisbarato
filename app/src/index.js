@@ -274,7 +274,9 @@ async function clique(req, env, ctx, id) {
     const p = cat.produtos.find((x) => x.id === id);
     if (p) destino = p.link;
   } catch {}
-  await contar(env, ctx, "clique", origem, [id]);
+  const ua = req.headers.get("user-agent") || "";
+  const robo = !ua || /bot|crawl|spider|slurp|preview|fetch|python|curl|wget|httpclient|headless|facebookexternalhit|whatsapp|telegram|semrush|ahrefs|bytespider|gptbot|claude|perplexity/i.test(ua);
+  await contar(env, ctx, robo ? "clique_robo" : "clique", origem, [id]);
   return new Response(null, { status: 302, headers: { Location: destino, "Cache-Control": "no-store", ...CORS } });
 }
 
