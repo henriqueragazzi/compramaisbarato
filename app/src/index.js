@@ -244,10 +244,10 @@ async function mcp(req, env, ctx) {
 async function debugLog(env, req, url) {
   try {
     let metodo = "";
-    if (req.method === "POST") { try { const b = await req.json(); metodo = (Array.isArray(b) ? b : [b]).map((m) => m.method).join(","); } catch { metodo = "?"; } }
+    if (req.method === "POST") { const t = await req.text(); try { const b = JSON.parse(t); metodo = (Array.isArray(b) ? b : [b]).map((m) => m.method + (m.params?.protocolVersion ? "@" + m.params.protocolVersion : "")).join(","); } catch { metodo = "RAW[" + t.length + "]:" + t.slice(0, 150); } }
     await env.DB.prepare("CREATE TABLE IF NOT EXISTS debug (ts TEXT, linha TEXT)").run();
     await env.DB.prepare("INSERT INTO debug VALUES (?1, ?2)").bind(new Date().toISOString(),
-      [req.method, url.pathname, metodo, req.headers.get("accept") || "", (req.headers.get("user-agent") || "").slice(0, 80)].join(" | ")).run();
+      [req.method, url.pathname, metodo, req.headers.get("accept") || "", req.headers.get("content-type") || "", req.headers.get("content-encoding") || "", req.headers.get("mcp-protocol-version") || "", (req.headers.get("user-agent") || "").slice(0, 80)].join(" | ")).run();
     await env.DB.prepare("DELETE FROM debug WHERE ts NOT IN (SELECT ts FROM debug ORDER BY ts DESC LIMIT 50)").run();
   } catch {}
 }
