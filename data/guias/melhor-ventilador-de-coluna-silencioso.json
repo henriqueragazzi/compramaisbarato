@@ -1,58 +1,58 @@
 {
- "titulo": "Melhor ventilador de coluna silencioso: 4 opções para comprar",
- "resposta_curta": "Para quem quer um ventilador de coluna silencioso, a opção mais indicada da lista é o Ventilador de Coluna Silencioso Branco 3 Velocidades (id 58259887450), por R$ 179,90, com nota 4.9. As opções da lista ficam entre R$ 127,99 e R$ 199,90, e o nome dos modelos silenciosos já indica essa característica.",
- "intro": "Ventilador silencioso é uma das buscas mais comuns na hora de escolher um modelo de coluna para quarto, sala ou escritório. Abaixo estão opções com faixas de preço e perfis diferentes, com base em nota, número de vendas e no que os nomes dos anúncios informam. Vale checar a ficha técnica antes de comprar, já que o ruído não aparece com números nos anúncios.",
+ "titulo": "Melhor ventilador de coluna silencioso: 4 opções por perfil e preço",
+ "resposta_curta": "Para quem quer um ventilador de coluna silencioso com bom custo-benefício, o Ventilador de Coluna Silencioso Branco Circulador De Ar Potente Turbo 110V/220V (R$ 199,90, nota 4.8) é um dos mais indicados, por ser bivolt e ter 233 vendas. Se o orçamento for menor, o Ventilador de Pé Turbo Silencioso 130cm (a partir de R$ 125,97) é a opção de entrada.",
+ "intro": "Ventilador silencioso costuma ser uma busca de quem usa o aparelho para dormir, estudar ou trabalhar perto. Abaixo estão opções da nossa lista, separadas por perfil de uso e preço. Os títulos informam que alguns modelos são silenciosos, mas a lista não traz medidas de ruído em decibéis, então vale conferir a ficha técnica antes de comprar.",
  "escolhas": [
   {
-   "id": "58259887450",
-   "rotulo": "Melhor escolha silenciosa",
-   "porque": "O nome do anúncio destaca 'Silencioso', tem 3 velocidades e nota 4.9. Por R$ 179,90, é uma opção equilibrada para casa e escritório.",
-   "ideal_para": "Quem quer silêncio e controle de velocidade sem gastar muito."
-  },
-  {
    "id": "20797271211",
-   "rotulo": "Silencioso com mais potência",
-   "porque": "Também traz 'Silencioso' no nome, com a proposta de circulação de ar potente e turbo. Custa R$ 199,90 e tem nota 4.8.",
-   "ideal_para": "Quem quer um ventilador silencioso, mas precisa de vento mais forte para ambientes maiores."
+   "rotulo": "Melhor custo-benefício silencioso",
+   "porque": "Combina o termo silencioso no título com nota 4.8 e 233 vendidos, por R$ 199,90. Funciona em 110V e 220V, o que facilita a compra em diferentes tomadas.",
+   "ideal_para": "Quem quer equilíbrio entre preço, desempenho e tranquilidade para uso diário em casa."
   },
   {
-   "id": "58254696881",
-   "rotulo": "Mais vendido",
-   "porque": "É o item com mais vendas da lista (5.784 unidades), com nota 4.8, 6 pás e 75W, por R$ 159,90.",
-   "ideal_para": "Quem prefere um modelo muito procurado e com bom histórico de compras."
+   "id": "58259887450",
+   "rotulo": "Silencioso para quarto e escritório",
+   "porque": "Tem nota 4.9 e três velocidades, sendo indicado no título para casa e escritório por R$ 179,90. Tem menos vendas registradas (49), então a avaliação de compradores tem menos base.",
+   "ideal_para": "Quem busca um modelo mais discreto para ambientes de trabalho ou para o quarto."
   },
   {
-   "id": "29996172262",
-   "rotulo": "Mais barato",
-   "porque": "É o de menor preço da lista, R$ 127,99, com 40 cm, 3 velocidades, 45W e nota 4.9. O nome não cita silêncio, então confira avaliações sobre ruído.",
-   "ideal_para": "Quem tem orçamento mais baixo e usa o ventilador em ambientes pequenos."
+   "id": "54456334030",
+   "rotulo": "Mais barato da lista",
+   "porque": "É a opção de menor preço, a partir de R$ 125,97, com nota 4.7 e 1.589 vendas. O título traz turbo, silencioso, 3 velocidades e 130 cm de altura.",
+   "ideal_para": "Quem tem orçamento apertado e quer um ventilador de coluna simples com vários compradores."
+  },
+  {
+   "id": "52417354325",
+   "rotulo": "Mais vendido e mais potente",
+   "porque": "Tem o maior número de vendas da lista (1.785) e nota 4.9, por R$ 299,90. O título informa 180W e 8 pás de 50 cm, mas não cita silêncio.",
+   "ideal_para": "Quem prioriza ar mais forte e não se importa de pagar mais, desde que o ruído seja aceitável."
   }
  ],
  "como_escolher": [
-  "Confira se o anúncio ou a ficha técnica informa o nível de ruído em dB, já que isso é o dado mais útil para comparar silêncio.",
-  "Veja a quantidade de velocidades: modelos com mais opções permitem usar menos potência à noite, quando o barulho incomoda mais.",
-  "Observe o tamanho da coluna (40 cm, 50 cm etc.) e escolha de acordo com o espaço e a distância até a cama ou mesa.",
-  "Confirme a voltagem (110V, 127V ou 220V) antes de comprar, pois usar a tensão errada pode danificar o aparelho.",
-  "Não escolha só pela potência: ventiladores muito potentes costumam ser mais barulhentos em velocidade máxima."
+  "Confira se o título ou a ficha técnica informa silencioso e, se possível, o nível de ruído em decibéis (dB).",
+  "Veja a altura e a largura do aparelho para garantir que ele cabe no espaço e fica na altura certa para você.",
+  "Prefira modelos com várias velocidades: as mais baixas costumam ser as mais silenciosas no uso noturno.",
+  "Confirme a voltagem (110V ou 220V) ou escolha um modelo bivolt antes de finalizar a compra.",
+  "Compare nota e número de vendas, mas considere que modelos com poucas avaliações têm menos base de comparação."
  ],
  "faq": [
   {
-   "q": "Como saber se um ventilador de coluna é realmente silencioso?",
-   "a": "O ideal é verificar o nível de ruído informado na ficha técnica, em decibéis (dB). Se o anúncio não tiver esse dado, leia avaliações de compradores que comentem sobre barulho. O nome 'silencioso' ajuda, mas não substitui a informação técnica."
+   "q": "Ventilador de coluna silencioso faz diferença para dormir?",
+   "a": "Sim, quem tem sono leve costuma notar mais o ruído constante. Escolha uma velocidade baixa à noite e posicione o aparelho longe da cabeceira."
   },
   {
-   "q": "Qual velocidade usar para reduzir o barulho?",
-   "a": "Em geral, velocidades menores fazem menos ruído. Para dormir, usar a velocidade mais baixa ou média costuma ser mais confortável do que a máxima, e vale testar na prática no seu ambiente."
+   "q": "Qual a diferença entre ventilador de coluna e de pé?",
+   "a": "Na prática, os nomes costumam se referir ao mesmo tipo de aparelho, de haste alta e giro de cabeça. Os anúncios variam, então o que vale é conferir altura, potência e voltagem."
   },
   {
-   "q": "Qual é o erro mais comum ao comprar um ventilador de coluna?",
-   "a": "Escolher apenas pelo preço ou pela potência. Medir o espaço, conferir a voltagem e observar a quantidade de velocidades evita arrependimento. Também é bom verificar se a posição do aparelho não fica perto demais de cortinas ou objetos leves."
+   "q": "Preciso de um ventilador bivolt?",
+   "a": "Não necessariamente, mas o modelo bivolt evita problemas se você mudar de casa ou usar em tomadas diferentes. Verifique sempre a voltagem indicada no produto antes de ligar."
   }
  ],
- "descricao_meta": "Veja os melhores ventiladores de coluna silenciosos: opções de R$ 127,99 a R$ 199,90 com nota alta, comparadas por perfil e com dicas para escolher.",
+ "descricao_meta": "Melhor ventilador de coluna silencioso: 4 opções por perfil e preço, de R$ 125 a R$ 300, com notas, vendas e dicas para escolher.",
  "slug": "melhor-ventilador-de-coluna-silencioso",
  "pergunta": "Melhor ventilador de coluna silencioso",
  "nicho": "moveis",
- "escrito_em": 1795580757,
+ "escrito_em": 1795678774,
  "criado_em": 1795563128
 }
