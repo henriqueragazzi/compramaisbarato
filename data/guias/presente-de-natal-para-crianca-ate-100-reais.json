@@ -1,0 +1,58 @@
+{
+ "titulo": "Presentes de Natal para criança até R$ 100",
+ "resposta_curta": "Para criança com orçamento de até R$ 100, o Jogo de Xadrez Magnético de Madeira (R$ 47,90, nota 5.0) é a escolha mais completa. Se quiser gastar menos, o Livro de Colorir Ursinhos sai por R$ 8,00 e o Squishy de Queijo por R$ 29,00, que também é muito vendido.",
+ "intro": "Esta seleção reúne brinquedos educativos, sensoriais e criativos que cabem no orçamento. A lista enviada tem poucas opções voltadas a crianças, então incluí só produtos que fazem sentido como presente infantil. Confira a faixa etária indicada na página de cada anúncio antes de comprar.",
+ "escolhas": [
+  {
+   "id": "23694205380",
+   "rotulo": "Melhor escolha geral",
+   "porque": "Jogo de xadrez magnético de madeira, portátil, com 30 peças, pensado como brinquedo educativo para interação. Tem nota 5.0 e 593 vendidos.",
+   "ideal_para": "Crianças que gostam de jogos de estratégia e de atividades para fazer junto com adultos ou colegas."
+  },
+  {
+   "id": "22499534433",
+   "rotulo": "Brinquedo educativo com mais peças",
+   "porque": "Jogo de pesca magnético de madeira com 82 peças, descrito como material educativo no estilo Montessori. Nota 4.9 e 453 vendidos.",
+   "ideal_para": "Crianças pequenas e em idade pré-escolar que gostam de brincadeiras manuais e de coordenação."
+  },
+  {
+   "id": "55315796592",
+   "rotulo": "Mais vendido da lista infantil",
+   "porque": "Squishy em formato de queijo, macio para apertar, descrito como antiestresse e sensorial. Nota 4.8 e 2133 vendidos, o maior volume de vendas entre as opções para criança.",
+   "ideal_para": "Presente de baixo custo e fácil de embrulhar, para crianças que gostam de brinquedos para apertar."
+  },
+  {
+   "id": "58219336682",
+   "rotulo": "Opção mais barata",
+   "porque": "Livro de colorir com ursinhos, formato A5, 50 folhas de 180g. Nota 4.9 e 1419 vendidos.",
+   "ideal_para": "Quem quer um presente simples, criativo e de baixo custo, para crianças que gostam de desenhar e colorir."
+  }
+ ],
+ "como_escolher": [
+  "Confira a faixa etária recomendada no anúncio, porque peças pequenas podem não ser adequadas para crianças menores.",
+  "Para bebês e crianças muito pequenas, prefira brinquedos maiores e sem peças soltas que possam ser engolidas.",
+  "Produtos de madeira e magnéticos costumam exigir supervisão, principalmente com peças pequenas.",
+  "Considere o interesse da criança: jogos de estratégia, atividades manuais e brinquedos sensoriais atendem perfis diferentes.",
+  "Se o orçamento permitir, dê preferência a um presente que estimule a criança a brincar com outras pessoas."
+ ],
+ "faq": [
+  {
+   "q": "Qual a faixa etária ideal para esses presentes?",
+   "a": "Os nomes dos produtos não informam a idade mínima. Consulte a descrição e a faixa etária indicada na página do anúncio antes de comprar."
+  },
+  {
+   "q": "Vale a pena gastar quase R$ 50 em um jogo?",
+   "a": "Depende do uso. Jogos de madeira com muitas peças tendem a durar mais e podem ser usados por vários anos, desde que a faixa etária seja adequada."
+  },
+  {
+   "q": "Como evitar erros na hora de comprar um presente infantil?",
+   "a": "Verifique a idade recomendada, o tamanho das peças e se o produto cabe no seu orçamento com frete. Também vale comparar o conteúdo do kit com a descrição do anúncio."
+  }
+ ],
+ "descricao_meta": "Presentes de Natal para criança até R$ 100: jogos educativos, squishy e livro de colorir, com preços, notas e dicas para escolher.",
+ "slug": "presente-de-natal-para-crianca-ate-100-reais",
+ "pergunta": "Presente de Natal para criança até 100 reais",
+ "nicho": "presentes",
+ "escrito_em": 1795721714,
+ "criado_em": 1795721714
+}

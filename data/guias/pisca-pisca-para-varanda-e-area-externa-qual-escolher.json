@@ -1,0 +1,58 @@
+{
+ "titulo": "Pisca-pisca para varanda e área externa: qual escolher",
+ "resposta_curta": "Para varanda e área externa, a escolha mais segura é o Strobo Pisca Pisca Cordão Natal 500 Leds 50m Prova D'Água Bivolt, na faixa de R$ 299,99, por ser o único da lista com indicação de prova d'água no nome. Se o orçamento for menor, o Cortina de Luz LED Natal 3M Bivolt, por R$ 42,99, é uma opção intermediária, mas confira antes se ela é adequada ao tempo.",
+ "intro": "Pisca-pisca para área externa precisa resistir a chuva, umidade e variação de temperatura, por isso vale olhar a proteção indicada antes do preço. Os produtos abaixo vão de opções baratas para ambientes cobertos até um modelo com indicação de prova d'água. A escolha depende de onde ficará instalado e do tamanho do espaço.",
+ "escolhas": [
+  {
+   "id": "44667747739",
+   "rotulo": "Melhor para área externa",
+   "porque": "É o único da lista com 'Prova D'Água' no nome, com 500 LEDs e 50 metros de cordão. Tem nota 4.9 e mais de 3.600 unidades vendidas.",
+   "ideal_para": "Varandas grandes, jardins e fachadas que ficam expostas ao tempo."
+  },
+  {
+   "id": "58267468674",
+   "rotulo": "Melhor custo-benefício",
+   "porque": "Tem nota 4.9, mais de 6.500 vendas e preço de R$ 42,99, com bivolt 110V–220V. O nome não informa proteção contra água, então verifique as instruções antes de usar ao ar livre.",
+   "ideal_para": "Varandas cobertas e áreas semiabertas, com quem quer um modelo de cortina por pouco dinheiro."
+  },
+  {
+   "id": "22492474605",
+   "rotulo": "Maior quantidade de LEDs",
+   "porque": "Traz 400 LEDs em 10 metros, 8 funções e conexão macho para emendar com outros cordões. Custa R$ 123,99 e tem nota 4.9.",
+   "ideal_para": "Quem quer cobrir muros, grades ou beirais com iluminação mais densa."
+  },
+  {
+   "id": "43924823754",
+   "rotulo": "Mais barato",
+   "porque": "Custa R$ 16,99 e traz 100 LEDs em 10 metros com 8 funções, com nota 4.9. O nome não indica proteção contra água, então use em local coberto.",
+   "ideal_para": "Quem quer testar a decoração em varanda coberta gastando pouco."
+  }
+ ],
+ "como_escolher": [
+  "Confira a indicação de proteção contra água na descrição do produto. Só use em área externa exposta à chuva se o fabricante indicar isso expressamente.",
+  "Calcule o comprimento necessário medindo o espaço, como grades, beirais e janelas, e prefira deixar uma folga.",
+  "Verifique a voltagem (110V, 127V ou bivolt) para a tomada da sua casa antes de comprar.",
+  "Se for usar cordões de vários metros, veja se o produto permite conexão com outros, para não precisar de muitas tomadas.",
+  "Considere um timer ou tomada com temporizador para acender e apagar automaticamente, economizando energia e evitando o uso noturno contínuo."
+ ],
+ "faq": [
+  {
+   "q": "Pisca-pisca comum pode ficar do lado de fora?",
+   "a": "Depende do produto. Modelos sem indicação de proteção contra água devem ficar em áreas cobertas, longe da chuva e de respingos. Em caso de dúvida, consulte o fabricante ou a descrição do produto."
+  },
+  {
+   "q": "Qual a diferença entre cortina de luz e fio de fada?",
+   "a": "A cortina de luz tem vários fios paralelos, cobrindo uma área maior, como janelas e paredes. O fio de fada é mais fino e serve para contornar superfícies, como corrimãos e vasos."
+  },
+  {
+   "q": "Como evitar erros comuns na instalação?",
+   "a": "Não emende cordões além do limite indicado pelo fabricante, não deixe fios encostados em superfícies quentes e prefira tomadas com proteção. Evite também fixar os fios com pregos ou grampos que possam danificar a fiação."
+  }
+ ],
+ "descricao_meta": "Pisca-pisca para varanda e área externa: veja opções com e sem prova d'água, preços de R$ 16,99 a R$ 299,99 e dicas para escolher.",
+ "slug": "pisca-pisca-para-varanda-e-area-externa-qual-escolher",
+ "pergunta": "Pisca-pisca para varanda e área externa: qual escolher",
+ "nicho": "natal",
+ "escrito_em": 1795721818,
+ "criado_em": 1795721818
+}

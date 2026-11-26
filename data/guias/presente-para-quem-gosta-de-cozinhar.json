@@ -1,0 +1,64 @@
+{
+ "titulo": "Presentes para quem gosta de cozinhar: 5 opções de R$ 27,59 a R$ 649,35",
+ "resposta_curta": "Para quem gosta de cozinhar, o Kit 11 potes de vidro com tampa de bambu da Tüd é uma escolha segura, com nota 4.9 e preço a partir de R$ 149,90. Se o orçamento for menor, o kit de potes herméticos Epsilon sai por R$ 52,42 e é o mais vendido da lista. Para um presente mais caprichado, o jogo de panelas de 16 peças custa R$ 649,35, e a faixa geral dos itens vai de R$ 27,59 a R$ 649,35.",
+ "intro": "Presente para cozinheiro costuma acertar quando é útil no dia a dia. Reunimos opções de organização da cozinha, de tapetes e de panelas, em faixas de preço diferentes. Os critérios são nota, número de vendas e o que cada nome descreve.",
+ "escolhas": [
+  {
+   "id": "22292953138",
+   "rotulo": "Melhor escolha geral em potes",
+   "porque": "Kit de 11 potes de vidro redondos com tampa de bambu e vedação hermética, com nota 4.9 e 1462 vendas. Organiza grãos, massas e temperos em um conjunto só.",
+   "ideal_para": "Quem quer organizar a despensa de uma vez e prefere um kit completo."
+  },
+  {
+   "id": "58267485793",
+   "rotulo": "Mais vendido e mais barato",
+   "porque": "Kit de potes de vidro herméticos com tampa de bambu por R$ 52,42, com nota 4.8 e mais de 12 mil vendas. É a opção de entrada com boa procura.",
+   "ideal_para": "Quem quer um presente útil sem gastar muito."
+  },
+  {
+   "id": "58268747783",
+   "rotulo": "Nota máxima com opções de quantidade",
+   "porque": "Kit de potes de vidro herméticos com tampa de bambu para mantimentos e grãos, com nota 5.0 e 2967 vendas. A listagem indica opções de 5, 9 ou 11 potes, o que facilita escolher o tamanho do conjunto.",
+   "ideal_para": "Quem quer escolher a quantidade de potes conforme o espaço disponível."
+  },
+  {
+   "id": "50758022959",
+   "rotulo": "Jogo de panelas completo",
+   "porque": "Jogo de 16 peças com revestimento cerâmico, tampa de vidro e indicação para indução, gás e cooktop, com nota 4.9. Por R$ 649,35, é o item de maior investimento desta lista.",
+   "ideal_para": "Quem cozinha com frequência e quer renovar todas as panelas de uma vez."
+  },
+  {
+   "id": "58266410132",
+   "rotulo": "Presente de baixo custo",
+   "porque": "Jogo com 2 tapetes antiderrapantes para cozinha, modelo passadeira, por R$ 27,59, com nota 4.9 e mais de 6 mil vendas. É um complemento prático e barato.",
+   "ideal_para": "Quem quer um mimo pequeno para acompanhar outro presente."
+  }
+ ],
+ "como_escolher": [
+  "Antes de comprar potes, confira o espaço do armário e se a pessoa prefere potes de vidro ou de outro material.",
+  "Para panelas, confirme o tipo de fogão: a indicação de indução precisa estar na descrição do produto.",
+  "Vedação hermética ajuda a manter a textura de grãos e farinhas, mas a tampa precisa ser bem fechada a cada uso.",
+  "Tapetes antiderrapantes são mais úteis em cozinhas com piso liso, onde o escorregamento é mais comum.",
+  "Se não souber o que a pessoa já tem, um kit de potes ou um tapete costuma ser um presente mais seguro do que panelas."
+ ],
+ "faq": [
+  {
+   "q": "Potes de vidro com tampa de bambu são bons para guardar alimentos?",
+   "a": "Potes de vidro são práticos para organizar grãos, massas e temperos, pois permitem ver o conteúdo. Confira se a tampa é vedante e siga as instruções de limpeza do fabricante."
+  },
+  {
+   "q": "Vale a pena dar um jogo de panelas de presente?",
+   "a": "Vale quando você sabe o tipo de fogão e as panelas que a pessoa usa. Caso contrário, prefira itens de organização, como potes ou tapetes, que servem para qualquer cozinha."
+  },
+  {
+   "q": "Como saber se um tapete de cozinha é seguro para o piso?",
+   "a": "Procure a indicação de antiderrapante na descrição. Em qualquer caso, posicione o tapete em áreas de passagem e evite deixá-lo sobre superfícies molhadas por muito tempo."
+  }
+ ],
+ "descricao_meta": "Presentes para quem gosta de cozinhar: potes de vidro, jogos de panelas e tapetes, de R$ 27,59 a R$ 649,35, com notas e vendas.",
+ "slug": "presente-para-quem-gosta-de-cozinhar",
+ "pergunta": "Presente para quem gosta de cozinhar",
+ "nicho": "presentes",
+ "escrito_em": 1795721765,
+ "criado_em": 1795721765
+}
