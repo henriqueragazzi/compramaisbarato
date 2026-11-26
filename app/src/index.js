@@ -250,7 +250,7 @@ async function mcp(req, env, ctx) {
 }
 
 // ---------------------------------------------------------------- visitas do site (beacon, sem cookies nem dados pessoais)
-const ORIGENS_OK = ["chatgpt", "google", "bing", "telegram", "whatsapp", "direto", "outro", "perplexity", "instagram", "facebook"];
+const ORIGENS_OK = ["chatgpt", "google", "bing", "telegram", "whatsapp", "direto", "outro", "perplexity", "instagram", "facebook", "pinterest", "tiktok"];
 async function visita(req, env, ctx, url) {
   const ua = req.headers.get("user-agent") || "";
   if (!/bot|crawl|spider|headless|preview/i.test(ua)) {

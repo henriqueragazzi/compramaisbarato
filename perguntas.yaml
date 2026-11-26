@@ -22,6 +22,13 @@ presentes:
   - {pergunta: "Presente para quem gosta de churrasco", busca: [churrasco, faca, avental]}
   - {pergunta: "Jogos de tabuleiro para família no Natal", busca: [jogo de tabuleiro, jogo]}
   - {pergunta: "Caixa de som bluetooth barata e potente", busca: [caixa de som]}
+  - {pergunta: "Presente de Natal para criança até 100 reais", busca: [brinquedo, infantil, criança], ate: 100}
+  - {pergunta: "Presente para professora no Natal barato", busca: [caneca, garrafa, luminária, kit], ate: 60}
+  - {pergunta: "Presente de Natal para avó", busca: [caneca, luminária, garrafa, kit], ate: 120}
+  - {pergunta: "Presente de Natal para sogra", busca: [kit, luminária, caneca, garrafa], ate: 150}
+  - {pergunta: "Presente para quem gosta de cozinhar", busca: [cozinha, kit, garrafa]}
+  - {pergunta: "Lembrancinha de Natal barata para colegas de trabalho", busca: [caneca, chaveiro, kit], ate: 25}
+  - {pergunta: "Amigo secreto até 50 reais", busca: [presente, caneca, kit, luminária], ate: 50}
 
 natal:
   - {pergunta: "Qual árvore de Natal comprar: tamanho e modelo ideais", busca: [árvore de natal]}
@@ -32,6 +39,12 @@ natal:
   - {pergunta: "Presépio de Natal: qual comprar", busca: [presépio]}
   - {pergunta: "Luz de fada LED para decorar: vale a pena?", busca: [luz de fada, cortina de led, fio de fada]}
   - {pergunta: "Mesa de Natal: toalha e itens para a ceia", busca: [toalha de mesa natal, mesa, ceia]}
+  - {pergunta: "Árvore de Natal pequena para apartamento: qual comprar", busca: [árvore de natal], ate: 150}
+  - {pergunta: "Pisca-pisca para varanda e área externa: qual escolher", busca: [pisca, cortina de led, luz de fada]}
+  - {pergunta: "Bolas e enfeites para árvore de Natal baratos", busca: [bola de natal, enfeite, kit], ate: 80}
+  - {pergunta: "Papai Noel decorativo: qual comprar", busca: [papai noel]}
+  - {pergunta: "Guirlanda de Natal para porta: qual escolher", busca: [guirlanda]}
+  - {pergunta: "Cortina de LED de Natal para janela: vale a pena?", busca: [cortina de led, pisca]}
 
 moveis:
   - {pergunta: "Melhor purificador de água para casa custo-benefício", busca: [purificador]}

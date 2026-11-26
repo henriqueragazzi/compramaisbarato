@@ -6,6 +6,7 @@ Uso:  python agents/publicador.py
 import argparse
 import json
 import os
+import re
 import shutil
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse
@@ -14,9 +15,24 @@ import requests
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from comum import GUIAS, HISTORICO, PRODUTOS, RAIZ, config, ler_json
+from extras import gerar as extras
 
 DIST = RAIZ / "dist"
 BRT = timezone(timedelta(hours=-3))
+
+
+ID_NO_TEXTO = re.compile(r"\s*\(id:? ?\d{6,}\)|\bid:? ?\d{6,},?\s*")
+
+
+def limpar_ids(x):
+    """tira "(id 123...)" que o modelo às vezes escreve no meio do texto"""
+    if isinstance(x, str):
+        return ID_NO_TEXTO.sub("", x)
+    if isinstance(x, list):
+        return [limpar_ids(i) for i in x]
+    if isinstance(x, dict):
+        return {k: (v if k == "id" else limpar_ids(v)) for k, v in x.items()}
+    return x
 
 
 def brl(v):
@@ -64,6 +80,7 @@ def rodar(indexnow=False):
     # monta guias só com escolhas que ainda existem
     guias_ok = []
     for g in guias:
+        g = limpar_ids(g)
         escolhas = [dict(e, p=produtos[e["id"]]) for e in g.get("escolhas", []) if e["id"] in produtos]
         if len(escolhas) >= 3:
             g["_escolhas"] = escolhas
@@ -88,7 +105,8 @@ def rodar(indexnow=False):
     def render(tpl, caminho, **kw):
         ctx = {**base, "caminho": caminho, **kw}
         escrever(caminho, env.get_template(tpl).render(**ctx))
-        urls.append((caminho, kw.get("_lastmod", agora_ts)))
+        if not kw.get("noindex"):  # página fora do índice também fica fora do sitemap
+            urls.append((caminho, kw.get("_lastmod", agora_ts)))
 
     todos = sorted(produtos.values(), key=lambda p: -p["score"])
     ofertas = sorted([p for p in todos if p["desconto"] >= 15], key=lambda p: -(p["score"] + p["desconto"] * 0.5))
@@ -206,7 +224,9 @@ def rodar(indexnow=False):
         render("produto.html", cam, titulo=f"{p['nome'][:70]} por {brl(p['preco'])} | {site['nome']}",
                descricao=resumo[:155], p=p, guias=por_produto.get(p["id"], []), similares=sim, hist=h,
                hist_min=hmin, hist_max=hmax, posicao_preco=posicao, resumo=resumo, indicacoes=ind, faq=faq,
-               atualizado=data_br(p.get("visto_em", agora_ts)), imagem=p["imagem"], jsonld=ld, _lastmod=p.get("visto_em", agora_ts))
+               atualizado=data_br(p.get("visto_em", agora_ts)), imagem=p["imagem"], jsonld=ld, _lastmod=p.get("visto_em", agora_ts),
+               # só produto indicado em algum guia vai para o Google; os outros seguem no ar (Telegram, app, busca)
+               noindex=p["id"] not in por_produto)
 
     # índice da busca (compacto)
     (DIST / "busca.json").write_text(json.dumps({
@@ -234,6 +254,8 @@ def rodar(indexnow=False):
         **base, caminho="/404", titulo="Página não encontrada", descricao="", h1="Ops, essa página saiu do ar",
         intro="O produto pode ter acabado. Veja os guias:", guias=guias_ok[:9], produtos=[])), encoding="utf-8")
 
+    extras(DIST / "extras", site, nichos, guias_ok, todos, env.globals["compra"], agora_ts)
+
     # sitemap, robots, llms.txt
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for cam, ts in urls:
@@ -242,7 +264,7 @@ def rodar(indexnow=False):
     (DIST / "sitemap.xml").write_text("\n".join(sm), encoding="utf-8")
 
     robots = [f"User-agent: {b}\nAllow: /\n" for b in cfg["robos_permitidos"]]
-    robots.append("User-agent: *\nAllow: /\nDisallow: /busca/\n")
+    robots.append("User-agent: *\nAllow: /\nDisallow: /busca/\nDisallow: /extras/\n")
     robots.append(f"Sitemap: {site['url']}/sitemap.xml")
     (DIST / "robots.txt").write_text("\n".join(robots), encoding="utf-8")
 
